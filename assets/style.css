@@ -1,0 +1,205 @@
+/** {*/
+    /*outline: 1px solid red;*/
+    /*opacity: 1 !important;*/
+    /*visibility: visible !important;*/
+/*}*/
+body {
+    background-color: #ffffff;
+    color: #373737;
+    font: 18px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+
+}
+#sidebar {
+    position: fixed;
+    float: left;
+    width: 350px;
+    margin-left: 19%;
+    text-align: right;
+    /*background-color: #c0e0f6;*/
+}
+#content {
+    float: right;
+    width: 40%;
+    margin-right: 21%;
+    min-width: 500px;
+    /*background-color: #ffffd4;*/
+}
+
+#sidebar ul {
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+}
+#sidebar a, li, a:hover, li:hover {
+    transition: 0.3s ease;
+}
+#sidebar a {
+    color: #aaaaaa;
+}
+#sidebar a:hover {
+    color: #3e6585;
+}
+#sidebar li {
+}
+#sidebar li:hover {
+    background: #dffff8;
+}
+
+h1, h2, h3 {
+    font-family: "Pirata One";
+    font-weight: 300;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+p {
+    margin: 1.1em 0 1.1em;
+    line-height: 1.6em;
+}
+
+.poem {
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+img {
+    max-width: 100%;
+}
+pre {
+    overflow-x: scroll;
+    background: #eee;
+    padding: 10px;
+}
+a {
+    color: #267CB9;
+    text-decoration: none;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    line-height: 1.2em;
+//   border-bottom: 1px dashed currentColor;
+//   border-bottom: 2px solid #34b0b2;
+    background: #e5f8f4;
+    padding: 2px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 0px 30px 0px;
+    line-height: 1.2em;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -200px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.collapsible {
+    background: #fff;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0 3px 8px -3px #888;
+}
+.active, .collapsible:hover {
+    color: #267CB9;
+}
+.collapsible_content {
+    display: none;
+    overflow: hidden;
+    background: #222;
+    color: #fff;
+}
+
+.youtube {
+  background-color: #000;
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.youtube img {
+    width: 100%;
+    top: -16.84%;
+    left: 0;
+    opacity: 0.7;
+}
+.youtube .play-button {
+    width: 90px;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+.youtube .play-button:hover {
+    background-color: #f00;
+    transition: 0.4s ease;
+}
+.youtube .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+    cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+    position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
