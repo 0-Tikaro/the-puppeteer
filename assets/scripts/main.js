@@ -50,7 +50,10 @@ function createYoutubeEmbeds() {
 
 
 let titleElement = $('.title-text')
+let elPrevChapter = $( '#chapter-prev' )
+let elNextChapter = $( '#chapter-next' )
 let lastScrollPos = 0;
+let curIdIndex = -1;
 let idList = ["#synopsis_content",
     "#c171200",
     "#c180120",
@@ -77,17 +80,33 @@ let idList = ["#synopsis_content",
     "#video_content"];
 
 
-function onScroll(event){
+function onScroll(){
     let curScrollPos = $(document).scrollTop();
-    idList.forEach( function (id) {
+    idList.forEach( function (id, index) {
         let element = $(id);
-        let elementPos = element.position().top;
-        if (elementPos > lastScrollPos && elementPos <= curScrollPos) {
+
+        let elementPos = element.offset().top;
+        let elementHeight = element.height();
+        let posOffset = $(window).height() / 3 * -1;
+
+        let breakpoint0 = elementPos + posOffset;
+        let breakpoint1 = elementPos + posOffset + elementHeight;
+
+        if (curScrollPos >= breakpoint0 && curScrollPos <= breakpoint1 && index != curIdIndex) {
+            curIdIndex = index;
+
+            let indexPrev = (index - 1 > 0) ? index - 1 : 0;
+            let indexNext = (index + 1 < idList.length - 1) ? index + 1 : idList.length - 1;
+            elPrevChapter.attr( 'href', idList[indexPrev] );
+            elNextChapter.attr( 'href', idList[indexNext] );
+
             //Changing the title
-            titleElement.addClass("title-transition")
+            titleElement.addClass("title-transition");
+            titleElement.removeClass("title-text");
             setTimeout(function() {
-                titleElement.text(element.text())
-                titleElement.removeClass("title-transition")
+                titleElement.text( element.find(".chapter-title").text() );
+                titleElement.removeClass("title-transition");
+                titleElement.addClass("title-text");
             }, 550);
         }
     });
@@ -99,18 +118,33 @@ function onScroll(event){
 $("#poems_content").load("assets/html/poems.html", incrementLoadedCount);
 $("#characters_content").load("assets/html/characters.html", incrementLoadedCount);
 $("#video_content").load("assets/html/video.html", incrementLoadedCount);
+$("#intro_content").load("assets/html/intro.html", incrementLoadedCount);
 $("#synopsis_content").load("assets/html/synopsis.html", incrementLoadedCount);
 $("#chronology_content").load("assets/html/chronology.html", incrementLoadedCount);
 
 
 // wait until all content has been loaded.
 function checkContentLoaded() {
-    if(loadedCount === 5) {
+    if(loadedCount === 6) {
         clearTimeout(checkContentLoaded);
 
         setupPoemLinks();
         createCollapsibles();
         createYoutubeEmbeds();
+
+        $(document).on('scroll', onScroll);
+
+        let showSidebarMenu =  $( '#menu-show' );
+        let sidebarMenu = $( '#sidebar-menu' );
+        showSidebarMenu.on( 'click', function () {
+            if ( showSidebarMenu.html() === 'Show table of content') {
+                showSidebarMenu.html('Hide table of content');
+                sidebarMenu.css( 'display', 'unset' );
+            } else {
+                showSidebarMenu.html('Show table of content');
+                sidebarMenu.css( 'display', 'none' );
+            }
+        });
 
     } else {
         window.setTimeout(checkContentLoaded, 1000);
@@ -118,4 +152,3 @@ function checkContentLoaded() {
 }
 checkContentLoaded();
 
-$(document).on("scroll", onScroll);
