@@ -54,7 +54,9 @@ let elPrevChapter = $( '#chapter-prev' )
 let elNextChapter = $( '#chapter-next' )
 let lastScrollPos = 0;
 let curIdIndex = -1;
-let idList = ["#synopsis_content",
+let idList = [
+    "#intro_content",
+    "#synopsis_content",
     "#c171200",
     "#c180120",
     "#c180121",
@@ -77,8 +79,21 @@ let idList = ["#synopsis_content",
     "#closing_thoughts",
     "#characters_content",
     "#poems_content",
-    "#video_content"];
+    "#video_content"
+];
 
+function generateTableOfContent(){
+    let cList = $( '#chapter-list' );
+    idList.forEach( function (id) {
+        let element = $(id);
+        let li = $('<li/>')
+            .appendTo(cList);
+        let aaa = $('<a/>')
+            .attr('href', id)
+            .text( element.find(".chapter-title").text() )
+            .appendTo(li);
+    });
+}
 
 function onScroll(){
     let curScrollPos = $(document).scrollTop();
@@ -95,8 +110,25 @@ function onScroll(){
         if (curScrollPos >= breakpoint0 && curScrollPos <= breakpoint1 && index != curIdIndex) {
             curIdIndex = index;
 
-            let indexPrev = (index - 1 > 0) ? index - 1 : 0;
-            let indexNext = (index + 1 < idList.length - 1) ? index + 1 : idList.length - 1;
+            let indexPrev;
+            let indexNext;
+
+            if (index - 1 < 0) {
+                indexPrev = 0;
+                elPrevChapter.css( 'opacity', '0' );
+            } else {
+                indexPrev = index - 1;
+                elPrevChapter.css( 'opacity', '1' );
+            }
+
+            if (index + 1 > idList.length - 1) {
+                indexNext = idList.length - 1;
+                elNextChapter.css( 'opacity', '0' );
+            } else {
+                indexNext = index + 1;
+                elNextChapter.css( 'opacity', '1' );
+            }
+
             elPrevChapter.attr( 'href', idList[indexPrev] );
             elNextChapter.attr( 'href', idList[indexNext] );
 
@@ -107,7 +139,7 @@ function onScroll(){
                 titleElement.text( element.find(".chapter-title").text() );
                 titleElement.removeClass("title-transition");
                 titleElement.addClass("title-text");
-            }, 550);
+            }, 300);
         }
     });
     lastScrollPos = curScrollPos;
@@ -128,11 +160,13 @@ function checkContentLoaded() {
     if(loadedCount === 6) {
         clearTimeout(checkContentLoaded);
 
+        generateTableOfContent();
         setupPoemLinks();
         createCollapsibles();
         createYoutubeEmbeds();
 
         $(document).on('scroll', onScroll);
+        onScroll();
 
         let showSidebarMenu =  $( '#menu-show' );
         let sidebarMenu = $( '#sidebar-menu' );
@@ -147,7 +181,7 @@ function checkContentLoaded() {
         });
 
     } else {
-        window.setTimeout(checkContentLoaded, 1000);
+        window.setTimeout(checkContentLoaded, 100);
     }
 }
 checkContentLoaded();
