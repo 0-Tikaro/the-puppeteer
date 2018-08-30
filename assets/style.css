@@ -10,13 +10,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-html {
-    font-size: 2.4vw;
-}
 @media all and (min-width:1000px) {
     html {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 @media all and (max-width:520px) {
@@ -41,8 +37,7 @@ body {
 
     background-color: #ffffff;
     color: #373737;
-    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #sidebar {
     position: fixed;
@@ -60,7 +55,7 @@ body {
 
 #sidebar ul {
     list-style: none;
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 5rem;
 }
 #sidebar a, li, a:hover, li:hover {
@@ -75,7 +70,7 @@ body {
 }
 
 #title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 #title i {
@@ -164,14 +159,17 @@ body {
     -o-transition: color 0.3s;
     transition: color 0.3s;
 }
-
+#chapter-prev, #chapter-next {
+    margin-top: -0.2rem !important;
+    opacity: 1;
+}
 
 h1, h2, h3, #title{
     font-family: "Pirata One";
     font-weight: 300;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 3.25rem;
 }
 h3 {
@@ -181,7 +179,10 @@ h3 {
 }
 p {
     margin: 1.1em 0 1.1em;
-    line-height: 1.6em;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .poem {
@@ -218,9 +219,11 @@ blockquote {
     padding-left: 1rem;
 }
 
+.QA {
+    font-style: italic;
+}
 td.Q, td.A {
     font-size: 0.9rem;
-    font-style: italic;
     text-align: right;
     padding-right: 1rem;
     vertical-align: top;
