@@ -14,15 +14,24 @@ function setupPoemLinks(){
 
 // Setup collapsible elements.
 function createCollapsibles() {
-    var coll = document.getElementsByClassName("collapsible");
-    for (var i = 0; i < coll.length; i++) {
+    let coll = document.getElementsByClassName("collapsible");
+
+    for (let i = 0; i < coll.length; i++) {
+
         coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
-            var content = this.nextElementSibling;
+
+            let arrow = $(this.children[1]);
+            let content = this.nextElementSibling;
+
             if (content.style.display === "block") {
                 content.style.display = "none";
+                arrow.removeClass( 'fa-angle-double-up' );
+                arrow.addClass( 'fa-angle-double-down' );
             } else {
                 content.style.display = "block";
+                arrow.removeClass( 'fa-angle-double-down' );
+                arrow.addClass( 'fa-angle-double-up' );
             }
         });
     }

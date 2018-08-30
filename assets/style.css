@@ -4,6 +4,13 @@
     /*visibility: visible !important;*/
 /*}*/
 
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
 html {
     font-size: 2.4vw;
 }
@@ -15,6 +22,10 @@ html {
 @media all and (max-width:520px) {
     html{
         font-size: 16px;
+    }
+    #sidebar {
+        position: relative;
+        width: 100%;
     }
 }
 body {
@@ -50,7 +61,7 @@ body {
 #sidebar ul {
     list-style: none;
     font-size: 16px;
-    padding: 0;
+    padding-left: 5rem;
 }
 #sidebar a, li, a:hover, li:hover {
     transition: 0.3s ease;
@@ -104,7 +115,13 @@ body {
 
 .chapter-title{
     text-align: right;
-    opacity: 0.3;
+    color: #bdc3c7;
+    margin-bottom: 0.75rem;
+}
+.chapter-desc {
+    text-align: right;
+    color: #96a2aa;
+    font-style: italic;
 }
 .space-between-chapters {
     height: 40rem;
@@ -175,7 +192,9 @@ p {
 }
 
 img {
+    display: block;
     max-width: 100%;
+    margin: auto;
 }
 pre {
     overflow-x: auto;
@@ -211,6 +230,10 @@ td.Q, td.A {
 }
 tr.space {
     height: 1.5rem;
+}
+
+code {
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .tooltip {
@@ -256,13 +279,16 @@ tr.space {
     width: 100%;
     background: #fff;
     padding: 12px;
-    margin-bottom: 3px;
+    /*margin-bottom: 3px;*/
     cursor: pointer;
     border: none;
     text-align: left;
     outline: none;
     font-size: 18px;
+
     color: #aaa;
+    /*border-bottom: 1px solid transparent;*/
+    /*border-top: 1px solid transparent;*/
     z-index: 0;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -270,8 +296,11 @@ tr.space {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.collapsible:hover {
-    box-shadow: 0 2px 5px 0 #ccc;
+.collapsible:hover, .collapsible.active{
+    color: #222;
+    /*box-shadow: 0 2px 5px 0 #ccc;*/
+    /*border-bottom: 1px solid #ddd;*/
+    /*border-top: 1px solid #ddd;*/
     z-index: 1;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -281,9 +310,6 @@ tr.space {
 }
 .collapsible i {
     padding-right: 12px;
-}
-.active, .collapsible:hover {
-    color: #267CB9;
 }
 .collapsible_content {
     display: none;
