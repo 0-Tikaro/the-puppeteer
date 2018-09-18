@@ -7,16 +7,18 @@
 
 		<title>The Puppeteer</title>
 
-		<link rel="stylesheet" href="assets/style.css">
+		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pirata+One">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i&amp;subset=latin-ext">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i&amp;subset=latin-ext">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link href="assets/css/zoom.css" rel="stylesheet">
 
         <link rel="shortcut icon" type="image/png" href="favicon.png">
 	</head>
 	<body>
-    <div class="fade-top"></div>
-    <div class="fade-bottom"></div>
+    <div id="fade-top"></div>
+    <div id="fade-bottom"></div>
+
     <div class="wrapper">
         <div id="sidebar">
             <div id="title">
@@ -24,10 +26,10 @@
                 <span class="title-text">Puppeteer</span>
                 <a id="chapter-next" href="" style="float: right;">⟶</a>
             </div>
-            <div id="menu-show">Show table of content</div>
+            <div class="pushable sidebar-item" id="night">Night mode</div>
+            <div class="pushable sidebar-item" id="menu-show">Show table of content</div>
             <div id="sidebar-menu" style="display: none;">
-                <ul id="chapter-list">
-                </ul>
+                <ul id="chapter-list"></ul>
             </div>
 
         </div>
@@ -41,6 +43,8 @@
         </div>
     </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="assets/scripts/main.js"></script>
+        <script src="assets/js/transition.js"></script>
+        <script src="assets/js/zoom.js"></script>
+        <script src="assets/js/main.js"></script>
 	</body>
 </html>
