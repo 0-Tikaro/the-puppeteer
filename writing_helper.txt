@@ -1,13 +1,23 @@
-12-13 MAY 2018 (SATURDAY-SUNDAY)
+EM DASH
+--- --> &mdash;
 
-The event continued, with the beginning being the same as the last time – a countdown every ten minutes or so before the actual start. Poem #149 was posted after reaching 0:
- 
-#149
-Knight wakes from its exhausting slumber.
-Unfeeling, mute, it carries on
-led by prime glutton in its wander,
-till greatest foe is dead and gone.
- 
+DOUBLE QUOTES
+(^|[-\u2014/\[(\u2018\s])" --> $1&ldquo;
+(&ldquo;.+?)" --> $1&rdquo;
+
+SINGLE QUOTES
+(^|[-\u2014\s(\["])' --> $1&lsquo;
+' --> &rsquo;
+
+//////////////////////////////////
++6 TO ALL POEMS
+
+https://youtu.be/lMHv8othid4
+https://youtu.be/bLKc0QLV81g
+https://youtu.be/uwv8-uzXWNc
+https://youtu.be/bVvfpYD5kAU
+
+
 The event continued in the Demon ruins, where power within was added to the Puppet’s repertoire, making his attacks devastating. This held especially true for the consecutive spear pokes. Here, some speculated that the Puppet may have some kind of increased Leo ring effect on the thrust attacks of the spear, as the damage difference between a normal 2hR1 poke vs. 2hR1 poke counter hit was massive. Going through the area, the Puppeteer posted two more poems:
  
 #150
