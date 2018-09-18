@@ -307,9 +307,10 @@ img {
 }
 pre {
     overflow-x: auto;
-    background: #eee;
     padding: 10px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    border: 1px solid var(--shade-color);
+    border-radius: 10px;
 }
 pre.poem {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
