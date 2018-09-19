@@ -190,6 +190,13 @@ function curlies(element) {
 
 
 /*MAIN CODE*/
+let useNightModeCookie = document.cookie;
+let nightModeButton = $( '#night' );
+if (useNightModeCookie.includes("use-night-mode=1")){
+    document.body.setAttribute('class', 'night-mode');
+    nightModeButton.html('Day mode');
+}
+
 $("#poems_content").load("assets/html/poems.html", incrementLoadedCount);
 $("#characters_content").load("assets/html/characters.html", incrementLoadedCount);
 $("#video_content").load("assets/html/video.html", incrementLoadedCount);
@@ -223,13 +230,14 @@ function checkContentLoaded() {
             }
         });
 
-        let nightModeButton = $( '#night' );
         nightModeButton.on('click', function(){
             document.body.classList.toggle('night-mode');
             if (nightModeButton.html() === 'Night mode') {
                 nightModeButton.html('Day mode');
+                document.cookie = "use-night-mode=1";
             } else {
                 nightModeButton.html('Night mode');
+                document.cookie = "use-night-mode=0";
             }
         });
 
