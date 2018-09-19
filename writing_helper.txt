@@ -1,0 +1,406 @@
+EM DASH
+--- --> &mdash;
+
+DOUBLE QUOTES
+(^|[-\u2014/\[(\u2018\s])" --> $1&ldquo;
+(&ldquo;.+?)" --> $1&rdquo;
+
+SINGLE QUOTES
+(^|[-\u2014\s(\["])' --> $1&lsquo;
+' --> &rsquo;
+
+//////////////////////////////////
++6 TO ALL POEMS
+
+#154
+A frail scared soul once from here left
+entwined in strings my hand had spun.
+The mind was waste, of will bereft,
+...but soul had smelled of ancient sun.
+ 
+In Irithyll, the Puppet added a pontiff knight curved sword to his arsenal. As the Puppet reached the room with the fireplace, the one where it seemed to be crafted in the pictures we received, a poem was posted:
+ 
+#155
+The warmth of lonely fireplace
+does it recall this shack of mine?
+To castle guided with great pace
+to start its journey for Divine.
+ 
+Arriving at the Pontiff Sulyvahn boss fog after fighting off the invaders throughout the level, we were once again challenged to fight the Puppet.
+ 
+
+#156
+Mute knight will not recall in true,
+mirage so transient and meek.
+Its afterglow to now subdue,
+leave signs by fog and catch a peek.
+ 
+Fitting to the level’s theme, in the boss fight the Puppet used the combination of a main hand Murakumo (with an Irithyll weapon visual effect) and an off-hand PKCS. Here, the Puppet utilized a lot of jumping attacks with the CGS, as if mimicking the behavior of Kallah – sparking some conversation on how the Puppet seems to be learning over time, adding our strategies and moves into its bag of tricks; another example would be Narcolept re-directing charged R2 attacks. The fight consisted of two parts, the first taking place in the lower part of the boss room area, while the second took place on the area up the elevator. Feeling the Puppets thirst in this area almost sated, poem #157 appeared in chat:
+ 
+#157
+Ah, afterimage fades so soon,
+just as it did in flesh and bone.
+Meanwhile, lit by calm and peaceful moon
+knight keeps his restless march alone.
+ 
+1 LEFT
+ 
+The area post-Pontiff was skipped, going straight to Anor Londo. This was most likely done to avoid excess problems with random invaders, and to allow us an easier time to enter the Puppet’s world. In Anor Londo, the Puppet once more returned to the combination of Arstor’s spear main hand, drakeblood GS off-hand. Passing through the cathedral halls, the Puppeteer added another poem:
+ 
+#158
+"O palace of the venerable sun.
+What sight to see thy ruins fall"
+- age-dried lips had soon begun,
+in walking through the darkened hall.
+ 
+Instead of fighting the Puppet in the Aldrich boss area, we were instead instructed to place our sign in the Darkmoon tomb…
+ 
+#159
+Infused with image of old Mother,
+slept deep as half-dead dragon sage,
+Come, apparition this now smother,
+to tomb below this relic of old Age.
+ 
+The fight took place on top of the grave, inside the room behind the illusory wall. In this fight, the Puppet used a zweihander + wolf knight shield combo, along with a partizan. These dealt magic damage and had a frost effect on their model. The zwei had both stomp and neck swipe weapon arts. During these fights, the kill count of the Puppet reached one hundred - the notification posted was bolded to highlight the milestone. The fight here seemed to go on at a much lower pace with the Puppet being far less active than in the previous ones, mimicking the song playing in the background – sad, eerie and slow in tempo. As always, the last combatant summoned was preceded by a poem
+ 
+#160
+In slumber gluttons knight yet more,
+and then breaks free of veiled tangle.
+Sin's Flame is here, god-eating whore!
+Tear out, engulf, poor thing then strangle.
+ 
+1 LEFT
+ 
+Content with his results, the Puppeteer decided to hold a short break, leaving us with #161:
+ 
+#161
+What gruesome mess it seems to be
+devouring Lords' blazing soul.
+Half-hour break for knight to see
+accursed force it dares now hold.
+ 
+ 
+After the break, we moved on to the Irithyll dungeon area, with more text being left to us:
+ 
+#162
+Ah, Great Sin's old flame warm and sublime
+engulfs the Puppet as it feeds.
+Thick priest of old who ate Divine -
+mere food for one who Flame now needs.
+ 
+In the dungeon area, the Puppet’s weapons gained even more fire effects – especially the visual that appears on-hit. New spells were seen here: floating chaos (with a custom casting animation, seemed to be that of the way of white corona) and some kind of large explosion – those that Nameless Flame used. While the Puppet’s progress was halted at times, he eventually managed to get through the level, leaving us with another poem some half-way through:
+ 
+
+
+
+#163
+Invasive blaze shrieks through these cells,
+it scorches soul and flesh alike.
+As eyes are veiled by oldest hells,
+knight's soul takes shape I so dislike.
+ 
+Eventually, making its way past the room with multiple jailers, we received a poem usually reserved for red sign summonings:
+ 
+#164
+Knight's soul fears not this game,
+for with each Lord it becomes more
+like Old, Accursed, Great Sin's Flame.
+...
+till naught is left but molten core.
+ 
+1 LEFT
+ 
+After getting one more kill under its belt, the Puppet moved to Archdragon peak, signaled via poem #165:
+ 
+#165
+Invoke storm clouds a distant though
+of life so long it had no start.
+Knight seeks what it once sought,
+yet couldn't get, too weak of heart.
+ 
+Here, he utilized the arms and spells Lord of hail had. These included an Astora greatsword which still had the custom WAs the Arstor’s spear had, along with a new one – a curved sword spin with a large knockback effect.  Spells included a gust of wind (using the black flame animation) that knocked down his adversaries, a lighting spear combed with a shot from the Smouldering lake ballista. Scoring several kills in the area before the Wyvern boss, the invaders got a message:
+ 
+#166
+As you endure this path as well,
+and yield so many souls to it,
+feel you the weight of things that dwell,
+within this shell a Lord befit?
+ 
+Moving through the area past the Dragonkin Mausoleum, the Puppet seemed to grow stronger than when entering the area, acquiring multiple attacks capable of 3-shotting its challenger. Reaching the area after the Great Belfry, the Puppet began using teleportation spells that utilized floating energy orbs as hotpoints. After several encounters, we were once again beckoned to challenge the creation one-on-one:
+ 
+#167
+True apparition, adept of storm,
+hangs over knight, stronger than most.
+As bell bleeds through the cloud's swarm,
+Come to the fog, engage the ghost.
+ 
+The boss fight in Archdragon peak was held in the open area that is unlocked after defeating Nameless king, with two orbs present. Besting this Puppet proved the greatest challenge yet, due to a combination of fast, strong attacks – both magical and physical, along with the teleporting and multiple uses of regeneration-inducing souls. One final challenger was summoned, accompanied by poem 168:
+ 
+#168
+Bleak stones we paint by blood of Ash,
+as their souls nurture voiceless knight.
+Time comes for fate to make another dash
+More Flames are left to feed its might
+ 
+1 LEFT
+ 
+After another climactic face-off, the Puppeteer ended the event for this day:
+ 
+#169
+As sun fades from the titan sky,
+all beasts and men fall down in shade.
+The knight again closes his eye:
+rests mute, unbent, unswayed.
+ 
+An interesting note is that throughout the day, the Puppeteer seemed to interact with us in chat more than ever before – emoting, listening to request of some players short on time/that didn’t get to have a go at one of the bosses, posting a high-resolution image of one picture Narcolept saved from the stream, and responding to Nosferat’s request to release all of the images.
+
+13-14 MAY 2018 (SUNDAY-MONDAY)
+
+Amazingly, as we started off our run, a special someone joined VC chat… the Puppeteer, who was muted, but could very well hear what we talked about, commenting on what’s happening in sometimes very cheeky ways.
+
+The run continued in Profaned capital, accompanied by poem #170:
+#170
+Amidst the putrid toxic trash
+once walked a weary, lonely one.
+Foes resolutely would he crush -
+though just a cripple on the run.
+
+
+Aquamarine dagger was added to the weaponry of the Puppet. Quite soon after beginning the event, we received an invitation for red sign summons in poem 171:
+
+#171
+The truest traitor of his race,
+devolved to mere old nameless thing.
+Now vaguely image shows its face,
+before the Lord on throne of king.
+
+
+Boss weapons: aquamarine dagger, Astora greatsword, partizan. These did not seem to have custom WAs. Visually, the Puppet was missing one arm, mimicking Oden the Armless. In the fight, the Puppet was especially aggressive when taking out the aquamarine. As always, we got two poems before the run moved onto the next area:
+
+#172
+In silence watched by titan two,
+who fight before his giant soul.
+Fear not, poor sufferer, you too,
+will eaten be alive and whole.
+
+1 LEFT
+
+#173
+Lord dead and gone in gaping maw
+No man or god is now the knight -
+a Sin at which great hungers gnaw,
+a monster with a soul so bright.
+
+
+In Lothric castle, the Puppet returned to using explosion-based spells, along with a new one – a combination of Farron dart and seething chaos: the projectile did some damage along with a slight knockback; the falling point of the projectile marking the seething chaos mine spot. Here, almost all invasions were Xv1s, as the Puppeteer seemed to keep the invader count limit disabled. Poems 173-175 all came bolded, as if the Puppet was overwhelmed with the enormous power it had acquired, the kill count rising to almost 150.
+
+#174
+No apparition is this flame -
+new certain state of hollow thing.
+Great Sin of Old it is to blame,
+for this great burden it doth bring.
+
+#175
+As embers flicker in the air
+hot wind blows from the sacred sin.
+Sign stones by fog now, if you dare
+to face the thing to hell akin.
+
+In the boss fight, the Puppet utilized area-of-denial spells extensively. Floating chaos was almost constantly present, and multiple mines were cast in an attempt to corner any challenger. The neck swipe weapon art also proved deadlier than ever, dealing ridiculous amounts of damage. The weapons used were the same as in the Irithyll dungeon: Arstor’s spear and Drakeblood greatsword, with the noticeable visual flame buff.
+
+The boss fight proved extremely challenging, with very few succeeding. Eventually, by subduing enough opponents, the Puppet seemed to recover control to some extent:
+
+
+#176
+Flame rages on in cursed soul
+as knight subdues it with stern will:
+ought not it waste this precious coal,
+left final Lord to gulp with thrill.
+
+1 LEFT
+
+
+After striking the last challenger down, the run moved to Untended graves, where the Puppet mimicked Nameless Flame’s final form, his head covered in a black mist akin to that of harald knights in TRC. He utilized a blackflame-buffed onyx blade, ringed knight sword and spear, and several black pyromancies along with the close-range explosion spell from before. We did not stay in this area for too long, the Puppet reaching the boss fog quite quickly:
+
+
+#177
+A fleeting spark of human soul
+engulfs the knight in veil's blacks.
+Fog now approach, for it's your goal
+to all provide what it still lacks.
+
+
+The boss fight in the untended graves was very unique: while the first challenger was summoned into a 1v1 duel, later opponents were brought in as duos, with players fighting the Puppet in the area around the abandoned Firelink shrine. The fight consisted of two parts; first fighting in the area right after Champion Gundyr, after which the Puppet would retreat into the shrine where the second part would begin. The black knights in the area targeted the Puppet, giving the discorders some helping hands in defeating the power-hungry adversary. Eventually, we received poems 178 and 179, signaling a small break.
+
+
+#178
+As black gives way to scorching steel,
+knight leaves the human flame aside.
+Tasked now to finish final meal,
+it marches on, Sin its one guide.
+
+1 LEFT
+
+#179
+From dark emerged a single face,
+encased in bent and broken steel.
+Exhausted yet from this long race,
+half-hour break it takes to kneel!
+
+
+
+After the break, the Puppet headed to the Grand archives:
+
+
+#180
+Last apparition still to feed
+whom yielded flesh for monster mute.
+To its homeland no roads yet lead -
+one cannot go without a route.
+
+
+Here, he had new spells that utilized the particle/visual effects of those used by Lothric, younger prince. These included small darts and large explosions of light. At the beginning of the area, the Puppet used the Arstor-Drakeblood combo. The damage seemed to have increased yet again, as some people found themselves mercilessly struck down in mere three blows, should they fail to find an opportunity to heal. Passing through the archives, the Puppeteer posted:
+
+
+#181
+Corpse given to the voiceless knight
+holds not the tale of Spears sublime.
+Yet in these halls of white sunlight -
+a different tale of ancient crime.
+
+
+At the top of the archives, the weaponry was changed once more: the Puppet now was rocking the combo of Lucerne and Gotthards. Defeated one final time on the way to the Twin Princes boss fog, red signs were requested:
+
+
+#182
+Amalgam of the sunlit prison
+along with feathers airy and white.
+Your signs awaits image arisen,
+from knight enduring fevered light.
+
+
+In the boss fight, the Puppet used gold pine bundles to push the damage even further. By this point, the spells Lothric used were becoming larger and larger in size. One more challenger was beckoned in a familiar way:
+
+
+#183
+Fake imitation of the old
+won't dare take up more time.
+Just over here, last Lord so cold,
+the last banquet of this great climb.
+
+1 LEFT
+
+
+After the final battle here, we were told to move on to the Kiln of the First Flame…
+
+
+#184
+Our goal is clear, for we are done.
+No lords or souls are left to eat.
+Great Sin of Old, your time has come!
+This hellish knight will do the feat.
+
+
+Here, something unexpected happened. We were summoned ALONGSIDE the Puppet to combat the Soul of Cinder in a 5v1 engagement. Having absorbed its soul, the fight was followed up by a similar one… 5v1s against the now-strengthened Puppet:
+
+
+#186
+INTO THICK ASH THE PIECES FALL
+STRONG JAW SUBDUES THE BLAZING HEAD
+WORLD'S FLAME WILL NOT STAND TALL
+AS KNIGHT ENGULFS ITS FINAL SHRED
+
+
+Multiple times, five people were summoned. Multiple times, we killed the Puppet. Yet every time, it stood back up, becoming stronger, faster. In fights, the Puppet began to deal massive damage, enough to two-shot almost any given opponent, while moving with an enormous speed. He also seemed to acquire passive hyper armor as some attacks did not make him flinch at all. The fights required a decent amount of co-operation from the discorders, as not to hit one another, while also covering those under attack. Finally, one last battle was indicated to occur:
+
+
+#187
+AS SKY GROWS DARK IN ENDLESS NIGHT
+ONE SPARK IS LEFT, UNTAMED AND BRIGHT
+COME EACH ONE NOW, FOR FINAL FIGHT
+SOON ENDLESS REST WILL TAKE THE KNIGHT.
+
+1 LEFT
+
+
+With the final group of five managing to defeat the Puppet, it was finally over. The months-long journey was complete:
+
+
+#188
+This world, old and decayed,
+it now, alas, no one controls.
+Left standing is one richest shade
+of the Darkest of Souls.
+
+
+. . .
+
+. . .
+
+. . .
+
+But it was not over. Not yet. Once more, we returned to the Untended graves, where we had one final set of showdowns, via red sign summons To preserve the impact of these fights, we will not be documenting anything here – please watch the videos, for which we will hopefully be able to acquire the music the Puppeteer played in the background. For some, the emotional impact was… enormous.
+
+Eventually, the Puppeteer announced that the invaders would be given one last attempt to fight. Asked to provide a name, Fanboy spoke up, naming his character, Valerie of Carim – which was accepted by a couple others as a fitting final opponent for the Puppet.
+
+After the fight, we were instructed to place our red signs one final time, but now not for a fight… again, what transpired here will not be documented in text to preserve the impact – please watch the videos.
+
+Content with the results of all of his work over the past several months, the Puppeteer posted one final poem…
+
+
+
+
+
+#189
+Knight takes a seat under dark bell,
+great deed is done, the embers fade.
+It now shall rest, enchain the hell
+till even time itself will fade.
+
+
+-THE END-
+
+
+Following which, he finally broke character completely, letting us have a Q&A session regards to, well, anything related to the project and him… if you want to read our questions and the Puppeteer’s answers, please check out the Puppeteer-related channel on the SL90 discord, #01010000.
+
+
+
+
+During the event, the Puppeteer used Twitch to add custom music to the boss segments of the run, as well as provide some background imagery. Whole collection of images can be found here: https://imgur.com/a/Yct4b7M
+
+Music, as per Puppeteer’s own response:
+
+High Wall of Lothric
+Vindsvept - Ragnarok 
+Undead Settlement
+Dark Souls III - Unused Track 5
+Crucifixion Woods
+Alex Roe - Night of the Hunt - Lucian, the Devout Spartan
+Cathedral of the Deep
+Alex Roe - Darksign II - Viscous Void
+Farron Keep
+Alex Roe - Night of the Hunt - The Beast of Braildorn
+Catacombs of Carthus
+Alex Roe - Night of the Hunt: Rite of Blood - Gwyar, the Dreg Manifestation
+Smouldering Lake
+Alex Roe - Dark Souls III - Unused Track 3
+Irithyll of the Boreal Valley
+Alex Roe - Darksign II - Soul Reaper Kane
+Anor Londo
+Alex Roe - Night of the Hunt: Rite of Blood - The Grosvenor Manor
+Dungeon 
+-
+Archdragon Peak
+Alex Roe - Darksign II - Coventina, Safeguard of the Lake
+Profaned Capital 
+Alex Roe - Borne in Blood "Macabre Respite"
+Lothric Castle
+Alex Roe - Night of the Hunt - Night of the Hunt
+Untended Graves
+Alex Roe - Darksign II - In Death, I Am Reborn
+The Grand Archives
+Alex Roe - Night of the Hunt: Rite of Blood - Sigurd, Nightmare Partisan
+Kiln of the First Flame
+Alex Roe - Borne in Blood "Illithid Puppeteer"
+Dark Firelink
+Alex Roe - I Had a Name
