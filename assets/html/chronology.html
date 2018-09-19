@@ -601,7 +601,7 @@
     <p>The fairly straightforward poem is again referencing advancements within the Father&rsquo;s plan to kill the Great Old Sin (Soul of Cinders) and lift its oppressive influence from the world. We are also witnessing more references to the Sin, as we are coming closer to the final big event of the story.</p>
     <p>Shortly after we have settled on the order in which to save the poem, a most peculiar image was sent to every discord channel, as well as to many members in private messages (<span class="tooltip">#87<span class="tooltiptext ref87"></span></span>):</p>
 
-    <img src="assets/images/180325_encryption_big0.png">
+    <img src="assets/images/180325_encryption_big0.png"  data-action="zoom"/>
 
     <p>An encoding! That much was obvious immediately, but what exactly was encoded, and how to get it out? Best way to go about it was to analyze the initial image and see how much information we could get. Beware, this will get technical.</p>
     <p>The full dimensions were 32px by 100px. It consisted of two long 16px wide and 76px tall strips and two hints at the bottom. The left stripe was colored, the right one had only transparent and black pixels. First hint has shown pure RGBA colors transforming into pure white pixels. Second hint seemingly swapped 0s and 1s around.</p>
@@ -612,12 +612,12 @@
     <p>Next question was how to map a 2D pixel image onto a 1D line of bits. The most conventional way would be to read it like a book: left-to-right, top-to-bottom. This is the way we had decided to do it.</p>
     <p>Unsuccessful in our previous attempts, we tried separating the RGB channels from each other. In hindsight this was the right way to go about it, but we had not realized that for a fair while longer.</p>
 
-    <img src="assets/images/180325_decoding0.png">
+    <img src="assets/images/180325_decoding0.png"  data-action="zoom"/>
 
     <p>The first day of decoding was unsuccessful, and we went on.</p>
     <p>On the second day, Ensign Epic had received an additional encoding from the Puppeteer (<span class="tooltip">#88<span class="tooltiptext ref88"></span></span>):</p>
 
-    <img src="assets/images/180325_encryption_big1.png">
+    <img src="assets/images/180325_encryption_big1.png" data-action="zoom"/>
 
     <p>This one a fair bit smaller and had just two 16x16 black and white squares on it. It was cracked almost immediately, and revealed a simple message: <code>L O S E N O T A S I N G L E B I T</code>. This has proven to be an important find, as it had confirmed what we were suspecting: the information that was encoded was ascii text in binary format, later encoded as pixels. 0s mapped to blacks, 1s to whites.</p>
     <p>In parallel to this, Fanboy had sent the Puppeteer a fairly large poem, highly praising all of his work:</p>
@@ -665,7 +665,7 @@
     <p>More unsuccessful brainstorming ensued. The progress was made in face of the idea that we would expect long black stripes to appear on a good image. Still, the encoding remained uncracked.</p>
     <p>Next day, Terrid had received yet another small encoding, with the Puppeteer slowly nudging us towards the right solution (<span class="tooltip">#90<span class="tooltiptext ref90"></span></span>, left half):</p>
 
-    <img src="assets/images/180325_encryption_big2.png">
+    <img src="assets/images/180325_encryption_big2.png" data-action="zoom"/>
 
     <p>What some had thought to be a smaller version of the main code, was in fact a completely new message. This is also the time we finally made a separate discord channel for the Puppeteer&rsquo;s story, back then mostly a way to not flood other channels with our attempts at decoding the main image.</p>
     <p>Yet more analysis came forth, with us trying to do everything we did with the main encoding, but on this small one. The encoding held steadfast. We would get to the bottom of it soon, but first, another event followed...</p>
