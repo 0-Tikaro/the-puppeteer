@@ -7,9 +7,12 @@ function incrementLoadedCount() {
 
 // Adding references to poems.
 function setupPoemLinks(){
-    for(let i = 1; i <= 195; i++) {
-        $(".ref" + i).html($("#poem" + i).html());
-    }
+    $.get( "assets/html/poems.json", function( data ) {
+        for(let i = 1; i <= 195; i++) {
+            $(".ref" + i).html(data[i]);
+            $("#poem" + i).html(data[i]);
+        }
+    }, "json");
 }
 
 // Setup collapsible elements.
@@ -187,6 +190,13 @@ function curlies(element) {
 
 
 /*MAIN CODE*/
+let useNightModeCookie = document.cookie;
+let nightModeButton = $( '#night' );
+if (useNightModeCookie.includes("use-night-mode=1")){
+    document.body.setAttribute('class', 'night-mode');
+    nightModeButton.html('Day mode');
+}
+
 $("#poems_content").load("assets/html/poems.html", incrementLoadedCount);
 $("#characters_content").load("assets/html/characters.html", incrementLoadedCount);
 $("#video_content").load("assets/html/video.html", incrementLoadedCount);
@@ -220,13 +230,14 @@ function checkContentLoaded() {
             }
         });
 
-        let nightModeButton = $( '#night' );
         nightModeButton.on('click', function(){
             document.body.classList.toggle('night-mode');
             if (nightModeButton.html() === 'Night mode') {
                 nightModeButton.html('Day mode');
+                document.cookie = "use-night-mode=1";
             } else {
                 nightModeButton.html('Night mode');
+                document.cookie = "use-night-mode=0";
             }
         });
 

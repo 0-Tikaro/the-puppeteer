@@ -586,14 +586,14 @@
 
     <p>A curious side-track of the story began on March 25.</p>
     <p>Narcolept received a message from the puppeteer, which said just &ldquo;... For far too long to it we bowed,&rdquo;. Shortly after, Kallah had gotten &ldquo;. The wheel is turning, my dear crowd!&rdquo;. By then it was fairly obvious that this would be another poem, only sent in a very disjointed way.</p>
-    <p>The notion was furthered when WeHaveLifdoff received &ldquo;.... its time had passed so long agone&rdquo;. The question arose - how to arrange the lines so that it makes the original poem? The first proposed variant:
-        <br>For far too long to it we bowed,
+    <p>The notion was furthered when WeHaveLifdoff received &ldquo;.... its time had passed so long agone&rdquo;. The question arose - how to arrange the lines so that it makes the original poem? The first proposed variant:</p>
+    <p style="text-align: center;">For far too long to it we bowed,
         <br>.
         <br>The wheel is turning, my dear crowd!
         <br>its time has passed so long agone.</p>
     <p>That is because the Puppeteer&rsquo;s poems were always (well, aside perhaps from some very early ones) written in ABAB format. Therefore the lines Kallah and Narc had received would have another line in-between them.</p>
-    <p>Initial proposition was rebuffed due to last two lines not working together grammatically. Therefore, a second one was made:
-        <br>The wheel is turning, my dear crowd!
+    <p>Initial proposition was rebuffed due to last two lines not working together grammatically. Therefore, a second one was made:</p>
+    <p style="text-align: center;">The wheel is turning, my dear crowd!
         <br>.
         <br>For far too long to it we bowed,
         <br>its time has passed so long agone.</p>
@@ -601,7 +601,7 @@
     <p>The fairly straightforward poem is again referencing advancements within the Father&rsquo;s plan to kill the Great Old Sin (Soul of Cinders) and lift its oppressive influence from the world. We are also witnessing more references to the Sin, as we are coming closer to the final big event of the story.</p>
     <p>Shortly after we have settled on the order in which to save the poem, a most peculiar image was sent to every discord channel, as well as to many members in private messages (<span class="tooltip">#87<span class="tooltiptext ref87"></span></span>):</p>
 
-    <img src="assets/images/180325_encryption_big0.png">
+    <img src="assets/images/180325_encryption_big0.png"  data-action="zoom"/>
 
     <p>An encoding! That much was obvious immediately, but what exactly was encoded, and how to get it out? Best way to go about it was to analyze the initial image and see how much information we could get. Beware, this will get technical.</p>
     <p>The full dimensions were 32px by 100px. It consisted of two long 16px wide and 76px tall strips and two hints at the bottom. The left stripe was colored, the right one had only transparent and black pixels. First hint has shown pure RGBA colors transforming into pure white pixels. Second hint seemingly swapped 0s and 1s around.</p>
@@ -612,16 +612,16 @@
     <p>Next question was how to map a 2D pixel image onto a 1D line of bits. The most conventional way would be to read it like a book: left-to-right, top-to-bottom. This is the way we had decided to do it.</p>
     <p>Unsuccessful in our previous attempts, we tried separating the RGB channels from each other. In hindsight this was the right way to go about it, but we had not realized that for a fair while longer.</p>
 
-    <img src="assets/images/180325_decoding0.png">
+    <img src="assets/images/180325_decoding0.png"  data-action="zoom"/>
 
     <p>The first day of decoding was unsuccessful, and we went on.</p>
     <p>On the second day, Ensign Epic had received an additional encoding from the Puppeteer (<span class="tooltip">#88<span class="tooltiptext ref88"></span></span>):</p>
 
-    <img src="assets/images/180325_encryption_big1.png">
+    <img src="assets/images/180325_encryption_big1.png" data-action="zoom"/>
 
     <p>This one a fair bit smaller and had just two 16x16 black and white squares on it. It was cracked almost immediately, and revealed a simple message: <code>L O S E N O T A S I N G L E B I T</code>. This has proven to be an important find, as it had confirmed what we were suspecting: the information that was encoded was ascii text in binary format, later encoded as pixels. 0s mapped to blacks, 1s to whites.</p>
-    <p>In parallel to this, Fanboy had sent the Puppeteer a fairly large poem, highly praising all of his work:
-        <br>Pardon my rudeness, as thine request
+    <p>In parallel to this, Fanboy had sent the Puppeteer a fairly large poem, highly praising all of his work:</p>
+    <p style="text-align: center;">Pardon my rudeness, as thine request
         <br>I did not see in time - a shame
         <br>Too tired I was - had to rest
         <br>resulting in a showing lame
@@ -665,7 +665,7 @@
     <p>More unsuccessful brainstorming ensued. The progress was made in face of the idea that we would expect long black stripes to appear on a good image. Still, the encoding remained uncracked.</p>
     <p>Next day, Terrid had received yet another small encoding, with the Puppeteer slowly nudging us towards the right solution (<span class="tooltip">#90<span class="tooltiptext ref90"></span></span>, left half):</p>
 
-    <img src="assets/images/180325_encryption_big2.png">
+    <img src="assets/images/180325_encryption_big2.png" data-action="zoom"/>
 
     <p>What some had thought to be a smaller version of the main code, was in fact a completely new message. This is also the time we finally made a separate discord channel for the Puppeteer&rsquo;s story, back then mostly a way to not flood other channels with our attempts at decoding the main image.</p>
     <p>Yet more analysis came forth, with us trying to do everything we did with the main encoding, but on this small one. The encoding held steadfast. We would get to the bottom of it soon, but first, another event followed...</p>
@@ -895,7 +895,7 @@
     <p>First puzzling part was <code>|[1]|</code>. The puppet tokens were written with angle brackets, not with square ones. The first idea was that they meant &ldquo;final ascended puppets&rdquo;. <code>&lt;1&gt;</code> was Oden the Armless&rsquo; token, so <code>[1]</code> would refer to Lord of Hail, right? No, this was not the case, as it did not hold up with <code>&lt;2&gt;</code> and <code>&lt;3&gt;</code> - Lone Darkwraith&rsquo;s and Redflame Erik&rsquo;s tokens, respectively. We knew they became a single being in face of the Nameless Flame, so they could not possibly occupy <code>[2]</code> and <code>[3]</code>.</p>
     <p>We saw line <code>|&lt;Nameless Flame&gt;-->x|>|[1]|</code>, which was the last time we saw Nameless Flame in the Timeline. What happened to the Nameless Flame after we killed it? We obtained the Humanity. So the next, (and this time correct), interpretation was that <code>[#]</code> Father&rsquo;s precious resources.</p>
     <p>Next, <code>&mdash;-->...</code>. This was quickly decided to be the &ldquo;current place in the timeline&rdquo;, as of April 1. This made sense and lined up with what we have documented.</p>
-    <p>Here we ran into a slight problem: we have just killed Heart of Spears and obtained its Vessel (which was expected to be <code>[2]</code>, yet there was nothing like <code>|<Heart of Spears>-->x|>|[2]|</code> in the Timeline. (Note: upon writing this final version of the Puppeteer story&rsquo;s chronology it appears that the line <code>&mdash;-->|[2]|&|[3]|</code> refers exactly to that - &ldquo;[[2] obtained] and [[3] obtained]&rdquo; with [2] and [3] being precious resources extracted from Heart of Spears and Lord of Hail respectively).</p>
+    <p>Here we ran into a slight problem: we have just killed Heart of Spears and obtained its Vessel (which was expected to be <code>[2]</code>, yet there was nothing like <code>|&lt;Heart of Spears&gt;--&gt;x|&gt;|[2]|</code> in the Timeline. (Note: upon writing this final version of the Puppeteer story&rsquo;s chronology it appears that the line <code>&mdash;-->|[2]|&|[3]|</code> refers exactly to that - &ldquo;[[2] obtained] and [[3] obtained]&rdquo; with [2] and [3] being precious resources extracted from Heart of Spears and Lord of Hail respectively).</p>
     <p>Having parsed and interpreted everything up until the &ldquo;current place&rdquo;, we have come to the juiciest part. The Timeline did not end there, but kept going, telling us of the future we were yet to see.</p>
     <p><code>&mdash;&mdash;&mdash;&mdash;>|[1][2][3]&mdash;>&lt;0&gt;|</code> meant &ldquo;Puppet &lt;0&gt; made from [The Humanity], [Heart&rsquo;s Vessel], [Lord of Hail&rsquo;s resource]&rdquo;</p>
     <p><code>&mdash;&mdash;&mdash;&mdash;>|&lt;0&gt;-->...|</code> was interpreted as &ldquo;Puppet &lt;0&gt; UNKNOWN ACTION&rdquo;</p>
