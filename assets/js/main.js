@@ -7,9 +7,12 @@ function incrementLoadedCount() {
 
 // Adding references to poems.
 function setupPoemLinks(){
-    for(let i = 1; i <= 195; i++) {
-        $(".ref" + i).html($("#poem" + i).html());
-    }
+    $.get( "assets/html/poems.json", function( data ) {
+        for(let i = 1; i <= 195; i++) {
+            $(".ref" + i).html(data[i]);
+            $("#poem" + i).html(data[i]);
+        }
+    }, "json");
 }
 
 // Setup collapsible elements.
