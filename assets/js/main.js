@@ -67,7 +67,7 @@ let elNextChapter = $( '#chapter-next' )
 let lastScrollPos = 0;
 let curIdIndex = -1;
 let idList = [
-    "#intro_content",
+    "#top",
     "#synopsis_content",
     "#c171200",
     "#c180120",
