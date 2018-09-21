@@ -1,52 +1,33 @@
 EM DASH
---- --> &mdash;
+---
+&mdash;
 
 DOUBLE QUOTES
-(^|[-\u2014/\[(\u2018\s])" --> $1&ldquo;
-(&ldquo;.+?)" --> $1&rdquo;
+(^|[-\u2014/\[(\u2018\s])"
+$1&ldquo;
+
+(&ldquo;.+?)"
+$1&rdquo;
 
 SINGLE QUOTES
-(^|[-\u2014\s(\["])' --> $1&lsquo;
-' --> &rsquo;
+(^|[-\u2014\s(\["])'
+$1&lsquo;
+
+
+'
+&rsquo;
 
 //////////////////////////////////
 +6 TO ALL POEMS
+FIX SANDWORM BEING BIGGER THAN IN THE GAME. IT'S NOT
+>>> We didn’t mention it yet, but the first Twtich blackground for this area was showing the Puppet fighting against the Carthus Sandworm, which appears to be a bit larger than the one we face in-game.
+[narc boss] MISSING
 
-#154
-A frail scared soul once from here left
-entwined in strings my hand had spun.
-The mind was waste, of will bereft,
-...but soul had smelled of ancient sun.
- 
-In Irithyll, the Puppet added a pontiff knight curved sword to his arsenal. As the Puppet reached the room with the fireplace, the one where it seemed to be crafted in the pictures we received, a poem was posted:
- 
-#155
-The warmth of lonely fireplace
-does it recall this shack of mine?
-To castle guided with great pace
-to start its journey for Divine.
- 
-Arriving at the Pontiff Sulyvahn boss fog after fighting off the invaders throughout the level, we were once again challenged to fight the Puppet.
- 
+//////////////////////////////////
 
-#156
-Mute knight will not recall in true,
-mirage so transient and meek.
-Its afterglow to now subdue,
-leave signs by fog and catch a peek.
- 
-Fitting to the level’s theme, in the boss fight the Puppet used the combination of a main hand Murakumo (with an Irithyll weapon visual effect) and an off-hand PKCS. Here, the Puppet utilized a lot of jumping attacks with the CGS, as if mimicking the behavior of Kallah – sparking some conversation on how the Puppet seems to be learning over time, adding our strategies and moves into its bag of tricks; another example would be Narcolept re-directing charged R2 attacks. The fight consisted of two parts, the first taking place in the lower part of the boss room area, while the second took place on the area up the elevator. Feeling the Puppets thirst in this area almost sated, poem #157 appeared in chat:
- 
-#157
-Ah, afterimage fades so soon,
-just as it did in flesh and bone.
-Meanwhile, lit by calm and peaceful moon
-knight keeps his restless march alone.
- 
-1 LEFT
- 
 The area post-Pontiff was skipped, going straight to Anor Londo. This was most likely done to avoid excess problems with random invaders, and to allow us an easier time to enter the Puppet’s world. In Anor Londo, the Puppet once more returned to the combination of Arstor’s spear main hand, drakeblood GS off-hand. Passing through the cathedral halls, the Puppeteer added another poem:
- 
+
+
 #158
 "O palace of the venerable sun.
 What sight to see thy ruins fall"

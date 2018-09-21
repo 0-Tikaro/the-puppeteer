@@ -1,2 +1,73 @@
-IRITHYLL OF THE BOREAL VALLEY
-/////////////////////////////
+<p>Down in the scalding depths, Wraithflame&rsquo;s hateful apparition was subdued by the Puppet. Having made that little detour, it was ready to ascend back through the Catacombs, its mind a little less crowded with fragmented minds.</p>
+<p>Passing Wolnir&rsquo;s chamber undisturbed by us, the mute knight quickly made its way to Irithyll of the Boreal Valley.</p>
+
+<img src="assets/images/180511_twitch18.jpg" data-action="zoom"/>
+
+<p>After this momentary silence, the Puppet had once again been assaulted by a vague mirage of some distant soul. This time&mdash;a cowardly meek image of White Vagrant, as <span class="tooltip">#160<span class="tooltiptext ref160"></span></span> was quick to tell.Before we move on in the story, this poem should be given a closer look, for it speaks about the Vagrant. And because the Vagrant was one of the first puppets to &ldquo;die&rdquo;, it&rsquo;s also fairly starved for lore.</p>
+<p>We can assume that this poem, as well as virtually every other one sent during this event, is the Father speaking to us. <span class="tooltip">#160<span class="tooltiptext ref160"></span></span> presents us with four bits of information, aligned elegantly with each line. The first line tells us that White Vagrant did originate in Irithyll, but eventually left it despite being &ldquo;frail&rdquo; and &ldquo;scared&rdquo;. We can say with a fair bit of certainty that the Vagrant is not human&mdash;but a stranded white phantom. Therefore this line may be interpreted as the White Vagrant leaving its <i>world</i>, not necessarily Irithyll within it.</p>
+<p>The second line extends on this idea, saying that the Father played a role in Vagrant&rsquo;s leaving. Was he the one that separated the phantom&rsquo;s link to its original world? Did he manipulate the Vagrant to sever that link himself, seeing as he left &ldquo;entwined in Father&rsquo;s strings&rdquo;? We do not know, but it&rsquo;s clear that the Father intended the Vagrant to be stranded between worlds.</p>
+<p>The third line reaffirms our belief that Father did not think highly of Vagrant&rsquo;s resolve and will. This may be precisely why it fell into Father&rsquo;s trap and became a vagrant.</p>
+<p>The last line is perhaps the most interesting. Why would the Father need such a weak-willed cowardly puppet, if their primary purpose was to fight? Well, this line single-handedly links White Vagrant to the &ldquo;ancient sun&rdquo;. And what could be that sun? The old gods of Lordran, and Gwyn. (Though as we will learn just a bit later from <span class="tooltip">#165<span class="tooltiptext ref165"></span></span>, it&rsquo;s more likely that it alludes to Gwynevere, not Gwyn). This link is extremely important for Oden, because it gives is the answer as to <i>why</i> merging him with the Vagrant&rsquo;s remains catalyzed the return of his memories as the Lord of Hail.</p>
+<p>Why would the Vagrant be linked to the gods? Well, our best bet is to look at the irithyllian face preset in the character creation menu.</p>
+<blockquote>The features of the old gods, as if from legend. They say children born like this are fated to be taken to the Boreal Valley.</blockquote>
+<p>So while it&rsquo;s going a bit out there in terms of whether it could have been thought-through by the Puppeteer himself, this does gives us a pretty solid footing for the Vagrant&rsquo;s origin: it was born a distant descendant of the gods, and because of that it was at some point brought to Irithyll, from which it was then lead astray by the Father.</p>
+<p>Moving on from such narrow lore details, the Puppet has crossed the bridge and entered Irithyll. Immediately, it gifted is with a fantastic show of PvE skills, only to be promptly dispatched for such an extraordinary display:</p>
+
+<button class="collapsible"><i class="fas fa-film"></i>Narcolept witnessing the Puppet's divine skills<i class="fas fa-angle-double-down" style="float: right;"></i></button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="7qqCAkursos"><div class="play-button"></div></div>
+</div>
+
+<p>The first Twitch image has show Vagrant&rsquo;s growing influence on the synthetic knight. The exact moments are unclear, but it has gradually acquired Vagrant&rsquo;s weapons as it progressed through the area. If we were to tie it to some landmarks in the area, it likely went like this: Pontiff Knight&rsquo;s Curved Sword appeared around the very start, and the Murakumo somewhere in the middle of the area.</p>
+<p>The Puppet made quick and steady progress through Irithyll&rsquo;s winding streets, fighting off lonely invaders and sometimes letting several people in at once. One such battle happened right before the lake, with the Puppet (unsuccessfully) fending off three invaders at once:</p>
+
+<button class="collapsible"><i class="fas fa-film"></i>Qy and co. in the high-speed murder-blender action<i class="fas fa-angle-double-down" style="float: right;"></i></button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="urqRDlW-FJw"><div class="play-button"></div></div>
+</div>
+
+<p>As it inevitably got back and pressed on, it came across a single lonely room warmed by a fireplace. The stream&rsquo;s background changed, and poem <span class="tooltip">#161<span class="tooltiptext ref161"></span></span> was sent.</p>
+
+<img src="assets/images/180511_twitch19.jpg" data-action="zoom"/>
+
+<p>This poem confirms in a straight manner, that the room where you&rsquo;d find Siegward in the main game <i>is</i> the Father&rsquo;s &ldquo;shack&rdquo;, where he worked on the Puppet and, probably, also where he ended to all of his previous marionettes. The second half of <span class="tooltip">#161<span class="tooltiptext ref161"></span></span> likely refers to the Father transporting the Puppet out from this shack to the High Wall of Lothric, where it has awoken. And the &ldquo;Divine&rdquo; would be either the Soul of Cinders&mdash;the Puppet&rsquo;s ultimate goal, or the Lords of Cinders&mdash;the foes it had to overcome along the way.</p>
+
+<button class="collapsible"><i class="fas fa-film"></i>Narcolept going toe-to-toe with the Puppet<i class="fas fa-angle-double-down" style="float: right;"></i></button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="1AqS0nAtn44"><div class="play-button"></div></div>
+</div>
+
+<p>Nearing Pontiff, the Puppet was ruthless and eager to not linger around any more. It&rsquo;s also around here that we saw an interesting pattern: the Puppet not only consumed souls and grew stronger statistically, but also seemingly learned and used our fighting styles as well! What prompted this idea was the aggressive use of Murakumo&rsquo;s jumping attacks&mdash;a remarkable feature of Kallah&rsquo;s playstyle. Another example of such &ldquo;learned behavior&rdquo; would be Narcolept&rsquo;s tendency to redirect charged R2 attacks depending on the situation. Perhaps the Puppeteer intended this details, perhaps it was simply a coincidence of similar playstyles. Either way, last fights were fought, last souls collected. Now came another boss-fight for us.</p>
+
+<img src="assets/images/180511_twitch20.jpg" data-action="zoom"/>
+<button class="collapsible"><i class="fas fa-music"></i>BOSS THEME: Alex Roe - Soul Reaper Kane</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="A-JfjfurFaE"><div class="play-button"></div></div>
+</div>
+
+<!--todo irithyll boss missing original video-->
+<button class="collapsible"><i class="fas fa-skull"></i>BOSS ENCOUNTER: Irithyll of the Boreal Valley<i class="fas fa-angle-double-down" style="float: right;"></i></button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="HBcgiURxTC8"><div class="play-button"></div></div>
+</div>
+<button class="collapsible"><i class="fas fa-film"></i>(Original clip)<i class="fas fa-angle-double-down" style="float: right;"></i></button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="xxx"><div class="play-button"></div></div>
+</div>
+
+<p><span class="tooltip">#162<span class="tooltiptext ref162"></span></span> beckoned us to the fog gate. Alongside that, we have learned that White Vagrant&rsquo;s apparition was more feeble than the other ones. This is why it&rsquo;s also the first boss-fight which did not mirror the area&rsquo;s respective puppet completely. The &ldquo;Vagrant&rdquo; in Puppet&rsquo;s flesh used its proper weapons, only this time they were also augmented with frostbite&mdash;a buff the original Vagrant never possessed.</p>
+<p>This fight had proven brutal for a lot of us. Murakumo was already doing massive damage, and it was made only deadlier by the constant danger of frostbite hanging over us. Combine those statistical dangers with the Puppet&rsquo;s in-your-face playstyle, and it became an awfully dangerous opponent.</p>
+
+<button class="collapsible"><i class="fas fa-film"></i>Nosferat fighting valiantly from the land Down Under<i class="fas fa-angle-double-down" style="float: right;"></i></button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="ppu4O_Fx6HE"><div class="play-button"></div></div>
+</div>
+
+<p>Another thing that was special about this particular boss-fight is that it had two stages. In the first one, the challengers faced the mute knight on the lower level of Pontiff&rsquo;s Cathedral&mdash;a wide, open area with lots of space to maneuver. But about halfway through the fights, the Puppet would force a break and ride the elevator up to the second floor. There, it would face us again, this time in a much more narrow space where both sides could potentially be forced into a corner.</p>
+<p>As we, in the regular fashion, each got a fight or two against the Vagrant&rsquo;s apparition, poem <span class="tooltip">#163<span class="tooltiptext ref163"></span></span> quickly announced the end of the fight. White Vagrant&rsquo;s last remaining memory was smothered and consumed by the Puppet just as quickly as its body was decimated by us several months ago. Now, in the temporary respite of an empty mind, the Puppet would ascend up to the derelict asylum of the gods&mdash;Anor Londo.</p>
+
+<p class="killcount">&mdash;93&mdash;</p>
+
+
+
+///////////////////////////////////////
