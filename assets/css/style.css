@@ -10,11 +10,16 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-body {
+html {
+    font-size: 20px;
+}
+body, body.night-mode {
+    text-rendering: optimizeLegibility;
     margin: 0;
     background: var(--bg-color);
-
+    line-height: 1.5;
+}
+body {
     --text-color: #373737;
     --bg-color: #ffffff;
     --shade-color: #e0e0e0;
@@ -24,9 +29,6 @@ body {
     --ul-bullet: url(../images/tech/ul_bullet_day.png);
 }
 body.night-mode{
-    margin: 0;
-    background: var(--bg-color);
-
     --text-color: #b5b5b5;
     --bg-color: #1e1e1e;
     --shade-color: #4e4e4e;
@@ -35,11 +37,33 @@ body.night-mode{
     --puppeteer-color: #83bdb4;
     --ul-bullet: url(../images/tech/ul_bullet_night.png);
 }
+h1, h2, h3, #title{
+    font-family: "Pirata One";
+    font-weight: 300;
+}
+h1 {
+    font-size: 1.75rem;
+    padding-top: 3rem;
+}
+h2 {
+    font-size: 1.8rem;
+    padding-top: 3.25rem;
+}
+h3 {
+    font-size: 1.25rem;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
 
-@media all and (min-width:685px) {
-    html {
-        font-size: 20px;
-    }
+
+
+@media all and (min-width:1000px) {
     .wrapper {
         width: 100%;
         max-width: 1100px;
@@ -103,13 +127,9 @@ body.night-mode{
 
 
 }
-@media all and (max-width:685px) {
-    html{
-        font-size: 16px;
-    }
+@media all and (max-width:1000px) {
     .wrapper {
         width: 100%;
-        padding-top: 64px;
         padding-bottom: 64px;
 
         color: #373737;
@@ -120,7 +140,15 @@ body.night-mode{
         position: relative;
         width: 100%;
         z-index: 20;
+        margin: 0 6rem;
     }
+    #title {
+        position: fixed;
+        width: 100%;
+        padding: 1rem;
+        background-color: var(--bg-color);
+    }
+
     #content {
         margin: 6rem;
         padding-top: 0.25rem;
@@ -244,15 +272,16 @@ body.night-mode{
 .chapter-title{
     text-align: right;
     opacity: 0.4;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
 }
 .chapter-desc {
     text-align: right;
-    opacity: 0.6;
     font-style: italic;
+    opacity: 0.6;
+    margin-top: 0;
 }
 .space-between-chapters {
-    height: 40rem;
+    height: 35rem;
 }
 
 .title-transition {
@@ -277,26 +306,6 @@ body.night-mode{
     opacity: 1;
 }
 
-h1, h2, h3, #title{
-    font-family: "Pirata One";
-    font-weight: 300;
-}
-h2 {
-    font-size: 1.8rem;
-    padding-top: 3.25rem;
-}
-h3 {
-    font-size: 1.25rem;
-    margin-top: 80px;
-    margin-bottom: 0;
-}
-p {
-    margin: 1.1em 0 1.1em;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-}
 ul {
     list-style-type: none;
     list-style-image: var(--ul-bullet);
@@ -316,6 +325,7 @@ img {
     margin-top: 1rem;
 }
 pre {
+    font-family: Consolas, monospace;
     overflow-x: auto;
     padding: 10px;
     font-size: 0.8rem;
@@ -347,8 +357,9 @@ a:hover {
 blockquote {
     font-size: 0.9rem;
     font-style: italic;
-    margin-left: 0.5rem;
-    padding-left: 1rem;
+    margin-left: 0;
+    padding: 1em;
+    border-left: 1px solid var(--text-color);
 }
 
 .QA {
@@ -382,7 +393,7 @@ code {
 
 .collapsible {
     width: 100%;
-    background: var(--bg-color);
+    background: transparent;
     color: var(--text-color);
     padding: 12px;
     /*margin-bottom: 3px;*/
@@ -391,11 +402,10 @@ code {
     text-align: left;
     outline: none;
     font-size: 18px;
+    line-height: 1.5;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    z-index: 0;
     opacity: 0.6;
-    border-bottom: 1px solid transparent;
 
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -404,10 +414,7 @@ code {
     transition: all 0.3s ease;
 }
 .collapsible:hover, .collapsible.active{
-    z-index: 1;
     opacity: 1;
-    /*box-shadow: 0 2px 5px 0 #ccc;*/
-    /*border-bottom: 1px solid #ddd;*/
 
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
