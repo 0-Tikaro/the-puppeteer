@@ -13,21 +13,27 @@
 
 body {
     margin: 0;
+    background: var(--bg-color);
+
     --text-color: #373737;
     --bg-color: #ffffff;
     --shade-color: #e0e0e0;
     --link-color: #267CB9;
+    --link-active-color: #30b1e4;
     --puppeteer-color: #1c8978;
-    /*background-image: url("../images/180203_narcDM3.jpg");*/
-    background: var(--bg-color);
+    --ul-bullet: url(../images/tech/ul_bullet_day.png);
 }
 body.night-mode{
+    margin: 0;
+    background: var(--bg-color);
+
     --text-color: #b5b5b5;
     --bg-color: #1e1e1e;
     --shade-color: #4e4e4e;
     --link-color: #7faad3;
+    --link-active-color: #a7ddff;
     --puppeteer-color: #83bdb4;
-    background: var(--bg-color);
+    --ul-bullet: url(../images/tech/ul_bullet_night.png);
 }
 
 @media all and (min-width:685px) {
@@ -291,6 +297,10 @@ p {
     -ms-hyphens: auto;
     hyphens: auto;
 }
+ul {
+    list-style-type: none;
+    list-style-image: var(--ul-bullet);
+}
 
 .poem {
     text-align: center;
@@ -320,6 +330,19 @@ pre.poem {
 a {
     color: var(--link-color);
     text-decoration: none;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+a:hover {
+    color: var(--link-active-color);
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
 }
 blockquote {
     font-size: 0.9rem;
