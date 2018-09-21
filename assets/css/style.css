@@ -385,10 +385,7 @@ code {
 
 .killcount {
     text-align: center;
-    margin: 80px;
-    font-size: 1rem;
-    /* font-weight: 600; */
-    /* color: #bbb; */
+    margin: 4rem;
 }
 
 .collapsible {
