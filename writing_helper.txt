@@ -31,7 +31,7 @@ FIX SANDWORM BEING BIGGER THAN IN THE GAME. IT'S NOT
 
  The zwei had both stomp and neck swipe weapon arts. During these fights, the kill count of the Puppet reached one hundred - the notification posted was bolded to highlight the milestone. The fight here seemed to go on at a much lower pace with the Puppet being far less active than in the previous ones, mimicking the song playing in the background – sad, eerie and slow in tempo. As always, the last combatant summoned was preceded by a poem
  
-#166+164
+#166+
 In slumber gluttons knight yet more,
 and then breaks free of veiled tangle.
 Sin's Flame is here, god-eating whore!
@@ -47,21 +47,21 @@ devouring Lords' blazing soul.
 Half-hour break for knight to see
 accursed force it dares now hold.
  
- 
 After the break, we moved on to the Irithyll dungeon area, with more text being left to us:
  
-#162
+#168+
 Ah, Great Sin's old flame warm and sublime
 engulfs the Puppet as it feeds.
 Thick priest of old who ate Divine -
 mere food for one who Flame now needs.
- 
+
+ ////////////////////
+
+
 In the dungeon area, the Puppet’s weapons gained even more fire effects – especially the visual that appears on-hit. New spells were seen here: floating chaos (with a custom casting animation, seemed to be that of the way of white corona) and some kind of large explosion – those that Nameless Flame used. While the Puppet’s progress was halted at times, he eventually managed to get through the level, leaving us with another poem some half-way through:
- 
 
 
-
-#163
+#169+
 Invasive blaze shrieks through these cells,
 it scorches soul and flesh alike.
 As eyes are veiled by oldest hells,
@@ -69,7 +69,7 @@ knight's soul takes shape I so dislike.
  
 Eventually, making its way past the room with multiple jailers, we received a poem usually reserved for red sign summonings:
  
-#164
+#170+
 Knight's soul fears not this game,
 for with each Lord it becomes more
 like Old, Accursed, Great Sin's Flame.
@@ -79,7 +79,10 @@ till naught is left but molten core.
 1 LEFT
  
 After getting one more kill under its belt, the Puppet moved to Archdragon peak, signaled via poem #165:
- 
+
+ //////////////////////
+
+
 #165
 Invoke storm clouds a distant though
 of life so long it had no start.

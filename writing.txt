@@ -1,51 +1,40 @@
-ANOR LONDO
-//////////
-
-Anyone who dabbled with DS3's PvP will know that the small transition area post-Pontiff is one of the most active places to encounter people at the "meta" levels (around SL120). The Puppet was at SL90, as were most of us, but it was still expected we would run into a fair bit of random people here. This must have been the Puppeteer's thinking, because the "gank city", as it is colloquially called, was skipped altogether.
-
-Instead, the stream immediately lit up with a new image:
-
-[img 1]
-
-Artorias' Greatshield and frost-buffed Zweihander? The derelict cathedral of the gods was Slumbering Oden's domain. Although what we actually encountered within the cathedral differed slightly from the Twitch background. Near the very beginning of the area, when presumably Slumbering Oden's apparition was at the weakest, the Puppet used its generic setup, with Arstor's Spear in the main hand accompanied by an off-hand Drakeblood Greatsword.
-
-As the mute knight passed the dead blacksmith giant and plunged deeper into the cathedral, it brought out the Greatshield. Drakeblood became a secondary main-hand weapon, and at last we saw the setup we would be facing for the remainder of the area.
-
-#164 brought us back to Oden's story. This poem seemingly describes some time the Father and Oden visited Anor Londo, perhaps after his reawakening as Lord of Hail. We are sure that the first half of the poem is Oden's speech since it's both italicized as well as written in the pseudo-archaic English.
-
-Was Oden content with seeing the remains of Gwyn's rule degenerate into ruins? The poem does not associate any emotions with old lord's phrase, but it does seem that he spoke a fair bit about it afterwards. What he and the Father would go on to discuss we will never know, since this moment is never brought up again, but we could theorize that it's related to the Father's plan of overthrowing the Soul of Cinders and ushering the Age of Dark.
-
-[narc vid]
-https://www.youtube.com/edit?o=U&video_id=5VOx7LYTx6I
-
-Anor Londo was cleared out with great haste, which is unsurprising---it is one of the smallest areas in the game, perhaps even smaller than the Profaned Capital. Because of that, it got only two Twitch backgrounds, and just one in-area poem.
-
-The Puppet, having fed on everything still alive in the rotting dark of the cathedral, was ready to move out. This place was of great importance to it---the second Lord of Cinders, Aldrich, was here. Yet the mute knight was succumbing more and more to Slumbering Oden's strong presence. It could not challenge the Lord of Cinders in this state, quite literally beginning to sleep-walk as it went on. First, the Puppet would have to smother the apparition.
-
-Poem #165 instructed us to bring the Red Soapstones out again. But, in what felt a surprising twist at the moment, we were to write the signs not near Aldrich's boss fog, but deep below the cathedral, in the Darkmoon Tomb.
-
-This poem also gave us just one more bit of information on Slumbering Oden: "Infused with image of old Mother". Oden was infused with White Vagrant's remains, who as we have learned during the Puppet's march through Irithyll, was linked to the old gods. The "Mother" is capitalized, which does seem to invoke the idea that it was just one specific deity we must about. And what female deity was a patron of life/fertility? The best apparent connection is Gwynewere.
-
-Next curious detail is that Slumbering Oden "slept deep as half-dead dragon sage". In the base game, we see followers of the now non-existent Dragon covenant meditating in their special pose for so long they sometimes even turn to stone. May Oden's slumber have been something similar?
-
-[boss]
-
-The Puppet, surely eager to void its mind of Oden's resurfacing memories, awaited us atop the tomb. During our post-story discussions of the story, several people highlighted that this boss-fight stood out because of its very slow tempo, which was only augmented by Alex Roe's eerie and calm music. This can be seen quite well in the only surviving clip of the boss-fight: the Puppet's usual ruthless strategy of being "in your face" and not letting the opponent breathe is absent. Instead, it waits for its opponent's moves, retaliating and reacting instead of aggressively attacking.
-
-Around the middle of the fight, Slumbering Oden's Zweihander would be swapped for frost-buffed Partizan, which proved to be maybe even more devastating than the ultra greatsword. Its fast pokes and slow poisey swipes already make it a good weapon to use against other people, and it was only enhanced by the hefty frostbuff.
-
-The Zweihander deserves a sentence or two as well. It has an interesting property with the Neck Swipe and Slash Spin weapon arts: it threw people away while also knocking them down.
-
-The slow fights went by quickly, and Slumbering Oden's apparition was overcome. With #166, the last opponent was called in. With the Puppet's mind once again clear and empty, it had a Lord to devour.
-
-Though it doesn't change anything in the grand scheme of things, it's interesting that the last line says that the Puppet was to "strangle" some poor thing. Most likely, it's referring to whatever remained of Gwyndolin, by now half-consumed by Aldrich. The Puppet had no reason to show compassion or kindness, it likely did not even know what those were. So why would it not consume the half-dead ancient god alongside the Lord of Cinders?
-
-The deed was done, Lord dead and gone. With Anor Londo behind us, we have reached the middle of today's event, which also meant we were right in the middle of the finale as well. A whole bunch of areas were already cleared, but about as many remained. #167 gave us a 30-minute toilet break, which the Puppeteer was probably just as eager to see as we were.
-
-#167 not only announced the break, but also gave a little hint at what we would be facing next. When the Abyss Watchers were eaten, the Puppet was overcome with Great Old Sin's flame/apparition in the next area. With the second Lord of Cinders just eaten, we were to see the accursed flames once more.
-
+<p>Anyone who dabbled with DS3&rsquo;s PvP will know that the small transition area post-Pontiff is one of the most active places to encounter people at the &ldquo;meta&rdquo; levels (around SL120). The Puppet was at SL90, as were most of us, but it was still expected we would run into a fair bit of random people here. This must have been the Puppeteer&rsquo;s thinking, because the &ldquo;gank city&rdquo;, as it is colloquially called, was skipped altogether.</p>
+<p>Instead, the stream immediately lit up with a new image:</p>
+<img src="assets/images/180511_twitch21.jpg" data-action="zoom"/>
+<p>Artorias&rsquo; Greatshield and frost-buffed Zweihander? The derelict cathedral of the gods was Slumbering Oden&rsquo;s domain. Although what we actually encountered within the cathedral differed slightly from the Twitch background. Near the very beginning of the area, when presumably Slumbering Oden&rsquo;s apparition was at the weakest, the Puppet used its generic setup, with Arstor&rsquo;s Spear in the main hand accompanied by an off-hand Drakeblood Greatsword.</p>
+<p>As the mute knight passed the dead blacksmith giant and plunged deeper into the cathedral, it brought out the Greatshield. Drakeblood became a secondary main-hand weapon, and at last we saw the setup we would be facing for the remainder of the area.
+<p><span class="tooltip">#164<span class="tooltiptext ref164"></span></span> brought us back to Oden&rsquo;s story. This poem seemingly describes some time the Father and Oden visited Anor Londo, perhaps after his reawakening as Lord of Hail. We are sure that the first half of the poem is Oden&rsquo;s speech since it&rsquo;s both italicized as well as written in the pseudo-archaic English.</p>
+<p>Was Oden content with seeing the remains of Gwyn&rsquo;s rule degenerate into ruins? The poem does not associate any emotions with old lord&rsquo;s phrase, but it does seem that he spoke a fair bit about it afterwards. What he and the Father would go on to discuss we will never know, since this moment is never brought up again, but we could theorize that it&rsquo;s related to the Father&rsquo;s plan of overthrowing the Soul of Cinders and ushering the Age of Dark.</p>
+<button class="collapsible">
+    <i class="fas fa-film"></i>
+    Narcolept fighting the Puppet as it&rsquo;s engaged in pest control
+    <i class="fas fa-angle-double-down" style="float: right;"></i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="5VOx7LYTx6I"><div class="play-button"></div></div>
+</div>
+<p>Anor Londo was cleared out with great haste, which is unsurprising&mdash;it is one of the smallest areas in the game, perhaps even smaller than the Profaned Capital. Because of that, it got only two Twitch backgrounds, and just one in-area poem.</p>
+<p>The Puppet, having fed on everything still alive in the rotting dark of the cathedral, was ready to move out. This place was of great importance to it&mdash;the second Lord of Cinders, Aldrich, was here. Yet the mute knight was succumbing more and more to Slumbering Oden&rsquo;s strong presence. It could not challenge the Lord of Cinders in this state, quite literally beginning to sleep-walk as it went on. First, the Puppet would have to smother the apparition.</p>
+<p>Poem <span class="tooltip">#165<span class="tooltiptext ref165"></span></span> instructed us to bring the Red Soapstones out again. But, in what felt a surprising twist at the moment, we were to write the signs not near Aldrich&rsquo;s boss fog, but deep below the cathedral, in the Darkmoon Tomb.</p>
+<p>This poem also gave us just one more bit of information on Slumbering Oden: &ldquo;Infused with image of old Mother&rdquo;. Oden was infused with White Vagrant&rsquo;s remains, who as we have learned during the Puppet&rsquo;s march through Irithyll, was linked to the old gods. The &ldquo;Mother&rdquo; is capitalized, which does seem to invoke the idea that it was just one specific deity we must about. And what female deity was a patron of life/fertility? The best apparent connection is Gwynevere.</p>
+<p>Next curious detail is that Slumbering Oden &ldquo;slept deep as half-dead dragon sage&rdquo;. In the base game, we see followers of the now non-existent Dragon covenant meditating in their special pose for so long they sometimes even turn to stone. May Oden&rsquo;s slumber have been something similar?</p>
+<img src="assets/images/180511_twitch22.jpg" data-action="zoom"/>
+<button class="collapsible"><i class="fas fa-music"></i>BOSS THEME: Alex Roe - The Grosvenor Manor</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="RWUe_-QM2EM"><div class="play-button"></div></div>
+</div>
+<button class="collapsible"><i class="fas fa-skull"></i>BOSS ENCOUNTER: Anor Londo<i class="fas fa-angle-double-down" style="float: right;"></i></button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="8RoxvQcS-g8"><div class="play-button"></div></div>
+</div>
+<button class="collapsible"><i class="fas fa-film"></i>(Original clip)<i class="fas fa-angle-double-down" style="float: right;"></i></button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="Y9e_G3OkBRM"><div class="play-button"></div></div>
+</div>
+<p>The Puppet, surely eager to void its mind of Oden&rsquo;s resurfacing memories, awaited us atop the tomb. During our post-story discussions of the story, several people highlighted that this boss-fight stood out because of its very slow tempo, which was only augmented by Alex Roe&rsquo;s eerie and calm music. This can be seen quite well in the only surviving clip of the boss-fight: the Puppet&rsquo;s usual ruthless strategy of being &ldquo;in your face&rdquo; and not letting the opponent breathe is absent. Instead, it waits for its opponent&rsquo;s moves, retaliating and reacting instead of aggressively attacking.</p>
+<p>Around the middle of the fight, Slumbering Oden&rsquo;s Zweihander would be swapped for frost-buffed Partizan, which proved to be maybe even more devastating than the ultra greatsword. Its fast pokes and slow poise-supplemented swipes already make it a good weapon to use against other people, and it was only enhanced by the hefty frostbuff.</p>
+<p>The Zweihander deserves a sentence or two as well. It has an interesting property with the Neck Swipe and Slash Spin weapon arts: it threw people away while also knocking them down.</p>
+<p>The slow fights went by quickly, and Slumbering Oden&rsquo;s apparition was overcome. With <span class="tooltip">#166<span class="tooltiptext ref166"></span></span>, the last opponent was called in. With the Puppet&rsquo;s mind once again clear and empty, it was time to devour the Lord.</p>
+<p>Though it doesn&rsquo;t change anything in the grand scheme of things, it&rsquo;s interesting that the last line says that the Puppet was to &ldquo;strangle&rdquo; a poor thing. Who is it referring to? It&rsquo;s likely talking about Gwyndolin&mdash;or what remained of him. The Puppet had no reason to show compassion or kindness to the half-dead god, (and judging by its artificial mind, it likely didn&rsquo;t even know any of those feelings). So why would it not consume the poor god of Dark Sun along with the Lord of Cinders?</p>
+<p>With Anor Londo behind us, we have reached the standard 30-minute toilet break that the Puppeteer probably needed much more than we did. <span class="tooltip">#167<span class="tooltiptext ref167"></span></span>, which announced it, said that the Puppet&rsquo;s way of dealing with the Lords was grisly, messy. For the sake of the story let&rsquo;s say that the mute knight spent these thirty minutes ripping Aldrich apart and consuming all that was worth consuming.</p>
 <p class="killcount">&mdash;103&mdash;</p>
-
-
-///////
-REWRITE THE LAST PARTS AFTERWARDS, THE PUPPET DIDN'T EAT THE ALDRICH YET.
