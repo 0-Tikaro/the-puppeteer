@@ -19,32 +19,19 @@ $1&lsquo;
 
 //////////////////////////////////
 +6 TO ALL POEMS
+
+<p class="killcount">&mdash;93&mdash;</p>
+
 FIX SANDWORM BEING BIGGER THAN IN THE GAME. IT'S NOT
 >>> We didn’t mention it yet, but the first Twtich blackground for this area was showing the Puppet fighting against the Carthus Sandworm, which appears to be a bit larger than the one we face in-game.
-[narc boss] MISSING
 
 //////////////////////////////////
 
-The area post-Pontiff was skipped, going straight to Anor Londo. This was most likely done to avoid excess problems with random invaders, and to allow us an easier time to enter the Puppet’s world. In Anor Londo, the Puppet once more returned to the combination of Arstor’s spear main hand, drakeblood GS off-hand. Passing through the cathedral halls, the Puppeteer added another poem:
+ 
 
-
-#158
-"O palace of the venerable sun.
-What sight to see thy ruins fall"
-- age-dried lips had soon begun,
-in walking through the darkened hall.
+ The zwei had both stomp and neck swipe weapon arts. During these fights, the kill count of the Puppet reached one hundred - the notification posted was bolded to highlight the milestone. The fight here seemed to go on at a much lower pace with the Puppet being far less active than in the previous ones, mimicking the song playing in the background – sad, eerie and slow in tempo. As always, the last combatant summoned was preceded by a poem
  
-Instead of fighting the Puppet in the Aldrich boss area, we were instead instructed to place our sign in the Darkmoon tomb…
- 
-#159
-Infused with image of old Mother,
-slept deep as half-dead dragon sage,
-Come, apparition this now smother,
-to tomb below this relic of old Age.
- 
-The fight took place on top of the grave, inside the room behind the illusory wall. In this fight, the Puppet used a zweihander + wolf knight shield combo, along with a partizan. These dealt magic damage and had a frost effect on their model. The zwei had both stomp and neck swipe weapon arts. During these fights, the kill count of the Puppet reached one hundred - the notification posted was bolded to highlight the milestone. The fight here seemed to go on at a much lower pace with the Puppet being far less active than in the previous ones, mimicking the song playing in the background – sad, eerie and slow in tempo. As always, the last combatant summoned was preceded by a poem
- 
-#160
+#166+164
 In slumber gluttons knight yet more,
 and then breaks free of veiled tangle.
 Sin's Flame is here, god-eating whore!
@@ -54,7 +41,7 @@ Tear out, engulf, poor thing then strangle.
  
 Content with his results, the Puppeteer decided to hold a short break, leaving us with #161:
  
-#161
+#167+
 What gruesome mess it seems to be
 devouring Lords' blazing soul.
 Half-hour break for knight to see
