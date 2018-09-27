@@ -388,6 +388,15 @@ code {
     margin: 4rem;
 }
 
+.collapsible,
+.collapsible:hover,
+.collapsible:active {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
 .collapsible {
     width: 100%;
     background: transparent;
@@ -402,22 +411,15 @@ code {
     line-height: 1.5;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    opacity: 0.6;
-
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    opacity: 0.8;
 }
-.collapsible:hover, .collapsible.active{
+.collapsible:hover,
+.collapsible.active{
     opacity: 1;
-
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+}
+.collapsible.active {
+    background: var(--text-color);
+    color: var(--bg-color);
 }
 .collapsible i {
     padding-right: 12px;
@@ -427,6 +429,15 @@ code {
     overflow: hidden;
     background: #222;
     color: #fff;
+}
+.collapsible_content + .collapsible {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.collapsible_content p {
+    padding-left: 0.5rem;
+    margin-bottom: 0.25rem;
+    margin-top: 2rem;
 }
 
 .youtube {
@@ -483,4 +494,41 @@ code {
     width: 100%;
     top: 0;
     left: 0;
+}
+
+table {
+    width: 100%;
+}
+td {
+    padding: 0.5rem;
+}
+table .fas {
+    font-size: 0.8rem;
+}
+
+h4 {
+    text-align: right;
+    border-bottom: 2px solid var(--text-color);
+    margin-bottom: 0;
+}
+
+
+.video-date {
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+.icon-expand {
+    opacity: 0.5;
+}
+.material-icons {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.f-r {
+    float: right;
+}
+.f-l {
+    float: left;
 }
