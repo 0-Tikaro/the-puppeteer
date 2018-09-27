@@ -28,47 +28,6 @@ FIX SANDWORM BEING BIGGER THAN IN THE GAME. IT'S NOT
 //////////////////////////////////
 
  
-
- The zwei had both stomp and neck swipe weapon arts. During these fights, the kill count of the Puppet reached one hundred - the notification posted was bolded to highlight the milestone. The fight here seemed to go on at a much lower pace with the Puppet being far less active than in the previous ones, mimicking the song playing in the background – sad, eerie and slow in tempo. As always, the last combatant summoned was preceded by a poem
- 
-#166+
-In slumber gluttons knight yet more,
-and then breaks free of veiled tangle.
-Sin's Flame is here, god-eating whore!
-Tear out, engulf, poor thing then strangle.
- 
-1 LEFT
- 
-Content with his results, the Puppeteer decided to hold a short break, leaving us with #161:
- 
-#167+
-What gruesome mess it seems to be
-devouring Lords' blazing soul.
-Half-hour break for knight to see
-accursed force it dares now hold.
- 
-After the break, we moved on to the Irithyll dungeon area, with more text being left to us:
- 
-#168+
-Ah, Great Sin's old flame warm and sublime
-engulfs the Puppet as it feeds.
-Thick priest of old who ate Divine -
-mere food for one who Flame now needs.
-
- ////////////////////
-
-
-In the dungeon area, the Puppet’s weapons gained even more fire effects – especially the visual that appears on-hit. New spells were seen here: floating chaos (with a custom casting animation, seemed to be that of the way of white corona) and some kind of large explosion – those that Nameless Flame used. While the Puppet’s progress was halted at times, he eventually managed to get through the level, leaving us with another poem some half-way through:
-
-
-#169+
-Invasive blaze shrieks through these cells,
-it scorches soul and flesh alike.
-As eyes are veiled by oldest hells,
-knight's soul takes shape I so dislike.
- 
-Eventually, making its way past the room with multiple jailers, we received a poem usually reserved for red sign summonings:
- 
 #170+
 Knight's soul fears not this game,
 for with each Lord it becomes more
@@ -83,7 +42,7 @@ After getting one more kill under its belt, the Puppet moved to Archdragon peak,
  //////////////////////
 
 
-#165
+#171+
 Invoke storm clouds a distant though
 of life so long it had no start.
 Knight seeks what it once sought,
@@ -91,7 +50,7 @@ yet couldn't get, too weak of heart.
  
 Here, he utilized the arms and spells Lord of hail had. These included an Astora greatsword which still had the custom WAs the Arstor’s spear had, along with a new one – a curved sword spin with a large knockback effect.  Spells included a gust of wind (using the black flame animation) that knocked down his adversaries, a lighting spear combed with a shot from the Smouldering lake ballista. Scoring several kills in the area before the Wyvern boss, the invaders got a message:
  
-#166
+#172+
 As you endure this path as well,
 and yield so many souls to it,
 feel you the weight of things that dwell,
@@ -99,7 +58,7 @@ within this shell a Lord befit?
  
 Moving through the area past the Dragonkin Mausoleum, the Puppet seemed to grow stronger than when entering the area, acquiring multiple attacks capable of 3-shotting its challenger. Reaching the area after the Great Belfry, the Puppet began using teleportation spells that utilized floating energy orbs as hotpoints. After several encounters, we were once again beckoned to challenge the creation one-on-one:
  
-#167
+#173+
 True apparition, adept of storm,
 hangs over knight, stronger than most.
 As bell bleeds through the cloud's swarm,
@@ -107,7 +66,7 @@ Come to the fog, engage the ghost.
  
 The boss fight in Archdragon peak was held in the open area that is unlocked after defeating Nameless king, with two orbs present. Besting this Puppet proved the greatest challenge yet, due to a combination of fast, strong attacks – both magical and physical, along with the teleporting and multiple uses of regeneration-inducing souls. One final challenger was summoned, accompanied by poem 168:
  
-#168
+#174+
 Bleak stones we paint by blood of Ash,
 as their souls nurture voiceless knight.
 Time comes for fate to make another dash
@@ -117,7 +76,7 @@ More Flames are left to feed its might
  
 After another climactic face-off, the Puppeteer ended the event for this day:
  
-#169
+#175+
 As sun fades from the titan sky,
 all beasts and men fall down in shade.
 The knight again closes his eye:
@@ -130,7 +89,7 @@ An interesting note is that throughout the day, the Puppeteer seemed to interact
 Amazingly, as we started off our run, a special someone joined VC chat… the Puppeteer, who was muted, but could very well hear what we talked about, commenting on what’s happening in sometimes very cheeky ways.
 
 The run continued in Profaned capital, accompanied by poem #170:
-#170
+#176+
 Amidst the putrid toxic trash
 once walked a weary, lonely one.
 Foes resolutely would he crush -
@@ -139,7 +98,7 @@ though just a cripple on the run.
 
 Aquamarine dagger was added to the weaponry of the Puppet. Quite soon after beginning the event, we received an invitation for red sign summons in poem 171:
 
-#171
+#177+
 The truest traitor of his race,
 devolved to mere old nameless thing.
 Now vaguely image shows its face,
@@ -148,7 +107,7 @@ before the Lord on throne of king.
 
 Boss weapons: aquamarine dagger, Astora greatsword, partizan. These did not seem to have custom WAs. Visually, the Puppet was missing one arm, mimicking Oden the Armless. In the fight, the Puppet was especially aggressive when taking out the aquamarine. As always, we got two poems before the run moved onto the next area:
 
-#172
+#178+
 In silence watched by titan two,
 who fight before his giant soul.
 Fear not, poor sufferer, you too,
@@ -156,7 +115,7 @@ will eaten be alive and whole.
 
 1 LEFT
 
-#173
+#179+
 Lord dead and gone in gaping maw
 No man or god is now the knight -
 a Sin at which great hungers gnaw,
@@ -165,13 +124,13 @@ a monster with a soul so bright.
 
 In Lothric castle, the Puppet returned to using explosion-based spells, along with a new one – a combination of Farron dart and seething chaos: the projectile did some damage along with a slight knockback; the falling point of the projectile marking the seething chaos mine spot. Here, almost all invasions were Xv1s, as the Puppeteer seemed to keep the invader count limit disabled. Poems 173-175 all came bolded, as if the Puppet was overwhelmed with the enormous power it had acquired, the kill count rising to almost 150.
 
-#174
+#180+
 No apparition is this flame -
 new certain state of hollow thing.
 Great Sin of Old it is to blame,
 for this great burden it doth bring.
 
-#175
+#181+
 As embers flicker in the air
 hot wind blows from the sacred sin.
 Sign stones by fog now, if you dare
@@ -182,7 +141,7 @@ In the boss fight, the Puppet utilized area-of-denial spells extensively. Floati
 The boss fight proved extremely challenging, with very few succeeding. Eventually, by subduing enough opponents, the Puppet seemed to recover control to some extent:
 
 
-#176
+#182+
 Flame rages on in cursed soul
 as knight subdues it with stern will:
 ought not it waste this precious coal,
@@ -194,7 +153,7 @@ left final Lord to gulp with thrill.
 After striking the last challenger down, the run moved to Untended graves, where the Puppet mimicked Nameless Flame’s final form, his head covered in a black mist akin to that of harald knights in TRC. He utilized a blackflame-buffed onyx blade, ringed knight sword and spear, and several black pyromancies along with the close-range explosion spell from before. We did not stay in this area for too long, the Puppet reaching the boss fog quite quickly:
 
 
-#177
+#183+
 A fleeting spark of human soul
 engulfs the knight in veil's blacks.
 Fog now approach, for it's your goal
