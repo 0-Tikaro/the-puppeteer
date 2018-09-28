@@ -1,53 +1,70 @@
-IRITHYLL DUNGEON
-////////////////
+<p>Thirty minutes (or maybe a bit more) had passed, and the Puppet overpowered the god-eating priest. Poem #168 had given us the resolution of the encounter. The fights were over, the time came for the feast. With the mind temporarily clear of any apparitions, the Puppet had consumed the second Lord of Cinders.</p>
+<p>The effects were soon to follow. The mute knight descended from the derelict cathedral of the gods, backtracked through the empty streets of Irithyll, and descended even lower, into the dungeon. Here, the Lord of Cinder's soul has begun taking its roots.</p>
 
-Thirty minutes (or maybe a bit more) had passed, and the Puppet overpowered the god-eating priest. Poem #168 had given us the resolution of the encounter. The fights were over, the time came for the feast. With the mind temporarily clear of any apparitions, the Puppet had consumed the second Lord of Cinders.
+<img src="assets/images/180511_twitch23.jpg" data-action="zoom"/>
 
-The effects were soon to follow. The mute knight descended from the derelict cathedral of the gods, backtracked through the empty streets of Irithyll, and descended even lower, into the dungeon. Here, the Lord of Cinder's soul has begun taking its roots.
+<p>Just as #151, #152, and #153---which were sent in the Catacombs, right after the consumption of Abyss Watchers---all the poems sent in Irithyll Dungeon were emboldened, showing that the knight was under Great Sin's influence.</p>
 
-Just as #151, #152, and #153---which were sent in the Catacombs, right after the consumption of Abyss Watchers---all the poems sent in Irithyll Dungeon were emboldened, showing that the knight was under Great Sin's influence.
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Fanboy's first encounter with the enflamed Puppet
+	<i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="efsSoX8hgdI"><div class="play-button"></div></div>
+</div>
 
-[fanboy 1]
-Fanboy's first encounter with the enflamed Puppet
-https://youtu.be/efsSoX8hgdI
+<p>We eagerly trailed the thing, and Fanboy was the first to stumble upon its world. The Sin's influence was similar to what we saw deep in the Catacombs, only this time---stronger. The Puppet's main weapon has been under the special fire buff, but now any hit that grazed us would briefly set our characters aflame. The effect seems to have been purely cosmetical, although it is possible that the main weapon's damage was also augmented.</p>
 
-We eagerly trailed the thing, and Fanboy was the first to stumble upon its world. The Sin's influence was similar to what we saw deep in the Catacombs, only this time---stronger. The Puppet's main weapon has been under the special fire buff, but now any hit that grazed us would briefly set our characters aflame. The effect seems to have been purely cosmetical, although it is possible that the main weapon's damage was also augmented.
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Narcolept and chimeraBlood in a hectic showdown against the Puppet
+	<i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="vC6ZNxMP21g"><div class="play-button"></div></div>
+</div>
 
-[narc 1]
-Narcolept and chimeraBlood in a hectic showdown against the Puppet
-https://www.youtube.com/watch?v=vC6ZNxMP21g
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Narcolept, Necrow, and general PvE bullying the Puppet in a happy tandem
+	<i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="6vftI48E0KU"><div class="play-button"></div></div>
+</div>
 
-[narc 2]
-Narcolept, Necrow, and general PvE bullying the Puppet in a happy tandem
-https://youtu.be/6vftI48E0KU
+<p>Great Old Sin's influence did not stop at just coating the weapons in special fire. The Puppet had now possessed a pyromancy flame with two custom spells: Floating Chaios with Way of White's Corona animation, its main purpose being crowd control and breaking our offence; and a huge explosion with Sacred Flame's wind-up. (A momentary note: the same explosion was used for the Nameless Flame's ground pound).</p>
+<p>The Puppet had struggled through the area, partly because the summoning limits were frequently turned off, parly because the jailers had proven extremely dangerouns for it: not only did their health drain decimated the Puppet's huge health pool, but the mute knight also had no way of regaining lost health quickly, its only options the weak innate regen and Golden Souls.</p>
 
-Great Old Sin's influence did not stop at just coating the weapons in special fire. The Puppet had now possessed a pyromancy flame with two custom spells: Floating Chaios with Way of White's Corona animation, its main purpose being crowd control and breaking our offence; and a huge explosion with Sacred Flame's wind-up. (A momentary note: the same explosion was used for the Nameless Flame's ground pound).
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Fanboy fighting a long war of attrition
+	<i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="k0NxKymwUts"><div class="play-button"></div></div>
+</div>
 
-The Puppet had struggled through the area, partly because the summoning limits were frequently turned off, parly because the jailers had proven extremely dangerouns for it: not only did their health drain decimated the Puppet's huge health pool, but the mute knight also had no way of regaining lost health quickly, its only options the weak innate regen and Golden Souls.
+<p>For the sake of the story, the Puppet's wavering performance could be tied to it struggling with Great Old Sin's flame, which if we recall the poems from the Catacombs (#151, #152, #153), seems to have been momentarily debilitating for the knight.</p>
 
-[fanboy 3]
-Fanboy fighting a long war of attrition
-https://youtu.be/k0NxKymwUts
+<img src="assets/images/180511_twitch24.jpg" data-action="zoom"/>
 
-For the sake of the story, the Puppet's wavering performance could be tied to it struggling with Great Old Sin's flame, which if we recall the poems from the Catacombs (#151, #152, #153), seems to have been momentarily debilitating for the knight.
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Fanboy stopping the Puppet before the giant
+	<i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="pwMvxORBhV0"><div class="play-button"></div></div>
+</div>
 
-[img 2]
-
-[fanboy 2]
-Fanboy stopping the Puppet before the Giant
-https://youtu.be/pwMvxORBhV0
-
-We fought it off well, but, as always, the Puppet kept coming back. It slowly crept its way through the area. Somewhere in the middle, #169 was sent, shining some light on the transformations that were going on within the Puppet.
-
-The first half of the poem likely refers to the Puppet's advancement through the Dungeon, for in the Catacombs it was described as "howling" from Sin's intrusive flame. Soul of Cinders is presented to be a lot more powerful in the Puppeteer's lore than it is in the actual game, so it isn't a far fetched idea that the souls of Lords of Cinders, which are by definition linked to the Soul of Cinders, would be orders of magnitude more potent than any other soul which could be found in the world. And so would their effects---"scorching soul and flesh alike".
-
-#169's second half is more interesting: it talks of the Father's personal view on the issue. The Puppet has now consumed two of these magnificent souls, its very living core suffering from their influence, incapable yet of controlling it. They, vestiges of the "oldest hells", are fundamentally reconstructing the Puppet's formless grey soul, imbuing it and altering it into something different. Something the Father had a strong distaste of: a soul akin to the hellish amalgamation that fuels the Great Old Sin itself.
-
-As the Puppet fought on through the dungeon, and reached the crumbled dragon monk overlooking Archdragon Peak, #170 has confirmed our suspicions. The Puppet's only realistic way of overpowering Great Old Sin was to "become as it", per the last line of #150. Its fate was to keep marching on, consuming all the living things it would encounter alonge the way, gulping down any Lords of Cinders still left in the world, until there was nothing more to consume. Then, and only then, would it face the Great Old Sin to either fall as its victim and let the Father's plan crumble into dust, or overpower it and sever its rotten presence from the world.
-
-It is also important to note that poem #170 had the "<b>1 LEFT</b>" at the end of it, which was usually reseved for ending boss encounters. Irithyll dungeon was unique in that it had no such boss encounter---likely because the area itself had no boss. That is unless you count the Profaned Captial to be an extension of the Dungeon, but, as you will see at the start of the next day, the Puppeteer clearly didn't.
-
-With one last kill under the Puppet's belt, no one remained in the mute knight's world. Alone, it subdued the scorching heat of Aldrich's Lord Soul. Then, left completely alone in the blackness of the night, it sat. It sat, and slept. And as countless dragon sages, it dreamnt of the fabled Peak
+<p>We fought it off well, but, as always, the Puppet kept coming back. It slowly crept its way through the area. Somewhere in the middle, #169 was sent, shining some light on the transformations that were going on within the Puppet.</p>
+<p>The first half of the poem likely refers to the Puppet's advancement through the Dungeon, for in the Catacombs it was described as "howling" from Sin's intrusive flame. Soul of Cinders is presented to be a lot more powerful in the Puppeteer's lore than it is in the actual game, so it isn't a far fetched idea that the souls of Lords of Cinders, which are by definition linked to the Soul of Cinders, would be orders of magnitude more potent than any other soul which could be found in the world. And so would their effects---"scorching soul and flesh alike".</p>
+<p>#169's second half is more interesting: it talks of the Father's personal view on the issue. The Puppet has now consumed two of these magnificent souls, its very living core suffering from their influence, incapable yet of controlling it. They, vestiges of the "oldest hells", are fundamentally reconstructing the Puppet's formless grey soul, imbuing it and altering it into something different. Something the Father had a strong distaste of: a soul akin to the hellish amalgamation that fuels the Great Old Sin itself.</p>
+<p>As the Puppet fought on through the dungeon, and reached the crumbled dragon monk overlooking Archdragon Peak, #170 has confirmed our suspicions. The Puppet's only realistic way of overpowering Great Old Sin was to "become as it", per the last line of #150. Its fate was to keep marching on, consuming all the living things it would encounter alonge the way, gulping down any Lords of Cinders still left in the world, until there was nothing more to consume. Then, and only then, would it face the Great Old Sin to either fall as its victim and let the Father's plan crumble into dust, or overpower it and sever its rotten presence from the world.</p>
+<p>It is also important to note that poem #170 had the "<b>1 LEFT</b>" at the end of it, which was usually reseved for ending boss encounters. Irithyll dungeon was unique in that it had no such boss encounter---likely because the area itself had no boss. That is unless you count the Profaned Captial to be an extension of the Dungeon, but, as you will see at the start of the next day, the Puppeteer clearly didn't.</p>
+<p>With one last kill under the Puppet's belt, no one remained in the mute knight's world. Alone, it subdued the scorching heat of Aldrich's Lord Soul. Then, left completely alone in the blackness of the night, it sat. It sat, and slept. And as countless dragon sages, it dreamnt of the fabled Peak.</p>
 
 <p class="killcount">&mdash;108&mdash;</p>
 
