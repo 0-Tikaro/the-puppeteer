@@ -422,7 +422,7 @@ code {
     color: var(--bg-color);
 }
 .collapsible i {
-    padding-right: 12px;
+    padding-right: 8px;
 }
 .collapsible_content {
     display: none;
@@ -525,6 +525,7 @@ h4 {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+    line-height: 1.2;
 }
 .f-r {
     float: right;
