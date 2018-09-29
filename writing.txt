@@ -1,70 +1,72 @@
-<p>Thirty minutes (or maybe a bit more) had passed, and the Puppet overpowered the god-eating priest. Poem <span class="tooltip">#168<span class="tooltiptext ref168"></span></span> had given us the resolution of the encounter. The fights were over, the time came for the feast. With the mind temporarily clear of any apparitions, the Puppet had consumed the second Lord of Cinders.</p>
+The Puppet had awoken, finding itself at the base of the great citadel, gusts of wind defending it from all outer realms. We followed it.
 
-<img src="assets/images/180511_twitch23.jpg" data-action="zoom"/>
+[img 1]
 
-<p>The effects were soon to follow. The mute knight descended from the derelict cathedral of the gods, backtracked through the empty streets of Irithyll, and descended even lower, into the dungeon. Here, the Lord of Cinder&rsquo;s soul has begun taking its roots.</p>
-<p>Just as <span class="tooltip">#151<span class="tooltiptext ref151"></span></span>, <span class="tooltip">#152<span class="tooltiptext ref152"></span></span>, and <span class="tooltip">#153<span class="tooltiptext ref153"></span></span>&mdash;which were sent in the Catacombs, right after the consumption of Abyss Watchers&mdash;all the poems sent in Irithyll Dungeon were emboldened, showing that the knight was under Great Sin&rsquo;s influence.</p>
+This area would become the crowning one for the second third of the finale, and also quite possibly the single longest area of the whole run, spanning two hours of gameplay and four distinct background images for the Twitch stream. This could be tied to the fact that Lord of Hail (whose apparition we were about to witness) was killed off quite quickly by the Puppeteer, having been seen for just two events (which were described in chapters X. Spark of Yore and XIV. Sparks and Corpses). But, more likely, this was just a random natural coincidence, since the area itself is fairly long in the game.
 
-<button class="collapsible">
-    <i class="material-icons f-l">theaters</i>
-    Fanboy's first encounter with the enflamed Puppet
-	<i class="material-icons icon-expand f-r">expand_more</i>
-</button>
-<div class="collapsible_content">
-    <div class="youtube" data-embed="efsSoX8hgdI"><div class="play-button"></div></div>
-</div>
+Lord of Hail, from the three states of Oden we saw throughout the story, is undoubtedly the most important one for the Puppet. As poem #173 would let us know in the near future, his apparition was the most potent of all we saw so far. But let's not jump the horse yet: the area began with #171.
 
-<p>We eagerly trailed the thing, and Fanboy was the first to stumble upon its world. The Sin&rsquo;s influence was similar to what we saw deep in the Catacombs, only this time&mdash;stronger. The Puppet&rsquo;s main weapon has been under the special fire buff, but now any hit that grazed us would briefly set our characters aflame. The effect seems to have been purely cosmetical, although it is possible that the main weapon&rsquo;s damage was also augmented.</p>
+Anor Londo's first poem (#164) gave a slight hint on the events that took place between Slumbering Oden's reawakening and Lord of Hail's first appearance. Poem #171 gives more lore on Oden, but does so without a precise time-frame. The first two lines even say that his life began so indescribably long ago, it can't even be said to have a beginning.
 
-<button class="collapsible">
-    <i class="material-icons f-l">theaters</i>
-    Narcolept and chimeraBlood in a hectic showdown against the Puppet
-	<i class="material-icons icon-expand f-r">expand_more</i>
-</button>
-<div class="collapsible_content">
-    <div class="youtube" data-embed="vC6ZNxMP21g"><div class="play-button"></div></div>
-</div>
+The latter half, as is frequently the case with the Puppeteer's poems, is more interesting that the former. We are keenly aware of what the Puppet seeks: it seeks to overpower the Great Old Sin and sever its link to the world. The latter half very clearly states that this goal is the same as Oden's, which agrees with everything we know about the derelict god of antiquity.
 
-<button class="collapsible">
-    <i class="material-icons f-l">theaters</i>
-    Narcolept, Necrow, and general PvE bullying the Puppet in a happy tandem
-	<i class="material-icons icon-expand f-r">expand_more</i>
-</button>
-<div class="collapsible_content">
-    <div class="youtube" data-embed="6vftI48E0KU"><div class="play-button"></div></div>
-</div>
+But the most intriguing is the last line: "yet couldn't get, too weak of heart". Oden was built up a reserved and wise character, much like the Father in his stern distaste of the Fire. From the poems sent during his long slumber (particularly #51, #58, #60), we have learned that he also was not afraid of getting into bloody confrontations for the sake of his beliefs. #58 and #60 in particular, referring almost certainly to his first and only confrontations with the Heart of Spears, give an idea that he would go so far as to openly oppose the gods at some point, likely trying to wake or even kill Filianore in the Ringed City. And later on, as the transient spark that was the Lord of Hail, #77 and #83 show that he was completely aware and in agreement with his impending doom, for he knew it would bring a chance to achieve what he long sought.
 
-<p>Great Old Sin&rsquo;s influence did not stop at just coating the weapons in special fire. The Puppet had now possessed a pyromancy flame with two custom spells: Floating Chaios with Way of White&rsquo;s Corona animation, its main purpose being crowd control and breaking our offence; and a huge explosion with Sacred Flame&rsquo;s wind-up. (A momentary note: the same explosion was used for the Nameless Flame&rsquo;s ground pound).</p>
-<p>The Puppet had struggled through the area, partly because the summoning limits were frequently turned off, parly because the jailers had proven extremely dangerouns for it: not only did their health drain decimated the Puppet&rsquo;s huge health pool, but the mute knight also had no way of regaining lost health quickly, its only options the weak innate regen and Golden Souls.</p>
+So, with such strong beliefs and wills to back them up, why was he "weak of heart"? Do not forget from whose perspective the poems are written. It is not some uninvolved outside observer---but the Father. The Father, whose ideology was very much in tune with Oden's.
 
-<button class="collapsible">
-    <i class="material-icons f-l">theaters</i>
-    Fanboy fighting a long war of attrition
-	<i class="material-icons icon-expand f-r">expand_more</i>
-</button>
-<div class="collapsible_content">
-    <div class="youtube" data-embed="k0NxKymwUts"><div class="play-button"></div></div>
-</div>
+This provides us with a curious juxtaposition: the Father and Oden shared if not the same, then at least very similar goals. But the means with which they pursued them differed wildly. We cannot judge Oden's choice of means very precisely, for in the present we only saw him as a puppet under the Father's guidance. Yet from all the little bits and pieces of his lore, it seems that he was a valiant man, and opposed the gods of Lordran head-first. He fought straight through the Ringed City and, ultimately, overpowered Heart of Spears after a week of arduous combat. Yet he fell short of his target, and was likely stripped of his divine status and exiled from Lordran only to be slowly degraded into a vagabond hollow we come to know as Oden the Armless.
 
-<p>For the sake of the story, the Puppet&rsquo;s wavering performance could be tied to it struggling with Great Old Sin&rsquo;s flame, which if we recall the poems from the Catacombs (<span class="tooltip">#151<span class="tooltiptext ref151"></span></span>, <span class="tooltip">#152<span class="tooltiptext ref152"></span></span>, <span class="tooltip">#153<span class="tooltiptext ref153"></span></span>), seems to have been momentarily debilitating for the knight.</p>
+Oden's mind was dark, but his methods were not. Although there is not much to back such a theory up, it appears that it is this sort of straight-forward "nobility" of his methods that Father had deemed a "weakness of heart". The Father, as we saw from the very beginning and until the very end, while pursuing the same goal, used much more decadent and brutal methods. Reanimating hollow beings or leading those still living astray into his web of strings, all to be used as cannon fodder. And when that cannon fodder was destroyed, the Father stitched the remains together and sent them out again. And again. And again. And after that horrible cycle brought him all the precious souls and corpses he needed, he stitched them one last time into a lifeless Puppet---a blank hollow solider with a singular goal. Oden waged the war against the gods by himself. Father waged the same war by using (and abusing) other creatures.
 
-<img src="assets/images/180511_twitch24.jpg" data-action="zoom"/>
+fanboy 1
+https://youtu.be/vS16hPSJIFs
 
-<button class="collapsible">
-    <i class="material-icons f-l">theaters</i>
-    Fanboy stopping the Puppet before the giant
-	<i class="material-icons icon-expand f-r">expand_more</i>
-</button>
-<div class="collapsible_content">
-    <div class="youtube" data-embed="pwMvxORBhV0"><div class="play-button"></div></div>
-</div>
+But, coming back from the theories to the realities of the Puppet's journey, we faced Lord of Hail's apparition in nearly full force right from the start. The Drakeblood Greatsword remained in mute knight's off-hand, now being at its rightful place as Lord of Hail's off-hand. It was accompanied by Oden's Astora Greatsword and Storm-based spells.
 
-<p>We fought it off well, but, as always, the Puppet kept coming back. It slowly crept its way through the area. Somewhere in the middle, <span class="tooltip">#169<span class="tooltiptext ref169"></span></span> was sent, shining some light on the transformations that were going on within the Puppet.</p>
-<p>The first half of the poem likely refers to the Puppet&rsquo;s advancement through the Dungeon, for in the Catacombs it was described as &ldquo;howling&rdquo; from Sin&rsquo;s intrusive flame. Soul of Cinders is presented to be a lot more powerful in the Puppeteer&rsquo;s lore than it is in the actual game, so it isn&rsquo;t a far fetched idea that the souls of Lords of Cinders, which are by definition linked to the Soul of Cinders, would be orders of magnitude more potent than any other soul which could be found in the world. And so would their effects&mdash;"scorching soul and flesh alike".</p>
-<p><span class="tooltip">#169<span class="tooltiptext ref169"></span></span>&rsquo;s second half is more interesting: it talks of the Father&rsquo;s personal view on the issue. The Puppet has now consumed two of these magnificent souls, its very living core suffering from their influence, incapable yet of controlling it. They, vestiges of the &ldquo;oldest hells&rdquo;, are fundamentally reconstructing the Puppet&rsquo;s formless grey soul, imbuing it and altering it into something different. Something the Father had a strong distaste of: a soul akin to the hellish amalgamation that fuels the Great Old Sin itself.</p>
-<p>As the Puppet fought on through the dungeon, and reached the crumbled dragon monk overlooking Archdragon Peak, <span class="tooltip">#170<span class="tooltiptext ref170"></span></span> has confirmed our suspicions. The Puppet&rsquo;s only realistic way of overpowering Great Old Sin was to &ldquo;become as it&rdquo;, per the last line of <span class="tooltip">#150<span class="tooltiptext ref150"></span></span>. Its fate was to keep marching on, consuming all the living things it would encounter alonge the way, gulping down any Lords of Cinders still left in the world, until there was nothing more to consume. Then, and only then, would it face the Great Old Sin to either fall as its victim and let the Father&rsquo;s plan crumble into dust, or overpower it and sever its rotten presence from the world.</p>
-<p>It is also important to note that poem <span class="tooltip">#170<span class="tooltiptext ref170"></span></span> had the &ldquo;<b>1 LEFT</b>&rdquo; at the end of it, which was usually reseved for ending boss encounters. Irithyll dungeon was unique in that it had no such boss encounter&mdash;likely because the area itself had no boss. That is unless you count the Profaned Captial to be an extension of the Dungeon, but, as you will see at the start of the next day, the Puppeteer clearly didn&rsquo;t.</p>
-<p>With one last kill under the Puppet&rsquo;s belt, no one remained in the mute knight&rsquo;s world. Alone, it subdued the scorching heat of Aldrich&rsquo;s Lord Soul. Then, left completely alone in the blackness of the night, it sat. It sat, and slept. And as countless dragon sages, it dreamnt of the fabled Peak</p>
+Contrasting Irithyll Dungeon, where the Puppet was surprisingly underpowered, this apparition has proven to be one of the scariest. Perhaps because the Puppeteer has hit that "flow" state in real life, or perhaps because the weapon setup was more fitting the Puppet's bold playstyle. Astora Greatsword in particular has allowed it to force its way through many of our attacks, which he would frequently tank regardless of what weapon was in its hand.
 
-<p class="killcount">&mdash;108&mdash;</p>
+Having consumed several of our souls in the rocky prelude of the citadel, it quickly disposed of the wyvern and ascended into the Mausoleum.
 
+[img 2]
+fanboy 2
+https://youtu.be/4pYttHpjJWI
+
+Here we saw a small addition to its already scary arsenal: the ultra greatsword has gained a Spin Slash, much like what Slumbering Oden had used. It was used sparingly, for its quick animation paired with knockdown and decent damage made it devastating.
+
+As the Puppet strode through the Mausoleum, poem #172 spoke not of Oden, but of the Puppet. All of us have been trailing the mute knight on its great journey. And we saw its evolution from a meek, defenseless thing with a broken sword all the way to a ruthless being on its way to kill a deity.
+
+its journey was not only one of consuming souls from outside, but also smothering all the entities that composed it from within. All the way back from the Cathedral of the Deep, the Puppet had been nigh constantly bombarded by many past puppets, surfacing from its chaotic mind. And it overcame each and every one of them, on a steady path to void its mind of absolutely everything.
+
+
+[img 3]
+
+The synthetic thing marched on through the mausoleum and reached its peak---the Great Belfry. A thought was echoed that the Puppet had grown stronger still, and the recordings from this time seem a to agree. Just take a look at this:
+
+fanboy 3
+https://youtu.be/SIYUvQhcPuM
+
+It took <b>three</b> experienced invaders upwards of six minutes of constant combat with the single target to break it down, with the Puppet surviving on low health for a fair while. Granted, the Puppeteer did not make any single person his target and was unable to kill any of the three. But it's likely that man behind the controller was enjoying the calamity of fighting so many tough opponents.
+
+fanboy 4
+https://youtu.be/6xrYVjngt10
+
+Several climactic fights were held in the Great Belfry in very much the same style as Lord of Hail's events. But, as the time ticked on, the time of the area came to an end. Having had almost one and a half hours to see just how dangerous this apparition was, we were now to face it one-on-one.
+
+[boss]
+
+Lord of Hail's apparition was deemed one of the best boss-fights of the entire event. The Puppeteer was playing well, the Puppet's arsenal was varied enough to make the fight interesting, and the area was atmospheric. Not to mention, Oden's signature warping and the Puppet's willingness to use several regeneration souls made the fights exhausting.
+
+Poem #173 opened the boss-fight, and #174 closed it. And although they are mostly "generic" poems that don't speak about anything in particular, there are still a couple of points to consider.
+
+First of all, although it has been already touched upon in the earlier chapters, "adept of storm" once again indicated that the Lord of Hail was a god of nature. more precisely, of storms and rains. This is only tangentially related to the story, but Ensign has noted that it's fairly fitting for Oden's affinity for the dark. Or, rather, it does not go against said affinity. As we know, many gods of Gwyn's pantheon are directly linked to light, sun, or lightning. Oden, was a god coming from the same age, but was not a part of the same pantheon nor did he depended upon light or fire for his powers.
+
+There is one more interesting detail to think about. When we first learned of Heart of Spear's downfall induced by Oden (which, at the time, we had no idea was Oden), he was called a "titan Lord of Thunder". But coming back from his slumber, Oden's title changed to "Lord of Hail". If <i>thunder</i> was at least tangentially related to lightning, <i>hail</i> is not. If anything, it's even closer to winter and cold than to lightning or sunlight. May have his long exile and growing affinity for the dark changed that which he was associated with as a deity? Much like when Gwyn was initially known as Lord of Sunlight, later becoming a Lord of Cinders after his self-sacrifice to the First Flame.
+
+(The last paragraph is pure speculations, there is not a lot of concrete evidence to back it up).
+
+[fanboy boss]
+https://youtu.be/5Aw67xTzPFk
+
+After everyone challenged the Puppet once or twice, the event came to a conclusion. Day two has extended for about the same time as the first one---nine hours of playtime, with many of us jumping in and out of it as it went on. The closing poem #175 was sent, reiterating the Puppet's stoical nature.
+
+<p class="killcount">&mdash;120&mdash;</p>
