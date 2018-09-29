@@ -10,30 +10,60 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-body {
+html {
+    font-size: 20px;
+}
+body, body.night-mode {
+    text-rendering: optimizeLegibility;
     margin: 0;
+    background: var(--bg-color);
+    line-height: 1.5;
+}
+body {
     --text-color: #373737;
     --bg-color: #ffffff;
     --shade-color: #e0e0e0;
     --link-color: #267CB9;
+    --link-active-color: #30b1e4;
     --puppeteer-color: #1c8978;
-    /*background-image: url("../images/180203_narcDM3.jpg");*/
-    background: var(--bg-color);
+    --ul-bullet: url(../images/tech/ul_bullet_day.png);
 }
 body.night-mode{
     --text-color: #b5b5b5;
     --bg-color: #1e1e1e;
     --shade-color: #4e4e4e;
     --link-color: #7faad3;
+    --link-active-color: #a7ddff;
     --puppeteer-color: #83bdb4;
-    background: var(--bg-color);
+    --ul-bullet: url(../images/tech/ul_bullet_night.png);
+}
+h1, h2, h3, #title{
+    font-family: "Pirata One";
+    font-weight: 300;
+}
+h1 {
+    font-size: 1.75rem;
+    padding-top: 3rem;
+}
+h2 {
+    font-size: 1.8rem;
+    padding-top: 3.25rem;
+}
+h3 {
+    font-size: 1.25rem;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
-@media all and (min-width:685px) {
-    html {
-        font-size: 20px;
-    }
+
+
+@media all and (min-width:1000px) {
     .wrapper {
         width: 100%;
         max-width: 1100px;
@@ -97,13 +127,9 @@ body.night-mode{
 
 
 }
-@media all and (max-width:685px) {
-    html{
-        font-size: 16px;
-    }
+@media all and (max-width:1000px) {
     .wrapper {
         width: 100%;
-        padding-top: 64px;
         padding-bottom: 64px;
 
         color: #373737;
@@ -114,7 +140,15 @@ body.night-mode{
         position: relative;
         width: 100%;
         z-index: 20;
+        margin: 0 6rem;
     }
+    #title {
+        position: fixed;
+        width: 100%;
+        padding: 1rem;
+        background-color: var(--bg-color);
+    }
+
     #content {
         margin: 6rem;
         padding-top: 0.25rem;
@@ -238,15 +272,16 @@ body.night-mode{
 .chapter-title{
     text-align: right;
     opacity: 0.4;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
 }
 .chapter-desc {
     text-align: right;
-    opacity: 0.6;
     font-style: italic;
+    opacity: 0.6;
+    margin-top: 0;
 }
 .space-between-chapters {
-    height: 40rem;
+    height: 35rem;
 }
 
 .title-transition {
@@ -271,25 +306,9 @@ body.night-mode{
     opacity: 1;
 }
 
-h1, h2, h3, #title{
-    font-family: "Pirata One";
-    font-weight: 300;
-}
-h2 {
-    font-size: 1.8rem;
-    padding-top: 3.25rem;
-}
-h3 {
-    font-size: 1.25rem;
-    margin-top: 80px;
-    margin-bottom: 0;
-}
-p {
-    margin: 1.1em 0 1.1em;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+ul {
+    list-style-type: none;
+    list-style-image: var(--ul-bullet);
 }
 
 .poem {
@@ -306,6 +325,7 @@ img {
     margin-top: 1rem;
 }
 pre {
+    font-family: Consolas, monospace;
     overflow-x: auto;
     padding: 10px;
     font-size: 0.8rem;
@@ -320,12 +340,26 @@ pre.poem {
 a {
     color: var(--link-color);
     text-decoration: none;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+a:hover {
+    color: var(--link-active-color);
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
 }
 blockquote {
     font-size: 0.9rem;
     font-style: italic;
-    margin-left: 0.5rem;
-    padding-left: 1rem;
+    margin-left: 0;
+    padding: 1em;
+    border-left: 1px solid var(--text-color);
 }
 
 .QA {
@@ -351,15 +385,21 @@ code {
 
 .killcount {
     text-align: center;
-    margin: 80px;
-    font-size: 1rem;
-    /* font-weight: 600; */
-    /* color: #bbb; */
+    margin: 4rem;
 }
 
+.collapsible,
+.collapsible:hover,
+.collapsible:active {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
 .collapsible {
     width: 100%;
-    background: var(--bg-color);
+    background: transparent;
     color: var(--text-color);
     padding: 12px;
     /*margin-bottom: 3px;*/
@@ -368,38 +408,36 @@ code {
     text-align: left;
     outline: none;
     font-size: 18px;
+    line-height: 1.5;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    z-index: 0;
-    opacity: 0.6;
-    border-bottom: 1px solid transparent;
-
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    opacity: 0.8;
 }
-.collapsible:hover, .collapsible.active{
-    z-index: 1;
+.collapsible:hover,
+.collapsible.active{
     opacity: 1;
-    /*box-shadow: 0 2px 5px 0 #ccc;*/
-    /*border-bottom: 1px solid #ddd;*/
-
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+}
+.collapsible.active {
+    background: var(--text-color);
+    color: var(--bg-color);
 }
 .collapsible i {
-    padding-right: 12px;
+    padding-right: 8px;
 }
 .collapsible_content {
     display: none;
     overflow: hidden;
     background: #222;
     color: #fff;
+}
+.collapsible_content + .collapsible {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.collapsible_content p {
+    padding-left: 0.5rem;
+    margin-bottom: 0.25rem;
+    margin-top: 2rem;
 }
 
 .youtube {
@@ -411,7 +449,7 @@ code {
 }
 .youtube img {
     width: 100%;
-    top: -16.84%;
+    top: -22.44%;
     left: 0;
     opacity: 0.7;
 }
@@ -456,4 +494,42 @@ code {
     width: 100%;
     top: 0;
     left: 0;
+}
+
+table {
+    width: 100%;
+}
+td {
+    padding: 0.5rem;
+}
+table .fas {
+    font-size: 0.8rem;
+}
+
+h4 {
+    text-align: right;
+    border-bottom: 2px solid var(--text-color);
+    margin-bottom: 0;
+}
+
+
+.video-date {
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+.icon-expand {
+    opacity: 0.5;
+}
+.material-icons {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    line-height: 1.2;
+}
+.f-r {
+    float: right;
+}
+.f-l {
+    float: left;
 }

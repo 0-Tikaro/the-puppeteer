@@ -24,17 +24,16 @@ function createCollapsibles() {
         coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
 
-            let arrow = $(this.children[1]);
+            let arrow = $(this).find(".icon-expand");
             let content = this.nextElementSibling;
 
             if (content.style.display === "block") {
                 content.style.display = "none";
-                arrow.removeClass( 'fa-angle-double-up' );
-                arrow.addClass( 'fa-angle-double-down' );
+                arrow.html('expand_more');
             } else {
                 content.style.display = "block";
-                arrow.removeClass( 'fa-angle-double-down' );
-                arrow.addClass( 'fa-angle-double-up' );
+                arrow.html('expand_less');
+
             }
         });
     }
@@ -67,7 +66,7 @@ let elNextChapter = $( '#chapter-next' )
 let lastScrollPos = 0;
 let curIdIndex = -1;
 let idList = [
-    "#intro_content",
+    "#top",
     "#synopsis_content",
     "#c171200",
     "#c180120",
