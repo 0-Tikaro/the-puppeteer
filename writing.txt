@@ -1,72 +1,129 @@
-The Puppet had awoken, finding itself at the base of the great citadel, gusts of wind defending it from all outer realms. We followed it.
+<p>The Puppet had awoken, finding itself at the base of the great citadel, gusts of wind defending it from all outer realms. We followed it.</p>
 
-[img 1]
+<img src="assets/images/180511_twitch27.jpg" data-action="zoom"/>
 
-This area would become the crowning one for the second third of the finale, and also quite possibly the single longest area of the whole run, spanning two hours of gameplay and four distinct background images for the Twitch stream. This could be tied to the fact that Lord of Hail (whose apparition we were about to witness) was killed off quite quickly by the Puppeteer, having been seen for just two events (which were described in chapters X. Spark of Yore and XIV. Sparks and Corpses). But, more likely, this was just a random natural coincidence, since the area itself is fairly long in the game.
+<p>This area would become the crowning one for the second third of the finale, and also quite possibly the single longest area of the whole run, spanning two hours of gameplay and four distinct background images for the Twitch stream. This could be tied to the fact that Lord of Hail (whose apparition we were about to witness) was killed off quite quickly by the Puppeteer, having been seen for just two events (which were described in chapters X. Spark of Yore and XIV. Sparks and Corpses). But, more likely, this was just a random natural coincidence, since the area itself is fairly long in the game.</p>
 
-Lord of Hail, from the three states of Oden we saw throughout the story, is undoubtedly the most important one for the Puppet. As poem #173 would let us know in the near future, his apparition was the most potent of all we saw so far. But let's not jump the horse yet: the area began with #171.
+<p>Lord of Hail, from the three states of Oden we saw throughout the story, is undoubtedly the most important one for the Puppet. As poem <span class="tooltip">#173<span class="tooltiptext ref173"></span></span> would let us know in the near future, his apparition was the most potent of all we saw so far. But let&rsquo;s not jump the horse yet: the area began with <span class="tooltip">#171<span class="tooltiptext ref171"></span></span>.</p>
 
-Anor Londo's first poem (#164) gave a slight hint on the events that took place between Slumbering Oden's reawakening and Lord of Hail's first appearance. Poem #171 gives more lore on Oden, but does so without a precise time-frame. The first two lines even say that his life began so indescribably long ago, it can't even be said to have a beginning.
+<p>Anor Londo&rsquo;s first poem (<span class="tooltip">#164<span class="tooltiptext ref164"></span></span>) gave a slight hint on the events that took place between Slumbering Oden&rsquo;s reawakening and Lord of Hail&rsquo;s first appearance. Poem <span class="tooltip">#171<span class="tooltiptext ref171"></span></span> gives more lore on Oden, but does so without a precise time-frame. The first two lines even say that his life began so indescribably long ago, it can&rsquo;t even be said to have a beginning.</p>
 
-The latter half, as is frequently the case with the Puppeteer's poems, is more interesting that the former. We are keenly aware of what the Puppet seeks: it seeks to overpower the Great Old Sin and sever its link to the world. The latter half very clearly states that this goal is the same as Oden's, which agrees with everything we know about the derelict god of antiquity.
+<p>The latter half, as is frequently the case with the Puppeteer&rsquo;s poems, is more interesting that the former. We are keenly aware of what the Puppet seeks: it seeks to overpower the Great Old Sin and sever its link to the world. The latter half very clearly states that this goal is the same as Oden&rsquo;s, which agrees with everything we know about the derelict god of antiquity.</p>
 
-But the most intriguing is the last line: "yet couldn't get, too weak of heart". Oden was built up a reserved and wise character, much like the Father in his stern distaste of the Fire. From the poems sent during his long slumber (particularly #51, #58, #60), we have learned that he also was not afraid of getting into bloody confrontations for the sake of his beliefs. #58 and #60 in particular, referring almost certainly to his first and only confrontations with the Heart of Spears, give an idea that he would go so far as to openly oppose the gods at some point, likely trying to wake or even kill Filianore in the Ringed City. And later on, as the transient spark that was the Lord of Hail, #77 and #83 show that he was completely aware and in agreement with his impending doom, for he knew it would bring a chance to achieve what he long sought.
+<p>But the most intriguing is the last line: &ldquo;yet couldn&rsquo;t get, too weak of heart&rdquo;. Oden was built up a reserved and wise character, much like the Father in his stern distaste of the Fire. From the poems sent during his long slumber (particularly <span class="tooltip">#51<span class="tooltiptext ref51"></span></span>, <span class="tooltip">#58<span class="tooltiptext ref58"></span></span>, <span class="tooltip">#60<span class="tooltiptext ref60"></span></span>), we have learned that he also was not afraid of getting into bloody confrontations for the sake of his beliefs. <span class="tooltip">#58<span class="tooltiptext ref58"></span></span> and <span class="tooltip">#60<span class="tooltiptext ref60"></span></span> in particular, referring almost certainly to his first and only confrontations with the Heart of Spears, give an idea that he would go so far as to openly oppose the gods at some point, likely trying to wake or even kill Filianore in the Ringed City. And later on, as the transient spark that was the Lord of Hail, <span class="tooltip">#77<span class="tooltiptext ref77"></span></span> and <span class="tooltip">#83<span class="tooltiptext ref83"></span></span> show that he was completely aware and in agreement with his impending doom, for he knew it would bring a chance to achieve what he long sought.</p>
 
-So, with such strong beliefs and wills to back them up, why was he "weak of heart"? Do not forget from whose perspective the poems are written. It is not some uninvolved outside observer---but the Father. The Father, whose ideology was very much in tune with Oden's.
+<p>So, with such strong beliefs and wills to back them up, why was he &ldquo;weak of heart&rdquo;? Do not forget from whose perspective the poems are written. It is not some uninvolved outside observer&mdash;but the Father. The Father, whose ideology was very much in tune with Oden&rsquo;s.</p>
 
-This provides us with a curious juxtaposition: the Father and Oden shared if not the same, then at least very similar goals. But the means with which they pursued them differed wildly. We cannot judge Oden's choice of means very precisely, for in the present we only saw him as a puppet under the Father's guidance. Yet from all the little bits and pieces of his lore, it seems that he was a valiant man, and opposed the gods of Lordran head-first. He fought straight through the Ringed City and, ultimately, overpowered Heart of Spears after a week of arduous combat. Yet he fell short of his target, and was likely stripped of his divine status and exiled from Lordran only to be slowly degraded into a vagabond hollow we come to know as Oden the Armless.
+<p>This provides us with a curious juxtaposition: the Father and Oden shared if not the same, then at least very similar goals. But the means with which they pursued them differed wildly. We cannot judge Oden&rsquo;s choice of means very precisely, for in the present we only saw him as a puppet under the Father&rsquo;s guidance. Yet from all the little bits and pieces of his lore, it seems that he was a valiant man, and opposed the gods of Lordran head-first. He fought straight through the Ringed City and, ultimately, overpowered Heart of Spears after a week of arduous combat. Yet he fell short of his target, and was likely stripped of his divine status and exiled from Lordran only to be slowly degraded into a vagabond hollow we come to know as Oden the Armless.</p>
 
-Oden's mind was dark, but his methods were not. Although there is not much to back such a theory up, it appears that it is this sort of straight-forward "nobility" of his methods that Father had deemed a "weakness of heart". The Father, as we saw from the very beginning and until the very end, while pursuing the same goal, used much more decadent and brutal methods. Reanimating hollow beings or leading those still living astray into his web of strings, all to be used as cannon fodder. And when that cannon fodder was destroyed, the Father stitched the remains together and sent them out again. And again. And again. And after that horrible cycle brought him all the precious souls and corpses he needed, he stitched them one last time into a lifeless Puppet---a blank hollow solider with a singular goal. Oden waged the war against the gods by himself. Father waged the same war by using (and abusing) other creatures.
+<p>Oden&rsquo;s mind was dark, but his methods were not. Although there is not much to back such a theory up, it appears that it is this sort of straight-forward &ldquo;nobility&rdquo; of his methods that Father had deemed a &ldquo;weakness of heart&rdquo;. The Father, as we saw from the very beginning and until the very end, while pursuing the same goal, used much more decadent and brutal methods. Reanimating hollow beings or leading those still living astray into his web of strings, all to be used as cannon fodder. And when that cannon fodder was destroyed, the Father stitched the remains together and sent them out again. And again. And again. And after that horrible cycle brought him all the precious souls and corpses he needed, he stitched them one last time into a lifeless Puppet&mdash;a blank hollow solider with a singular goal. Oden waged the war against the gods by himself. Father waged the same war by using (and abusing) other creatures.</p>
 
-fanboy 1
-https://youtu.be/vS16hPSJIFs
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Lone Fanboy stopping the Puppet from engaging the wyvern
+    <i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="vS16hPSJIFs"><div class="play-button"></div></div>
+</div>
 
-But, coming back from the theories to the realities of the Puppet's journey, we faced Lord of Hail's apparition in nearly full force right from the start. The Drakeblood Greatsword remained in mute knight's off-hand, now being at its rightful place as Lord of Hail's off-hand. It was accompanied by Oden's Astora Greatsword and Storm-based spells.
+<p>But, coming back from the theories to the realities of the Puppet&rsquo;s journey, we faced Lord of Hail&rsquo;s apparition in nearly full force right from the start. The Drakeblood Greatsword remained in mute knight&rsquo;s off-hand, now being at its rightful place as Lord of Hail&rsquo;s off-hand. It was accompanied by Oden&rsquo;s Astora Greatsword and Storm-based spells.</p>
 
-Contrasting Irithyll Dungeon, where the Puppet was surprisingly underpowered, this apparition has proven to be one of the scariest. Perhaps because the Puppeteer has hit that "flow" state in real life, or perhaps because the weapon setup was more fitting the Puppet's bold playstyle. Astora Greatsword in particular has allowed it to force its way through many of our attacks, which he would frequently tank regardless of what weapon was in its hand.
+<p>Contrasting Irithyll Dungeon, where the Puppet was surprisingly underpowered, this apparition has proven to be one of the scariest. Perhaps because the Puppeteer has hit that &ldquo;flow&rdquo; state in real life, or perhaps because the weapon setup was more fitting the Puppet&rsquo;s bold playstyle. Astora Greatsword in particular has allowed it to force its way through many of our attacks, which he would frequently tank regardless of what weapon was in its hand.</p>
 
-Having consumed several of our souls in the rocky prelude of the citadel, it quickly disposed of the wyvern and ascended into the Mausoleum.
+<p>Having consumed several of our souls in the rocky prelude of the citadel, it quickly disposed of the wyvern and ascended into the Mausoleum.</p>
 
-[img 2]
-fanboy 2
-https://youtu.be/4pYttHpjJWI
+<img src="assets/images/180511_twitch28.jpg" data-action="zoom"/>
 
-Here we saw a small addition to its already scary arsenal: the ultra greatsword has gained a Spin Slash, much like what Slumbering Oden had used. It was used sparingly, for its quick animation paired with knockdown and decent damage made it devastating.
+<p>Here we saw a small addition to its already scary arsenal: the ultra greatsword has gained a Spin Slash, much like what Slumbering Oden had used. It was used sparingly, for its quick animation paired with knockdown and decent damage made it devastating.</p>
 
-As the Puppet strode through the Mausoleum, poem #172 spoke not of Oden, but of the Puppet. All of us have been trailing the mute knight on its great journey. And we saw its evolution from a meek, defenseless thing with a broken sword all the way to a ruthless being on its way to kill a deity.
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    The Puppet repaying Fanboy with double the ruthlessness
+    <i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="4pYttHpjJWI"><div class="play-button"></div></div>
+</div>
 
-its journey was not only one of consuming souls from outside, but also smothering all the entities that composed it from within. All the way back from the Cathedral of the Deep, the Puppet had been nigh constantly bombarded by many past puppets, surfacing from its chaotic mind. And it overcame each and every one of them, on a steady path to void its mind of absolutely everything.
+<p>As the Puppet strode through the Mausoleum, poem <span class="tooltip">#172<span class="tooltiptext ref172"></span></span> spoke not of Oden, but of the Puppet. All of us have been trailing the mute knight on its great journey. And we saw its evolution from a meek, defenseless thing with a broken sword all the way to a ruthless being on its way to kill a deity.</p>
 
+<p>Its journey was not only one of consuming souls from outside, but also smothering all the entities that composed it from within. All the way back from the Cathedral of the Deep, the Puppet had been nigh constantly bombarded by many past puppets, surfacing from its chaotic mind. And it overcame each and every one of them, on a steady path to void its mind of absolutely everything.</p>
 
-[img 3]
+<img src="assets/images/180511_twitch29.jpg" data-action="zoom"/>
 
-The synthetic thing marched on through the mausoleum and reached its peak---the Great Belfry. A thought was echoed that the Puppet had grown stronger still, and the recordings from this time seem a to agree. Just take a look at this:
+<p>The synthetic thing marched on through the mausoleum and reached its peak&mdash;the Great Belfry. A thought was echoed that the Puppet had grown stronger still, and the recordings from this time seem a to agree. Just take a look at this:</p>
 
-fanboy 3
-https://youtu.be/SIYUvQhcPuM
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Fanboy, Narcolept, ??? and a random invader in an exhausting war of attrition
+    <i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="SIYUvQhcPuM"><div class="play-button"></div></div>
+</div>
 
-It took <b>three</b> experienced invaders upwards of six minutes of constant combat with the single target to break it down, with the Puppet surviving on low health for a fair while. Granted, the Puppeteer did not make any single person his target and was unable to kill any of the three. But it's likely that man behind the controller was enjoying the calamity of fighting so many tough opponents.
+<p>It took <b>three</b> experienced invaders upwards of six minutes of constant combat with the single target to break it down, with the Puppet surviving on low health for a fair while. Granted, the Puppeteer did not make any single person his target and was unable to kill any of the three. But it&rsquo;s likely that man behind the controller was enjoying the calamity of fighting so many tough opponents.</p>
 
-fanboy 4
-https://youtu.be/6xrYVjngt10
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Fanboy seeing his comrades fall and leave him alone
+    <i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="6xrYVjngt10"><div class="play-button"></div></div>
+</div>
 
-Several climactic fights were held in the Great Belfry in very much the same style as Lord of Hail's events. But, as the time ticked on, the time of the area came to an end. Having had almost one and a half hours to see just how dangerous this apparition was, we were now to face it one-on-one.
+<p>Several climactic fights were held in the Great Belfry in very much the same style as Lord of Hail&rsquo;s events. But, as the time ticked on, the time of the area came to an end. Having had almost one and a half hours to see just how dangerous this apparition was, we were now to face it one-on-one.</p>
 
-[boss]
+<img src="assets/images/180511_twitch30.jpg" data-action="zoom"/>
 
-Lord of Hail's apparition was deemed one of the best boss-fights of the entire event. The Puppeteer was playing well, the Puppet's arsenal was varied enough to make the fight interesting, and the area was atmospheric. Not to mention, Oden's signature warping and the Puppet's willingness to use several regeneration souls made the fights exhausting.
+<button class="collapsible">
+    <i class="material-icons f-l">audiotrack</i>
+    BOSS THEME: Alex Roe - Coventina, Safeguard of the Lake
+    <i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="NZSePnGqFRI"><div class="play-button"></div></div>
+</div>
 
-Poem #173 opened the boss-fight, and #174 closed it. And although they are mostly "generic" poems that don't speak about anything in particular, there are still a couple of points to consider.
+<button class="collapsible">
+    <i class="material-icons f-l">priority_high</i>
+    BOSS ENCOUNTER: Archdragon Peak
+    <i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="5Aw67xTzPFk"><div class="play-button"></div></div>
+</div>
 
-First of all, although it has been already touched upon in the earlier chapters, "adept of storm" once again indicated that the Lord of Hail was a god of nature. more precisely, of storms and rains. This is only tangentially related to the story, but Ensign has noted that it's fairly fitting for Oden's affinity for the dark. Or, rather, it does not go against said affinity. As we know, many gods of Gwyn's pantheon are directly linked to light, sun, or lightning. Oden, was a god coming from the same age, but was not a part of the same pantheon nor did he depended upon light or fire for his powers.
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    (Original clip)
+    <i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="e6BNS88pDjs"><div class="play-button"></div></div>
+</div>
 
-There is one more interesting detail to think about. When we first learned of Heart of Spear's downfall induced by Oden (which, at the time, we had no idea was Oden), he was called a "titan Lord of Thunder". But coming back from his slumber, Oden's title changed to "Lord of Hail". If <i>thunder</i> was at least tangentially related to lightning, <i>hail</i> is not. If anything, it's even closer to winter and cold than to lightning or sunlight. May have his long exile and growing affinity for the dark changed that which he was associated with as a deity? Much like when Gwyn was initially known as Lord of Sunlight, later becoming a Lord of Cinders after his self-sacrifice to the First Flame.
+<p>Lord of Hail&rsquo;s apparition was deemed one of the best boss-fights of the entire event. The Puppeteer was playing well, the Puppet&rsquo;s arsenal was varied enough to make the fight interesting, and the area was atmospheric. Not to mention, Oden&rsquo;s signature warping and the Puppet&rsquo;s willingness to use several regeneration souls made the fights exhausting.</p>
 
-(The last paragraph is pure speculations, there is not a lot of concrete evidence to back it up).
+<p>Poem <span class="tooltip">#173<span class="tooltiptext ref173"></span></span> opened the boss-fight, and <span class="tooltip">#174<span class="tooltiptext ref174"></span></span> closed it. And although they are mostly &ldquo;generic&rdquo; poems that don&rsquo;t speak about anything in particular, there are still a couple of points to consider.</p>
 
-[fanboy boss]
-https://youtu.be/5Aw67xTzPFk
+<p>First of all, although it has been already touched upon in the earlier chapters, &ldquo;adept of storm&rdquo; once again indicated that the Lord of Hail was a god of nature. more precisely, of storms and rains. This is only tangentially related to the story, but Ensign has noted that it&rsquo;s fairly fitting for Oden&rsquo;s affinity for the dark. Or, rather, it does not go against said affinity. As we know, many gods of Gwyn&rsquo;s pantheon are directly linked to light, sun, or lightning. Oden, was a god coming from the same age, but was not a part of the same pantheon nor did he depended upon light or fire for his powers.</p>
 
-After everyone challenged the Puppet once or twice, the event came to a conclusion. Day two has extended for about the same time as the first one---nine hours of playtime, with many of us jumping in and out of it as it went on. The closing poem #175 was sent, reiterating the Puppet's stoical nature.
+<p>There is one more interesting detail to think about. When we first learned of Heart of Spear&rsquo;s downfall induced by Oden (which, at the time, we had no idea was Oden), he was called a &ldquo;titan Lord of Thunder&rdquo;. But coming back from his slumber, Oden&rsquo;s title changed to &ldquo;Lord of Hail&rdquo;. If <i>thunder</i> was at least tangentially related to lightning, <i>hail</i> is not. If anything, it&rsquo;s even closer to winter and cold than to lightning or sunlight. May have his long exile and growing affinity for the dark changed that which he was associated with as a deity? Much like when Gwyn was initially known as Lord of Sunlight, later becoming a Lord of Cinders after his self-sacrifice to the First Flame.</p>
+
+<p>(The last paragraph is pure speculations, there is not a lot of concrete evidence to back it up).</p>
+
+<button class="collapsible">
+    <i class="material-icons f-l">theaters</i>
+    Fanboy enduring almost seven minutes (with Fanboy's music)
+    <i class="material-icons icon-expand f-r">expand_more</i>
+</button>
+<div class="collapsible_content">
+    <div class="youtube" data-embed="JVZkOwaFbFQ"><div class="play-button"></div></div>
+</div>
+
+<p>After everyone challenged the Puppet once or twice, the event came to a conclusion. Day two has extended for about the same time as the first one&mdash;nine hours of playtime, with many of us jumping in and out of it as it went on. The closing poem <span class="tooltip">#175<span class="tooltiptext ref175"></span></span> was sent, reiterating the Puppet&rsquo;s stoical nature.</p>
 
 <p class="killcount">&mdash;120&mdash;</p>
