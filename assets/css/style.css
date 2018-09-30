@@ -31,6 +31,7 @@ body {
     --link-active-color: #30b1e4;
     --puppeteer-color: #1c8978;
     --ul-bullet: url(../images/tech/ul_bullet_day.png);
+    --select-color: #ceeae3;
 }
 body.night-mode{
     --text-color: #b5b5b5;
@@ -40,6 +41,7 @@ body.night-mode{
     --link-active-color: #a7ddff;
     --puppeteer-color: #83bdb4;
     --ul-bullet: url(../images/tech/ul_bullet_night.png);
+    --select-color: #449882;
 }
 h1, h2, h3, #title{
     font-family: "Pirata One";
@@ -608,11 +610,15 @@ h4 {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
-    line-height: 1.2;
+    line-height: 1.2 !important;
 }
 .f-r {
     float: right;
 }
 .f-l {
     float: left;
+}
+
+::selection {
+    background: var(--select-color);
 }
