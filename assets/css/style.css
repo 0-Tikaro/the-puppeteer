@@ -365,6 +365,9 @@ blockquote {
 .QA {
     font-style: italic;
 }
+.QA td {
+    padding: 0;
+}
 td.Q, td.A {
     font-size: 0.9rem;
     text-align: right;
