@@ -324,6 +324,12 @@ img {
     margin: auto;
     margin-top: 1rem;
 }
+.emoji {
+    display: inline-block;
+    width: 1rem;
+    margin: 0;
+    padding: 0;
+}
 pre {
     font-family: Consolas, monospace;
     overflow-x: auto;
