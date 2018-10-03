@@ -80,6 +80,19 @@ p {
         font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures;
     }
+    #btn-show-sidebar {
+        display:none;
+    }
+    #btn-show-sidebar.no-distraction {
+        display: unset;
+        float: left;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
     #sidebar {
         position: fixed;
         float: left;
@@ -90,6 +103,12 @@ p {
         margin-left: 19.5rem;
         margin-right: 4rem;
         padding-top: 0.25rem;
+    }
+    #content.no-distraction {
+        margin: 0 9rem;
+    }
+    #sidebar.no-distraction{
+        display: none;
     }
     .tooltip {
         position: relative;
@@ -334,7 +353,7 @@ img {
     margin: 0;
     padding: 0;
 }
-pre {
+pfconre {
     font-family: Consolas, monospace;
     overflow-x: auto;
     padding: 10px;
