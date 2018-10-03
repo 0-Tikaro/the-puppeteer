@@ -1,21 +1,12 @@
-EM DASH
----
-&mdash;
-
+BASIC PUCNTUATION
+---                         to      &mdash;
+...                         to      &hellip;
 DOUBLE QUOTES
-(^|[-\u2014/\[(\u2018\s])"
-$1&ldquo;
-
-(&ldquo;.+?)"
-$1&rdquo;
-
+(^|[-\u2014/\[(\u2018\s])"  to      $1&ldquo;
+(&ldquo;.+?)"               to      $1&rdquo;
 SINGLE QUOTES
-(^|[-\u2014\s(\["])'
-$1&lsquo;
-
-
-'
-&rsquo;
+(^|[-\u2014\s(\["])'        to      $1&lsquo;
+'                           to      &rsquo;
 
 //////////////////////////////////
 +6 TO ALL POEMS
