@@ -81,34 +81,64 @@ p {
         font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures;
     }
     #btn-show-sidebar {
-        display:none;
-    }
-    #btn-show-sidebar.no-distraction {
-        display: unset;
-        float: left;
         position: fixed;
+        float: left;
         left: 0;
         top: 0;
         padding: 2rem;
         font-size: 1.5rem;
         font-weight: 700;
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        opacity: 0;
+        pointer-events: none;
+    }
+    #btn-show-sidebar.no-distraction {
+        opacity: 1;
+        pointer-events: unset;
     }
     #sidebar {
         position: fixed;
         float: left;
         width: 18.5rem;
         z-index: 20;
+
+        opacity: 1;
+        pointer-events: unset;
+
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        transition: all 700ms ease;
+        will-change: transform;
+    }
+    #sidebar.no-distraction{
+        opacity: 0;
+        pointer-events: none;
+
+        -webkit-transform: translateX(-30%);
+        transform: translateX(-30%);
+        transition: all 700ms ease;
+        will-change: transform;
     }
     #content {
         margin-left: 19.5rem;
         margin-right: 4rem;
         padding-top: 0.25rem;
+
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        transition: all 700ms ease;
+        will-change: transform;
     }
     #content.no-distraction {
-        margin: 0 9rem;
-    }
-    #sidebar.no-distraction{
-        display: none;
+        -webkit-transform: translateX(-25%);
+        transform: translateX(-25%);
+        transition: all 700ms ease;
+        will-change: transform;
     }
     .tooltip {
         position: relative;
@@ -223,6 +253,11 @@ p {
     color: var(--text-color);
     cursor: pointer;
 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     opacity: 0.5;
 }
 .pushable:hover {
@@ -261,6 +296,7 @@ p {
     vertical-align: middle;
     cursor: pointer;
     color: var(--text-color);
+
     opacity: 0.4;
     -webkit-transition: opacity 0.3s ease;
     -moz-transition: opacity 0.3s ease;
@@ -327,6 +363,11 @@ p {
 #chapter-prev, #chapter-next {
     margin-top: -0.2rem !important;
     opacity: 1;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 ul {
