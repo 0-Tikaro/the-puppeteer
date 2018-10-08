@@ -1,0 +1,40 @@
+.versal-l {
+    letter-spacing: 0 !important;
+}
+.versal-a,
+.versal-b,
+.versal-c,
+.versal-e,
+.versal-i,
+.versal-k,
+.versal-q,
+.versal-r,
+.versal-s,
+.versal-x,
+.versal-z {
+    letter-spacing: -1px !important;
+}
+.versal-d,
+.versal-g,
+.versal-h,
+.versal-m,
+.versal-o {
+    letter-spacing: -2px !important;
+}
+.versal-j,
+.versal-n,
+.versal-u {
+    letter-spacing: -3px !important;
+}
+.versal-f,
+.versal-p {
+    letter-spacing: -4px !important;
+}
+.versal-t,
+.versal-y{
+    letter-spacing: -5px !important;
+}
+.versal-v,
+.versal-w {
+    letter-spacing: -6px !important;
+}
