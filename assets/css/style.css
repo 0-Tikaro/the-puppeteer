@@ -134,8 +134,8 @@ p {
         transition: transform 700ms ease;
     }
     #content.no-distraction {
-        -webkit-transform: translateX(-25%);
-        transform: translateX(-25%);
+        -webkit-transform: translateX(-20%);
+        transform: translateX(-20%);
         transition: transform 700ms ease;
     }
     .tooltip {
