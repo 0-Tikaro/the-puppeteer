@@ -197,13 +197,20 @@ p {
     }
     #title {
         position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
-        padding: 1rem;
+        padding: 1rem 0;
         background-color: var(--bg-color);
     }
-
+    #chapter-next, #chapter-prev {
+        padding: 0 1rem;
+    }
+    #fade-top {
+        top: 80px;
+    }
     #content {
-        margin: 6rem;
+        margin: 4rem;
         padding-top: 0.25rem;
     }
     .tooltip {
@@ -244,6 +251,11 @@ p {
         opacity: 1;
     }
 
+}
+@media all and (max-width: 512px) {
+    #content {
+        margin: 1.5rem;
+    }
 }
 
 .pushable, .pushable:hover {
