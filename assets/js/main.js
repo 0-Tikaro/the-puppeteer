@@ -219,6 +219,9 @@ function checkContentLoaded() {
 
         let showSidebarMenu =  $( '#menu-show' );
         let sidebarMenu = $( '#sidebar-menu' );
+        let btnHideSidebar = $( '#btn-hide-sidebar');
+        let btnShowSidebar = $( '#btn-show-sidebar');
+
         showSidebarMenu.on( 'click', function () {
             if ( showSidebarMenu.html() === 'Show table of content') {
                 showSidebarMenu.html('Hide table of content');
@@ -229,7 +232,7 @@ function checkContentLoaded() {
             }
         });
 
-        nightModeButton.on('click', function(){
+        nightModeButton.on('click', function () {
             document.body.classList.toggle('night-mode');
             if (nightModeButton.html() === 'Night mode') {
                 nightModeButton.html('Day mode');
@@ -239,6 +242,18 @@ function checkContentLoaded() {
                 document.cookie = "use-night-mode=0";
             }
         });
+
+        btnHideSidebar.on('click', function () {
+            $('#sidebar').toggleClass('no-distraction');
+            $('#content').toggleClass('no-distraction');
+            btnShowSidebar.toggleClass('no-distraction');
+        });
+        btnShowSidebar.on('click', function () {
+            $('#sidebar').toggleClass('no-distraction');
+            $('#content').toggleClass('no-distraction');
+            btnShowSidebar.toggleClass('no-distraction');
+        });
+
 
     } else {
         window.setTimeout(checkContentLoaded, 100);
