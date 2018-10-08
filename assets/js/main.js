@@ -282,6 +282,7 @@ function checkContentLoaded() {
     if(loadedCount === 6) {
         clearTimeout(checkContentLoaded);
 
+        Hyphenator.run();
         generateTableOfContent();
         setupPoemLinks();
         setupVideoEmbeds();
