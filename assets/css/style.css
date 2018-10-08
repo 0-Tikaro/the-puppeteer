@@ -415,6 +415,9 @@ pfconre {
     border: 1px solid var(--shade-color);
     border-radius: 10px;
 }
+pre, code {
+    overflow-x: scroll;
+}
 pre.poem {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: transparent;
