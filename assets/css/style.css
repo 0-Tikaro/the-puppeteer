@@ -456,7 +456,13 @@ blockquote {
     padding: 1em;
     border-left: 1px solid var(--text-color);
 }
-
+.quote p {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+.quote p+p {
+    text-indent: 0;
+}
 .QA {
     font-style: italic;
 }
