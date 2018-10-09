@@ -131,15 +131,15 @@ p {
         margin-right: 4rem;
         padding-top: 0.25rem;
 
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        transition: transform 700ms ease;
+        /*-webkit-transform: translateX(0);*/
+        /*transform: translateX(0);*/
+        /*transition: transform 700ms ease;*/
     }
-    #content.no-distraction {
-        -webkit-transform: translateX(-20%);
-        transform: translateX(-20%);
-        transition: transform 700ms ease;
-    }
+    /*#content.no-distraction {*/
+        /*-webkit-transform: translateX(-20%);*/
+        /*transform: translateX(-20%);*/
+        /*transition: transform 700ms ease;*/
+    /*}*/
     .tooltip {
         position: relative;
         display: inline-block;
