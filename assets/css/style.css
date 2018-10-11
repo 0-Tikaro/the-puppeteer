@@ -82,17 +82,6 @@ p {
     -ms-hyphens: auto;
     hyphens: auto;
 }
-.chapter-desc + p:first-letter, .chapter-title + p:first-letter {
-    font-family: var(--heading-font);
-    letter-spacing: -1px;
-    font-size: 2em;
-    line-height: 0;
-}
-.chapter-title + p.chapter-desc:first-letter {
-    font-family: var(--base-font);
-    letter-spacing: 0;
-    font-size: 1em;
-}
 
 .wrapper {
     font-family: var(--base-font);
