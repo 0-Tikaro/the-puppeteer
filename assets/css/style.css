@@ -508,12 +508,11 @@ code {
     background: transparent;
     color: var(--text-color);
     padding: 12px;
-    /*margin-bottom: 3px;*/
     cursor: pointer;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 16px;
+    font-size: 0.9rem;
     line-height: 1.5;
     font-family: var(--base-font);
 
