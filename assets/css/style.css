@@ -488,6 +488,9 @@ code {
     font-family: var(--code-font);
     font-size: 0.9rem;
 }
+hr {
+    border: 1px solid var(--shade-color);
+}
 
 .killcount {
     text-align: center;
