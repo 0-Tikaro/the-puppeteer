@@ -39,7 +39,12 @@ function setupVideoEmbeds(){
             date.innerText = videosJson[id].date;
 
             let title = document.createElement("span");
-            title.innerText = videosJson[id].title;
+            if (videosJson[id].style === "bold"){
+                title.innerHTML = "<b>"+videosJson[id].title+"</b>";
+            } else {
+                title.innerText = videosJson[id].title;
+            }
+
 
             let icon = document.createElement("i");
             icon.classList.add("material-icons");
