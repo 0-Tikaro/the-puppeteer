@@ -16,7 +16,7 @@ function incrementLoadedCount() {
 
 // Adding references to poems.
 function setupPoemLinks(){
-    $.get( "assets/html/poems.json", function( data ) {
+    $.get( "assets/json/poems.json", function( data ) {
         for(let i = 1; i <= 195; i++) {
             $(".ref" + i).html(data[i]);
             $("#poem" + i).html(data[i]);
@@ -25,7 +25,7 @@ function setupPoemLinks(){
 }
 
 function setupVideoEmbeds(){
-    $.get( "assets/html/videos.json", function (videosJson) {
+    $.get( "assets/json/videos.json", function (videosJson) {
         let videos = document.querySelectorAll(".video");
         for (let i = 0; i < videos.length; i++) {
             let id = videos[i].dataset.id;
