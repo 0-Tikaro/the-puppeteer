@@ -125,6 +125,17 @@ p {
     visibility: visible;
     opacity: 1;
 }
+p.annotation {
+    opacity: 0.8;
+    line-height: 1.6rem;
+    border-top: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+    padding: 1rem 0;
+}
+p.annotation + p.annotation {
+    border-top: 0;
+    padding-top: 0;
+}
 @media all and (min-width:1000px) {
     .wrapper {
         width: 100%;
