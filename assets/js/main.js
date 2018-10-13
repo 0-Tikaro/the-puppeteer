@@ -1,3 +1,12 @@
+// temp storage
+// material video icon svg
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm6 10h-4V5h4v14zm4-2h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/></svg>
+// menu
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+// excl
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="19" r="2"/><path d="M10 3h4v12h-4z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+
+
 // Counter holds amount of html pages loaded. Only when everything is loaded will the rest of the code fire.
 let loadedCount = 0;
 function incrementLoadedCount() {
@@ -12,6 +21,70 @@ function setupPoemLinks(){
             $(".ref" + i).html(data[i]);
             $("#poem" + i).html(data[i]);
         }
+    }, "json");
+}
+
+function setupVideoEmbeds(){
+    $.get( "assets/html/videos.json", function (videosJson) {
+        let videos = document.querySelectorAll(".video");
+        for (let i = 0; i < videos.length; i++) {
+            let id = videos[i].dataset.id;
+
+            //button setup
+            let button = document.createElement("button");
+            button.classList.add("collapsible");
+
+            let date = document.createElement("span");
+            date.classList.add("video-date");
+            date.innerText = videosJson[id].date;
+
+            let title = document.createElement("span");
+            if (videosJson[id].style === "bold"){
+                title.innerHTML = "<b>"+videosJson[id].title+"</b>";
+            } else {
+                title.innerText = videosJson[id].title;
+            }
+
+
+            let icon = document.createElement("i");
+            icon.classList.add("material-icons");
+            icon.classList.add("icon-expand");
+            icon.classList.add("f-r");
+            icon.innerText = "expand_more";
+
+            button.appendChild(date);
+            button.appendChild(title);
+            button.appendChild(icon);
+
+            videos[i].appendChild(button);
+
+            let collapsible_content = document.createElement("div");
+            collapsible_content.classList.add("collapsible_content");
+
+            for(let j = 0; j < videosJson[id].clips.length; j++){
+
+                let clip = document.createElement("div");
+                let playButton = document.createElement("div");
+
+                clip.classList.add("youtube");
+                clip.dataset.embed = videosJson[id].clips[j].url;
+
+                if (videosJson[id].clips[j].title !== ""){
+                    let clipTitle = document.createElement("span");
+                    clipTitle.classList.add("youtube-title");
+                    clipTitle.innerText = videosJson[id].clips[j].title;
+                    clip.appendChild(clipTitle);
+                }
+                playButton.classList.add("play-button");
+                clip.appendChild(playButton);
+
+                collapsible_content.appendChild(clip);
+            }
+
+            videos[i].appendChild(collapsible_content);
+        };
+        createCollapsibles();
+        createYoutubeEmbeds();
     }, "json");
 }
 
@@ -211,8 +284,9 @@ function checkContentLoaded() {
 
         generateTableOfContent();
         setupPoemLinks();
-        createCollapsibles();
-        createYoutubeEmbeds();
+        setupVideoEmbeds();
+        // createCollapsibles();
+        // createYoutubeEmbeds();
 
         $(document).on('scroll', onScroll);
         onScroll();
@@ -254,10 +328,11 @@ function checkContentLoaded() {
             btnShowSidebar.toggleClass('no-distraction');
         });
 
+        $( '.collapsible' ).attr('title', 'Click to expand a video');
+
 
     } else {
         window.setTimeout(checkContentLoaded, 100);
     }
 }
 checkContentLoaded();
-
