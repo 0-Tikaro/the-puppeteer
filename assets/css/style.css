@@ -243,7 +243,7 @@ p.annotation + p.annotation {
 .pushable, .pushable:hover {
     transition: opacity 0.3s ease;
 }
-.pushable {
+.pushable, a.pushable {
     color: var(--text-color);
     cursor: pointer;
 
@@ -254,7 +254,7 @@ p.annotation + p.annotation {
 
     opacity: 0.5;
 }
-.pushable:hover {
+.pushable:hover, a.pushable:hover {
     opacity: 1;
 }
 
@@ -333,6 +333,13 @@ p.annotation + p.annotation {
     line-height: 1.25rem;
     opacity: 0.6;
     margin-top: 0;
+}
+.chapter-end {
+    margin-bottom: 6rem;
+}
+.chapter-end .arrow {
+    font-size: 2rem;
+    vertical-align: sub;
 }
 .space-between-chapters {
     height: 35rem;
