@@ -1,7 +1,7 @@
 {
   "introduction": {"name": "Introduction"},
   "synopsis":{"name": "Synopsis"},
-  "table-of-content":{"name": "Table of content"},
+  "table-of-content":{"name": "Table of contents"},
 
   "chapter-01":{"name": "I. “Actors All Prepare”"},
   "chapter-02":{"name": "II. Strings and Puppets"},

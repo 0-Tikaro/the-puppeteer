@@ -1,57 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>The Puppeteer</title>
+    <title>The Puppeteer</title>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&amp;subset=latin-ext">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica">
-		<link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/zoom.css">
-        <link rel="stylesheet" href="assets/css/versal.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&amp;subset=latin-ext">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/zoom.css">
+    <link rel="stylesheet" href="assets/css/versal.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-        <link rel="shortcut icon" type="image/png" href="favicon.png">
-	</head>
-	<body>
-    <div id="fade-top"></div>
-    <div id="fade-bottom"></div>
-    <!--bollock, brother. Respectfully, bollocks-->
-    <div id="top"><h2 class="chapter-title" style="display:none">Introduction</h2></div>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<div id="fade-top"></div>
+<div id="fade-bottom"></div>
+<div class="wrapper">
+    <div class="pushable sidebar-item" id="btn-show-sidebar"><i class="material-icons">menu</i></div>
 
-    <div class="wrapper">
-        <div class="pushable sidebar-item" id="btn-show-sidebar"><i class="material-icons">menu</i></div>
-
-        <div id="sidebar">
-            <div id="title">
-                <a id="chapter-prev" href="" style="float: left;">⟵</a>
-                <span class="title-text">Puppeteer</span>
-                <a id="chapter-next" href="" style="float: right;">⟶</a>
-            </div>
-            <div class="pushable sidebar-item" id="night">Night mode</div>
-            <div class="pushable sidebar-item" id="btn-hide-sidebar">Hide sidebar</div>
-            <div class="pushable sidebar-item" id="menu-show">Show table of content</div>
-            <div id="sidebar-menu" style="display: none;">
-                <ul id="chapter-list"></ul>
-            </div>
-
+    <div id="sidebar">
+        <div id="title">
+            <a id="chapter-prev" href="" style="display:none; float: left;">⟵</a>
+            <span class="title-text">
+                    <span class="title-inject" data-chapter="table-of-content"></span>
+                </span>
+            <a id="chapter-next" href="" style="display:none; float: right;">⟶</a>
         </div>
-        <div id="content" class="hyphenate">
-            <div id="intro_content"></div>
-            <div id="synopsis_content"></div>
-            <div id="chronology_content"></div>
-            <div id="characters_content"></div>
-            <div id="poems_content" class="donthyphenate"></div>
-            <div id="video_content" class="donthyphenate"></div>
+        <div class="pushable sidebar-item" id="night">Night mode</div>
+        <div class="pushable sidebar-item" id="btn-hide-sidebar">Hide sidebar</div>
+        <div class="pushable sidebar-item" id="menu-show">Show table of content</div>
+        <div id="sidebar-menu" style="display: none;">
+            <ul id="chapter-list"></ul>
         </div>
+
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/js/hyphenator.js"></script>
-    <script src="assets/js/transition.js"></script>
-    <script src="assets/js/zoom.js"></script>
-    <script src="assets/js/main.js"></script>
-	</body>
+    <div id="content" class="donthyphenate">
+        <h1 class="chapter-title">
+            <span class="title-inject" data-chapter="table-of-content"></span>
+        </h1>
+
+        <h4>Introduction</h4>
+        <div>
+            <a href="pages/introduction.html">
+                <span class="title-inject" data-chapter="introduction">Introduction</span>
+                <code>...............................................</code>
+                <span style="float:right">5 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/synopsis.html">
+                <span class="title-inject" data-chapter="synopsis"></span>
+                <code>...................................................</code>
+                <span style="float:right">3 minutes</span>
+            </a>
+        </div>
+
+        <h4>Narrative</h4>
+        <div>
+            <a href="pages/chapter-01.html">
+                <span class="title-inject" data-chapter="chapter-01"></span>
+                <code>.......................................</code>
+                <span style="float:right">5 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-02.html">
+                <span class="title-inject" data-chapter="chapter-02"></span>
+                <code>......................................</code>
+                <span style="float:right">4 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-03.html">
+                <span class="title-inject" data-chapter="chapter-03"></span>
+                <code>.........................................</code>
+                <span style="float:right">3 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-04.html">
+                <span class="title-inject" data-chapter="chapter-04"></span>
+                <code>.......................................</code>
+                <span style="float:right">8 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-05.html">
+                <span class="title-inject" data-chapter="chapter-05"></span>
+                <code>......................................</code>
+                <span style="float:right">8 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-06.html">
+                <span class="title-inject" data-chapter="chapter-06"></span>
+                <code>....................................</code>
+                <span style="float:right">0.9 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-07.html">
+                <span class="title-inject" data-chapter="chapter-07"></span>
+                <code>..........................................</code>
+                <span style="float:right">19 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-08.html">
+                <span class="title-inject" data-chapter="chapter-08"></span>
+                <code>...........................................</code>
+                <span style="float:right">3 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-09.html">
+                <span class="title-inject" data-chapter="chapter-09"></span>
+                <code>...........................................</code>
+                <span style="float:right">6 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-10.html">
+                <span class="title-inject" data-chapter="chapter-10"></span>
+                <code>.............................................</code>
+                <span style="float:right">7 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-11.html">
+                <span class="title-inject" data-chapter="chapter-11"></span>
+                <code>........................................</code>
+                <span style="float:right">8 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-12.html">
+                <span class="title-inject" data-chapter="chapter-12"></span>
+                <code>............................................</code>
+                <span style="float:right">8 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-13.html">
+                <span class="title-inject" data-chapter="chapter-13"></span>
+                <code>...........................................</code>
+                <span style="float:right">9 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-14.html">
+                <span class="title-inject" data-chapter="chapter-14"></span>
+                <code>....................................</code>
+                <span style="float:right">10 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-15.html">
+                <span class="title-inject" data-chapter="chapter-15"></span>
+                <code>....................................</code>
+                <span style="float:right">14 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-16.html">
+                <span class="title-inject" data-chapter="chapter-16"></span>
+                <code>..........................................</code>
+                <span style="float:right">25 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-17.html">
+                <span class="title-inject" data-chapter="chapter-17"></span>
+                <code>.........................................</code>
+                <span style="float:right">35 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-18.html">
+                <span class="title-inject" data-chapter="chapter-18"></span>
+                <code>.........................................</code>
+                <span style="float:right">?? minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-19.html">
+                <span class="title-inject" data-chapter="chapter-19"></span>
+                <code>.......................................</code>
+                <span style="float:right">9 minutes</span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/chapter-20.html">
+                <span class="title-inject" data-chapter="chapter-20"></span>
+                <code>.......................................</code>
+                <span style="float:right">5 minutes</span>
+            </a>
+        </div>
+
+        <h4>Appendices</h4>
+        <div>
+            <a href="pages/appendix-a.html">
+                <span class="title-inject" data-chapter="appendix-a"></span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/appendix-b.html">
+                <span class="title-inject" data-chapter="appendix-b"></span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/appendix-c.html">
+                <span class="title-inject" data-chapter="appendix-c"></span>
+            </a>
+        </div>
+        <div>
+            <a href="pages/appendix-d.html">
+                <span class="title-inject" data-chapter="appendix-d"></span>
+            </a>
+        </div>
+
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/hyphenator.js"></script>
+<script src="assets/js/transition.js"></script>
+<script src="assets/js/zoom.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
 </html>

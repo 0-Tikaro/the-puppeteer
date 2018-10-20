@@ -6,9 +6,17 @@
 // excl
 // <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="19" r="2"/><path d="M10 3h4v12h-4z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
 
-let poemsDataFilepath = "../assets/json/poems.json";
-let videoDataFilepath = "../assets/json/videos.json";
-let chapterTitleDataFilepath = "../assets/json/chapter-titles.json";
+let isTitlePage = document.location.href.includes("index.html");
+
+let poemsDataFilepath = "assets/json/poems.json";
+let videoDataFilepath = "assets/json/videos.json";
+let chapterTitleDataFilepath = "assets/json/chapter-titles.json";
+
+if (!isTitlePage){
+    poemsDataFilepath = "../" + poemsDataFilepath;
+    videoDataFilepath = "../" + videoDataFilepath;
+    chapterTitleDataFilepath = "../" + chapterTitleDataFilepath;
+}
 
 function setupPoemLinks(){
     $.get(poemsDataFilepath, function(data) {
@@ -145,9 +153,11 @@ if (useNightModeCookie.includes("use-night-mode=1")){
     nightModeButton.html('Day mode');
 }
 
-Hyphenator.run();
-setupPoemLinks();
-setupVideoEmbeds();
+if (!isTitlePage) {
+    Hyphenator.run();
+    setupPoemLinks();
+    setupVideoEmbeds();
+}
 injectChapterTitles();
 
 let showSidebarMenu =  $( '#menu-show' );
