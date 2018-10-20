@@ -1,6 +1,7 @@
 {
-  "intro": {"name": "Introduction"},
+  "introduction": {"name": "Introduction"},
   "synopsis":{"name": "Synopsis"},
+  "table-of-content":{"name": "Table of content"},
 
   "chapter-01":{"name": "I. “Actors All Prepare”"},
   "chapter-02":{"name": "II. Strings and Puppets"},
@@ -23,9 +24,9 @@
   "chapter-19":{"name": "XIX. Puppeteer’s Q&A"},
   "chapter-20":{"name": "XX. Closing Thoughts"},
 
-  "appendix-a":{"name": "Appx.A Characters"},
-  "appendix-b":{"name": "Appx.B Poems"},
-  "appendix-c":{"name": "Appx.C Footage"},
-  "appendix-d":{"name": "Appx.D The Timeline"},
-  "appendix-e":{"name": "Appx.E The Journey - Twitch information"}
+  "appendix-a":{"name": "Appx.A - Characters"},
+  "appendix-b":{"name": "Appx.B - Poems"},
+  "appendix-c":{"name": "Appx.C - Footage"},
+  "appendix-d":{"name": "Appx.D - The Timeline"},
+  "appendix-e":{"name": "Appx.E - The Journey - Twitch information"}
 }
