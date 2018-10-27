@@ -12,6 +12,7 @@ let poemsDataFilepath = "assets/json/poems.json";
 let videoDataFilepath = "assets/json/videos.json";
 let chapterTitleDataFilepath = "assets/json/chapter-titles.json";
 
+console.log(isTitlePage);
 if (!isTitlePage){
     poemsDataFilepath = "../" + poemsDataFilepath;
     videoDataFilepath = "../" + videoDataFilepath;
@@ -144,57 +145,49 @@ function injectChapterTitles(){
     }, "json");
 }
 
+function main() {
+    let useNightModeCookie = document.cookie;
+    let nightModeButton = $('#night');
+    let btnShowSidebar = $('#btn-show-sidebar');
 
-// Cookies handling
-let useNightModeCookie = document.cookie;
-let nightModeButton = $( '#night' );
-if (useNightModeCookie.includes("use-night-mode=1")){
-    document.body.setAttribute('class', 'night-mode');
-    nightModeButton.html('Day mode');
-}
-
-if (!isTitlePage) {
-    Hyphenator.run();
-    setupPoemLinks();
-    setupVideoEmbeds();
-}
-injectChapterTitles();
-
-let showSidebarMenu =  $( '#menu-show' );
-let sidebarMenu = $( '#sidebar-menu' );
-let btnHideSidebar = $( '#btn-hide-sidebar');
-let btnShowSidebar = $( '#btn-show-sidebar');
-
-showSidebarMenu.on( 'click', function () {
-    if ( showSidebarMenu.html() === 'Show table of content') {
-        showSidebarMenu.html('Hide table of content');
-        sidebarMenu.css( 'display', 'unset' );
-    } else {
-        showSidebarMenu.html('Show table of content');
-        sidebarMenu.css( 'display', 'none' );
-    }
-});
-
-nightModeButton.on('click', function () {
-    document.body.classList.toggle('night-mode');
-    if (nightModeButton.html() === 'Night mode') {
+    if (useNightModeCookie.includes("use-night-mode=1")) {
+        document.body.setAttribute('class', 'night-mode');
         nightModeButton.html('Day mode');
-        document.cookie = "use-night-mode=1";
-    } else {
-        nightModeButton.html('Night mode');
-        document.cookie = "use-night-mode=0";
     }
-});
 
-btnHideSidebar.on('click', function () {
-    $('#sidebar').toggleClass('no-distraction');
-    $('#content').toggleClass('no-distraction');
-    btnShowSidebar.toggleClass('no-distraction');
-});
-btnShowSidebar.on('click', function () {
-    $('#sidebar').toggleClass('no-distraction');
-    $('#content').toggleClass('no-distraction');
-    btnShowSidebar.toggleClass('no-distraction');
-});
+    if (!isTitlePage) {
+        Hyphenator.run();
+        setupPoemLinks();
+        setupVideoEmbeds();
+    }
 
-$( '.collapsible' ).attr('title', 'Click to expand a video');
+    injectChapterTitles();
+
+
+    nightModeButton.on('click', function () {
+        document.body.classList.toggle('night-mode');
+        if (nightModeButton.html() === 'Night mode') {
+            nightModeButton.html('Day mode');
+            document.cookie = "use-night-mode=1";
+        } else {
+            nightModeButton.html('Night mode');
+            document.cookie = "use-night-mode=0";
+        }
+    });
+
+    let expandSidebarClass = 'expand-sidebar';
+
+    btnShowSidebar.on('click', function () {
+        $('#sidebar').toggleClass(expandSidebarClass);
+        btnShowSidebar.toggleClass(expandSidebarClass);
+        if (btnShowSidebar.hasClass(expandSidebarClass)){
+            btnShowSidebar.html('<i class="material-icons">close</i>')
+        } else {
+            btnShowSidebar.html('<i class="material-icons">menu</i>')
+        }
+    });
+
+    $('.collapsible').attr('title', 'Click to expand a video');
+}
+
+main();

@@ -77,6 +77,10 @@ h3 {
     margin-top: 80px;
     margin-bottom: 0;
 }
+h4 {
+    border-bottom: 2px solid var(--text-color);
+    margin-bottom: 0;
+}
 p {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -84,6 +88,9 @@ p {
     hyphens: auto;
 }
 
+#btn-show-sidebar {
+    z-index: 1000;
+}
 .wrapper {
     font-family: var(--base-font);
     font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures;
@@ -137,6 +144,32 @@ p.annotation + p.annotation {
     border-top: 0;
     padding-top: 0;
 }
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+}
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . ";
+}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: var(--bg-color);
+}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: var(--bg-color);
+}
+
 @media all and (min-width:1000px) {
     .wrapper {
         width: 100%;
@@ -146,64 +179,51 @@ p.annotation + p.annotation {
         padding-top: 64px;
         padding-bottom: 64px;
     }
-    #btn-show-sidebar {
+    #btn-show-sidebar, #sidebar{
         position: fixed;
         float: left;
         left: 0;
-        top: 0;
-        padding: 2rem;
-        font-size: 1.5rem;
-        font-weight: 700;
-
+        padding-left: 1rem;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
 
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 700ms ease;
     }
-    #btn-show-sidebar.no-distraction {
-        opacity: 1;
-        pointer-events: unset;
-        transition: opacity 700ms ease;
+    #btn-show-sidebar {
+        top: 0;
+        padding: 1rem;
+        line-height: 0rem;
+        cursor: pointer;
     }
     #sidebar {
-        position: fixed;
-        float: left;
-        width: 18.5rem;
-        z-index: 20;
+        font-size: 16px;
+        top: 3rem;
 
-        opacity: 1;
-        pointer-events: unset;
-
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        transition: all 700ms ease;
-    }
-    #sidebar.no-distraction{
         opacity: 0;
         pointer-events: none;
-
-        -webkit-transform: translateX(-30%);
-        transform: translateX(-30%);
-        transition: all 700ms ease;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        transition: all 400ms ease;
+    }
+    #sidebar.expand-sidebar{
+        opacity: 1;
+        pointer-events: unset;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+        transition: all 400ms ease;
     }
     #content {
-        margin-left: 21rem;
-        margin-right: 5rem;
+        margin-left: 15rem;
+        margin-right: 11rem;
         padding-top: 0.25rem;
-
-        /*-webkit-transform: translateX(0);*/
-        /*transform: translateX(0);*/
-        /*transition: transform 700ms ease;*/
     }
-    /*#content.no-distraction {*/
-        /*-webkit-transform: translateX(-20%);*/
-        /*transform: translateX(-20%);*/
-        /*transition: transform 700ms ease;*/
-    /*}*/
 }
 @media all and (max-width:1000px) {
     .wrapper {
@@ -260,15 +280,13 @@ p.annotation + p.annotation {
 }
 
 .sidebar-item {
-    text-align: center;
     padding-top: 0.75rem;
 }
 
 #sidebar ul {
     list-style: none;
-    font-size: 16px;
     line-height: 1.4rem;
-    padding-left: 4.2rem;
+    padding-left: 0;
 }
 #sidebar a, li, a:hover, li:hover {
     transition: 0.3s ease;
@@ -603,11 +621,6 @@ table .fas {
     font-size: 0.8rem;
 }
 
-h4 {
-    text-align: right;
-    border-bottom: 2px solid var(--text-color);
-    margin-bottom: 0;
-}
 
 
 .video-date {
