@@ -6,17 +6,21 @@
 // excl
 // <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="19" r="2"/><path d="M10 3h4v12h-4z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
 
+let isTitlePage = document.location.href.includes("index.html");
 
-// Counter holds amount of html pages loaded. Only when everything is loaded will the rest of the code fire.
-let loadedCount = 0;
-function incrementLoadedCount() {
-    loadedCount += 1;
+let poemsDataFilepath = "assets/json/poems.json";
+let videoDataFilepath = "assets/json/videos.json";
+let chapterTitleDataFilepath = "assets/json/chapter-titles.json";
+
+console.log(isTitlePage);
+if (!isTitlePage){
+    poemsDataFilepath = "../" + poemsDataFilepath;
+    videoDataFilepath = "../" + videoDataFilepath;
+    chapterTitleDataFilepath = "../" + chapterTitleDataFilepath;
 }
 
-
-// Adding references to poems.
 function setupPoemLinks(){
-    $.get( "assets/json/poems.json", function( data ) {
+    $.get(poemsDataFilepath, function(data) {
         for(let i = 1; i <= 195; i++) {
             $(".ref" + i).html(data[i]);
             $("#poem" + i).html(data[i]);
@@ -25,7 +29,7 @@ function setupPoemLinks(){
 }
 
 function setupVideoEmbeds(){
-    $.get( "assets/json/videos.json", function (videosJson) {
+    $.get( videoDataFilepath, function (videosJson) {
         let videos = document.querySelectorAll(".video");
         for (let i = 0; i < videos.length; i++) {
             let id = videos[i].dataset.id;
@@ -132,208 +136,58 @@ function createYoutubeEmbeds() {
     };
 }
 
-
-let titleElement = $('.title-text')
-let elPrevChapter = $( '#chapter-prev' )
-let elNextChapter = $( '#chapter-next' )
-let lastScrollPos = 0;
-let curIdIndex = -1;
-let idList = [
-    "#top",
-    "#synopsis_content",
-    "#c171200",
-    "#c180120",
-    "#c180121",
-    "#c180127",
-    "#c180203",
-    "#c180206",
-    "#c180209",
-    "#c180225",
-    "#c180310",
-    "#c180312",
-    "#c180325",
-    "#c180330",
-    "#c180401",
-    "#c180418",
-    "#c180428",
-    "#c180511",
-    "#c180512",
-    "#c180513",
-    "#q_and_a",
-    "#closing_thoughts",
-    "#characters_content",
-    "#poems_content",
-    "#video_content"
-];
-
-function generateTableOfContent(){
-    let cList = $( '#chapter-list' );
-    idList.forEach( function (id) {
-        let element = $(id);
-        let li = $('<li/>')
-            .appendTo(cList);
-        let aaa = $('<a/>')
-            .attr('href', id)
-            .text( element.find(".chapter-title").text() )
-            .appendTo(li);
-    });
+function injectChapterTitles(){
+    $.get(chapterTitleDataFilepath, function(titles) {
+        $( '.title-inject' ).each( function(){
+            let id = $(this).data("chapter");
+            $(this).text(titles[id].name);
+        });
+    }, "json");
 }
 
-function onScroll(){
-    let curScrollPos = $(document).scrollTop();
-    idList.forEach( function (id, index) {
-        let element = $(id);
+function main() {
+    let useNightModeCookie = document.cookie;
+    let nightModeButton = $('#night');
+    let btnShowSidebar = $('#btn-show-sidebar');
 
-        let elementPos = element.offset().top;
-        let elementHeight = element.height();
-        let posOffset = $(window).height() / 3 * -1;
-
-        let breakpoint0 = elementPos + posOffset;
-        let breakpoint1 = elementPos + posOffset + elementHeight;
-
-        if (curScrollPos >= breakpoint0 && curScrollPos <= breakpoint1 && index != curIdIndex) {
-            curIdIndex = index;
-
-            let indexPrev;
-            let indexNext;
-
-            if (index - 1 < 0) {
-                indexPrev = 0;
-                elPrevChapter.css( 'opacity', '0' );
-            } else {
-                indexPrev = index - 1;
-                elPrevChapter.css( 'opacity', '' );
-            }
-
-            if (index + 1 > idList.length - 1) {
-                indexNext = idList.length - 1;
-                elNextChapter.css( 'opacity', '0' );
-            } else {
-                indexNext = index + 1;
-                elNextChapter.css( 'opacity', '' );
-            }
-
-            elPrevChapter.attr( 'href', idList[indexPrev] );
-            elNextChapter.attr( 'href', idList[indexNext] );
-
-            //Changing the title
-            titleElement.addClass("title-transition");
-            titleElement.removeClass("title-text");
-            setTimeout(function() {
-                titleElement.text( element.find(".chapter-title").text() );
-                titleElement.removeClass("title-transition");
-                titleElement.addClass("title-text");
-            }, 300);
-        }
-    });
-    lastScrollPos = curScrollPos;
-}
-
-
-function curlies(element) {
-    function smarten(text) {
-        return text
-        /* opening singles */
-            .replace(/(^|[-\u2014\s(\["])'/g, "$1\u2018")
-
-            /* closing singles & apostrophes */
-            .replace(/'/g, "\u2019")
-
-            /* opening doubles */
-            .replace(/(^|[-\u2014/\[(\u2018\s])"/g, "$1\u201c")
-
-            /* closing doubles */
-            .replace(/"/g, "\u201d")
-
-            /* em-dashes */
-            .replace(/--/g, "\u2014");
-    };
-
-    var children = element.children;
-
-    if (children.length) {
-        for(var i = 0, l = children.length; i < l; i++) {
-            curlies(children[i]);
-        }
-    } else {
-        element.innerHTML = smarten(element.innerHTML);
+    if (useNightModeCookie.includes("use-night-mode=1")) {
+        document.body.setAttribute('class', 'night-mode');
+        nightModeButton.html('Day mode');
     }
-};
 
-
-/*MAIN CODE*/
-let useNightModeCookie = document.cookie;
-let nightModeButton = $( '#night' );
-if (useNightModeCookie.includes("use-night-mode=1")){
-    document.body.setAttribute('class', 'night-mode');
-    nightModeButton.html('Day mode');
-}
-
-$("#poems_content").load("assets/html/poems.html", incrementLoadedCount);
-$("#characters_content").load("assets/html/characters.html", incrementLoadedCount);
-$("#video_content").load("assets/html/video.html", incrementLoadedCount);
-$("#intro_content").load("assets/html/intro.html", incrementLoadedCount);
-$("#synopsis_content").load("assets/html/synopsis.html", incrementLoadedCount);
-$("#chronology_content").load("assets/html/chronology.html", incrementLoadedCount);
-
-
-// wait until all content has been loaded.
-function checkContentLoaded() {
-    if(loadedCount === 6) {
-        clearTimeout(checkContentLoaded);
-
+    if (!isTitlePage) {
         Hyphenator.run();
-        generateTableOfContent();
         setupPoemLinks();
         setupVideoEmbeds();
-        // createCollapsibles();
-        // createYoutubeEmbeds();
-
-        $(document).on('scroll', onScroll);
-        onScroll();
-
-        let showSidebarMenu =  $( '#menu-show' );
-        let sidebarMenu = $( '#sidebar-menu' );
-        let btnHideSidebar = $( '#btn-hide-sidebar');
-        let btnShowSidebar = $( '#btn-show-sidebar');
-
-        showSidebarMenu.on( 'click', function () {
-            if ( showSidebarMenu.html() === 'Show table of content') {
-                showSidebarMenu.html('Hide table of content');
-                sidebarMenu.css( 'display', 'unset' );
-            } else {
-                showSidebarMenu.html('Show table of content');
-                sidebarMenu.css( 'display', 'none' );
-            }
-        });
-
-        nightModeButton.on('click', function () {
-            document.body.classList.toggle('night-mode');
-            if (nightModeButton.html() === 'Night mode') {
-                nightModeButton.html('Day mode');
-                document.cookie = "use-night-mode=1";
-            } else {
-                nightModeButton.html('Night mode');
-                document.cookie = "use-night-mode=0";
-            }
-        });
-
-        btnHideSidebar.on('click', function () {
-            $('#sidebar').toggleClass('no-distraction');
-            $('#content').toggleClass('no-distraction');
-            btnShowSidebar.toggleClass('no-distraction');
-        });
-        btnShowSidebar.on('click', function () {
-            $('#sidebar').toggleClass('no-distraction');
-            $('#content').toggleClass('no-distraction');
-            btnShowSidebar.toggleClass('no-distraction');
-        });
-
-        $( '.collapsible' ).attr('title', 'Click to expand a video');
-
-
-    } else {
-        window.setTimeout(checkContentLoaded, 100);
     }
+
+    injectChapterTitles();
+
+
+    nightModeButton.on('click', function () {
+        document.body.classList.toggle('night-mode');
+        if (nightModeButton.html() === 'Night mode') {
+            nightModeButton.html('Day mode');
+            document.cookie = "use-night-mode=1";
+        } else {
+            nightModeButton.html('Night mode');
+            document.cookie = "use-night-mode=0";
+        }
+    });
+
+    let expandSidebarClass = 'expand-sidebar';
+
+    btnShowSidebar.on('click', function () {
+        $('#sidebar').toggleClass(expandSidebarClass);
+        btnShowSidebar.toggleClass(expandSidebarClass);
+        if (btnShowSidebar.hasClass(expandSidebarClass)){
+            btnShowSidebar.html('<i class="material-icons">close</i>')
+        } else {
+            btnShowSidebar.html('<i class="material-icons">menu</i>')
+        }
+    });
+
+    $('.collapsible').attr('title', 'Click to expand a video');
 }
-checkContentLoaded();
+
+main();

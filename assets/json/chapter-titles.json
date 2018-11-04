@@ -1,0 +1,32 @@
+{
+  "introduction": {"name": "Introduction"},
+  "synopsis":{"name": "Synopsis"},
+  "table-of-content":{"name": "Table of contents"},
+
+  "chapter-01":{"name": "I. “Actors All Prepare”"},
+  "chapter-02":{"name": "II. Strings and Puppets"},
+  "chapter-03":{"name": "III. Tear Them Down"},
+  "chapter-04":{"name": "IV. Ashes and Stitches"},
+  "chapter-05":{"name": "V. ...doth slum­ber deep"},
+  "chapter-06":{"name": "VI. Flame in the Chapel"},
+  "chapter-07":{"name": "VII. Titan’s Dream"},
+  "chapter-08":{"name": "VIII. Spear’s Wake"},
+  "chapter-09":{"name": "IX. The Humanity"},
+  "chapter-10":{"name": "X. Spark of Yore"},
+  "chapter-11":{"name": "XI. Of Bits and Pixels"},
+  "chapter-12":{"name": "XII. Heart Attack"},
+  "chapter-13":{"name": "XIII. The Timeline"},
+  "chapter-14":{"name": "XIV. Sparks and Corpses"},
+  "chapter-15":{"name": "XV. “...I am soon done?”"},
+  "chapter-16":{"name": "XVI. The Journey I"},
+  "chapter-17":{"name": "XVII. The Journey II"},
+  "chapter-18":{"name": "XVIII. The Journey III"},
+  "chapter-19":{"name": "XIX. Puppeteer’s Q&A"},
+  "chapter-20":{"name": "XX. Closing Thoughts"},
+
+  "appendix-a":{"name": "Appx.A - Characters"},
+  "appendix-b":{"name": "Appx.B - Poems"},
+  "appendix-c":{"name": "Appx.C - Footage"},
+  "appendix-d":{"name": "Appx.D - The Timeline"},
+  "appendix-e":{"name": "Appx.E - The Journey - Twitch information"}
+}
