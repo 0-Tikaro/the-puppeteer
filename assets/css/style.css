@@ -401,9 +401,8 @@ ul {
     font-family: var(--base-native-digits-font);
 
     text-align: center;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid var(--shade-color);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 img {
