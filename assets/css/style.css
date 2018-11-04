@@ -446,7 +446,7 @@ a:hover {
     transition: color 0.2s;
 }
 blockquote {
-    font-size: 0.9rem;
+    line-height: 1.5;
     font-style: italic;
     margin-left: 0;
     padding: 1em;
