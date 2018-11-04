@@ -1,39 +1,218 @@
-UNTENDED GRAVES
+<p>After a short respite by the fire, the Puppet arose and wearily opened up the great wooden doors leading into the Grand Archives. </p>
 
-Mute knight's slow march, passing by Consumed King's Gardens, has led us towards the Untended Graves---the only side-path of the game still unexplored. Now voided of the Sin's radiant blaze, the Puppet was ready to descend into pitch blackness.
+<img src="assets/images/180511_twitch36.jpg" data-action="zoom"/>
 
-<img src="assets/images/180511_twitch34.jpg" data-action="zoom"/>
+<p>This great dome, housing interminable shelves of cursed knowledge, has always been our favorite place to invade and pillage&mdash;players naturally gravitate towards SL80-SL90 when they reach this place, and that is of course the SL that we as a community favor. But precisely because this is such a hot-spot, getting into the Puppet&rsquo;s world has been cumbersome during this section, with many of us repeatedly invading completely unrelated people just going through the area.</p>
 
-Here the penultimate apparition took over the Puppet's mind. Undoubtedly one of Father's greatest creations, and perhaps the second most-fun-to-fight puppet---the Nameless Flame's transient spark was upon us.
+<p>Despite that, the Archives is a place of particular interest for us. There is just one area left for the mute knight to conquer, one final Lord to consume, and one final apparition to smother. We have already entered the area, and we know the Lord whose demise draws interminably closer. Yet the final apparition was nowhere to be seen yet.</p>
 
-The Puppet, its head gone in a black miasma akin to that of the desecrated Harald Legion knights, awaited its opponents by the broken vessel in the center of the area. The way the bulk of the area played out was awfully similar to our very first encounter with the Nameless Flame all the way back in the beginning of February. The Puppet utilized the humanity-seedbed's full arsenal: Onyx Blade, Ringed Knight Straight Sword and Spear, all augmented with the blackflame weapon buff. Alongside the wide melee array, the mute knight also mimicked Nameless Flame's blackflame pyromancies. Quick and relentless fights were had all throughout the area.
+<p><span class="tooltip">#186<span class="tooltiptext ref186"></span></span> began to answer this curious riddle. The final puppet, who has not yet possessed the Puppet&rsquo;s mind, was Heart of Spears. This poem states it quite clearly as the apparition which &ldquo;yielded flesh for monster mute&rdquo;. As we recall from Chapter XV, the Father has stitched the Puppet together from the corpse of Heart of Spears (there is even poem <span class="tooltip">#101<span class="tooltiptext ref101"></span></span>, which speaks of the beginning of craftsman&rsquo;s work).</p>
 
-Yet time passed us by in a flash, and after just a couple of us have gotten our fill of the blackened Puppet, the boss fog was approached. #183 beckoned us in, per the usual rules.
+<p>Having named the final apparition, <span class="tooltip">#186<span class="tooltiptext ref186"></span></span> immediately shuts down the idea of coming &ldquo;to its homeland&rdquo;. In hindsight this looks like the Puppeteer&rsquo;s way of saying &ldquo;this Dried Finger run will not go through the DLCs&rdquo;, which he came out and said in plain text later. For lore purposes we may suppose that since the apparitions overcame the Puppet only in their respective areas, they must be tied to the geographic locations. Because the mute knight cannot visit the Ringed City, Heart of Spears&rsquo; apparition never emerges in full force.</p>
 
-<img src="assets/images/180511_twitch35.jpg" data-action="zoom"/>
+<p><span class="tooltip">#187<span class="tooltiptext ref187"></span></span> expanded upon these thoughts. It says that the Puppet&rsquo;s body, while being stitched from the remains of Heart of Spears&rsquo;, does not possess the same powers as it did. The unique miracles of the first Spear of the Church have been forever washed away as its maddened hollow soul was torn away from its robust carcass.</p>
+
+<p>Despite that, a peculiar transformation overcame the Puppet amidst the cursed knowledge of the highest halls of Lothric. &ldquo;A different tale of ancient crime&rdquo; it was&mdash;a sublime, white frenzy.</p>
+
+<span class="video" data-id="180513_3_0"></span>
+
+<p>Three new spells augmented the Puppet with blessed light. A small Farron Dart-like projectile, a Divine Soul Spear, and last but not least&mdash;a titanic wall of light, moving rapidly and blinding everything in the vicinity.</p>
+
+<p>All spells made use of effects seen in the Twin Prices boss fight. This fact, along with the way <span class="tooltip">#187<span class="tooltiptext ref187"></span></span> spoke of &ldquo;ancient crime&rdquo; and the way <span class="tooltip">#188<span class="tooltiptext ref188"></span></span> and <span class="tooltip">#189<span class="tooltiptext ref189"></span></span> (which, keep in mind, have not been posted yet), lead us to believe that the Puppet was indeed overcome with the Heart of Spears&rsquo; memory. But that memory was unclear, fragmented, and under the influence of Lothric has become tainted with his own &ldquo;angelic&rdquo; imagery. Why did Lothric have such influence over the voiceless knight? Why here and not throughout all of Lothric Castle? These questions we have no answer to.</p>
+
+<p>Another curious transformation appeared in the Puppet&rsquo;s character. Having ventured through the darkest depths and highest peaks of Lothric, the Puppet absorbed uncountable souls and swallowed three legendary Lords of Cinder. Recall how <span class="tooltip">#182<span class="tooltiptext ref182"></span></span> said: &ldquo;Flame rages on in cursed soul / as knight subdues it with stern will&rdquo;. On this great journey, the Puppet has grown strong enough to bend the scorching blaze of Great Old Sin under its synthetic will.  Now, as the Puppet knew that the end was crawling closer, it had no more reason to hold the precious embers of the Lords enchained.</p>
+
+<p>Through this whole area, any aggressive move made by the Puppet would momentarily set its arms ablaze. And just as quickly as they appeared, tongues of sinful flame would be extinguished. In contrast to previous explosions of agony the Puppet experienced from the Sin&rsquo;s flame, this controlled and methodical application has shown it to finally hold the reigns over this curse.</p>
+
+<img src="assets/images/180511_twitch37.jpg" data-action="zoom"/>
+
+<p>Having fought its way through the dark, damp balconies of the Archives, the mute knight ascended towards its dome and, as the second Twitch background shows, oversaw the whole world. And in this overseeing, it perhaps caught a glimpse of the Ringed City somewhere infinitely faraway, beyond the horizon, for its arsenal changed once again. Under the bleak brass skies, it produced a Lucerne and Gotthard Twinswords&mdash;both belonging to the first and most unyielding defender of Fillianore&rsquo;s Church.</p>
+
+<span class="video" data-id="180513_3_1"></span>
+
+<p>The Puppet fell numerous times on its crawl towards the final Lord. Yet, at last, it opened the heavy creaking doors. But we, weathered spirits not succumbing to the exhaustion of this arduous journey, pursued it closely, giving it no time to prepare for the last meal.</p>
+
+<p>It turned around and beckoned us, one-by-one, as the sickly and apathetic Prince Lothric watched from above.</p>
+
+<img src="assets/images/180511_twitch38.jpg" data-action="zoom"/>
+<span class="video" data-id="180513_3_2"></span>
+
+(In which the Puppeteer has yet again shown us why having boss rooms as arenas for PvP would be a fantastic idea)
+
+<p><span class="tooltip">#188<span class="tooltiptext ref188"></span></span> has been mentioned already, and now we can dig a bit deeper into it. The &ldquo;amalgam&rdquo; of course refers to the fragmented and broken imagery of the Heart of Spears, mixed together with feverish light of Lothric. But again, how did the Puppet become afflicted with this white light? Perhaps it&rsquo;s worth taking a look at what the actual game presents to us in terms of lore:</p>
+
+<blockquote>
+<p>The Queen&rsquo;s holy maiden Gertrude was visited by an angel, who revealed this tale to her.</p>
+<p>Despite losing both her sight and her voice, she was determined to record the tale. Ordinary men cannot decipher her fragmentary scrawl, nor comprehend how it became the foundation of the Angelic faith of Lothric.</p>
+- Divine Pillars of Light (DSIII)
+</blockquote>
+
+<p>This is the only &ldquo;heavenly&rdquo; miracle in the game. There are two more items which utilize the same feathery particle effects, those being Lothric&rsquo;s Holy Sword and Twin Princes Greatsword, but, sadly, neither of them offer anything helpful in the untangling of the Puppet&rsquo;s affliction.</p>
+
+<span class="video" data-id="180513_3_3"></span>
+
+<p>There is one curious detail in the description of Divine Pillars of Light&mdash;it describes Gertrude&rsquo;s writing of the miracle as fragmented. This correlates with our idea of Heart of Spears&rsquo; apparition being just as broken and fragmented within the Puppet&rsquo;s mind. Perhaps two broken things make one whole? The affliction remains unclear, but for the sake of the story we can imagine the Puppet coming across the Divine Pillars at the base of the archives, and the broken scratching of the miracle burning themselves into its mind.</p>
+
+<span class="video" data-id="180513_3_4"></span>
+
+<p>Despite those ideas, the Puppet&rsquo;s momentary affliction will remain a mystery (or by chance the Puppeteer just didn&rsquo;t have the time to think this part through? That we may never know). As one by one we engaged the mute knight, and as both parties fell time and time again, the Puppet&rsquo;s hunger has been growing stronger. The Lord was right there, just a couple of leaps away. The final phantom was summoned with <span class="tooltip">#189<span class="tooltiptext ref189"></span></span>, and when they fell, the feast began.</p>
+
+<p>What could poor Lothric do against the Puppet? A sickly cripple resigning himself to a solitary decay away from the fire, against the thing which trampled three Lords already. Lorian, the faithful brother, would of course be of no help here. Did the brothers submit without a battle, accepting that their desire to see the fire fade away would be satisfied by the cold hands of the voiceless knight? Or did they protest and defend themselves, only to be torn to shreds for their precious blazing soul?</p>
+
+<p class="killcount">&mdash;164&mdash;</p>
+
+<p>Lothric was gone, devoured by the synthetic knight. And thus, no more Lords remained on this Earth, and no more sidesteps were necessary on the Puppet&rsquo;s journey.</p>
+
+<p>Emboldened once again by the Sin&rsquo;s great flames, it made its way towards Firelink Shrine, which it found crumbled and flameless, being slowly swallowed by the Dreg Heap. The Puppet knew where it had to go, and so did we.</p>
+
+<img src="assets/images/180511_twitch39.jpg" data-action="zoom"/>
+
+<div class="poem">190
+<b>Our goal is clear, for we are done.
+<p>No lords or souls are left to eat.</p>
+<p>Great Sin of Old, your time has come!</p>
+<p>This hellish knight will do the feat.</b></div></p>
+
+(these final poems will be show in full text to hopefully augment the effect of the finale).
+
+<p>The Father&rsquo;s words, conveyed in <span class="tooltip">#190<span class="tooltiptext ref190"></span></span>, resounded strongly in the air. The Puppet&rsquo;s exalting  thing which awaited it amidst the flowering ash of the kiln. That thing, of course, being the Great Old Sin.</p>
+
+<p>The Puppet marched on: its legs covered in ash, its arms in hellish flames, its armor in deep cuts and scratches&mdash;and came towards the broken archway. Did it slow down for a second, to consider what awfully titanic journey it overcame on its way to this crumbled gate? Born of the formless gray mixture of Humanity and God&rsquo;s soul, imbued into a corpse which persevered unending sleep for countless eons. It has unsteadily tumbled through the straight walks of High Wall of Lothric, the twisting putrid streets of Undead Settlement. It founds its way through the Cathedral of the Deep and descended into the expansive swamps into which the mausoleum of the Abyss Watchers slowly sinks.</p>
+
+<p>The Puppet has torn apart those knights bound ever still by their fanatical hatred of the Abyss, and in doing so scorched its formless soul with fires no less abominable. Yet the knight stumbled on through the cold hallways of the Catacombs, perpetually tormented by the flames burning away its unfeeling soul.</p>
+
+<p>Does it recall how, after the flames subsided, it descended into the still waters of Smoldering Lake, and then came back up into the frigid winds of Irithyll? And how it went ever above that, to gulp down Aldrich, the putrid abomination someone had the mind to pronounce a Lord?</p>
+
+<p>The voiceless knight, as we have come to know it, would, of course, never give any of it a second thought. Nor would it recall the blazing agony it went through in Irithyll Dungeon, nor the great dream of ancient hail at Archdragon Peak. The synthetic thing would not recollect the great feat of consuming Yhorm the Giant, nor the subsequent sterilization of Lothric Castle and Untended Graves.</p>
+
+<p>The Puppet will not ponder on how it set forth through the Grand Archives, hunting down the final lord with no pity. It will not give a second thought how it became the unbreakable, unyielding herald of the end of the era.</p>
+
+<p>And here it stood before the final foe, ready to take it down in barbarous, blood-chilling combat.</p>
+
+<p>It could do it alone, no doubt. But it would not:</p>
+
+<div class="poem">191
+<b>You, blood-hungry hunters of the world
+<p>endured such journey with us two!</p>
+<p>Come with it now, and stand so bold</p>
+<p>along the hellspawn. See it through!</b></div></p>
+
+<p>We, trailing ghosts continuously appearing on the Puppet&rsquo;s path, came to the very end with it. We tempered it in cruel combat, and willingly fend our souls to it. Now, we were to see it through with our own eyes.</p>
+
+<p>Five phantoms were summoned. Not the vengeful red, neither mindless purples, but brilliant white spirits&mdash;all ready to observe how the preternatural God of Gods, the undying flame which stagnated the world for endless eons, would be challenged by the empty thing which trekked to the ends of the world and back, consuming everything standing in its way. </p>
+
+<p>The voiceless knight stepped through the archway.</p>
+
+<p>The coiled sword was thrust out from the fire, warm ash falling around it. The titanic figure rose from its eternal rest.</p>
+
+<img src="assets/images/180511_twitch40.jpg" data-action="zoom"/>
+
+<p>Five of us fought side by side with the synthetic knight whom we nurtured for its sole purpose. Great Old Sin defended itself, every soul which has ever sacrificed itself to the Flame coming forth against us. Interminable hoard of legends breathed through the towering carcass of the Sin, its power unyielding through its endless hypostases.</p>
+
+<p>No man came close to such presence. No God could be as close to a true force of nature as the Great Old Sin was. And yet the Puppet was neither. An empty mold, a husk which held no beliefs and no ambitions. Crafted by the skillful hand and tempered by the great journey, its scorching armor held steadfast against the obliterating hellfires of the God of Gods. And the unquenchable hunger inside it grew.</p>
+
+<p>Great Old Sin fell. And it rose again, another hypostasis taking the place of the fallen. It fell again, and rose again. It fell, rose, fell, rose, fell, rose&hellip; And ever still the Puppet persisted. Great heroes of all eons came forth against it, each overcoming great adversity to become a part of this being. And each fell in face of the Puppet. Its accursed spear pierced their shared body, its gaping maw consumed their minds.</p>
+
+<p>As the sun bled out, and the world turned dark, Great Old Sin had fallen and failed to stand up.</p>
+
+<div class="poem">192
+<b>INTO THICK ASH THE PIECES FALL
+<p>STRONG JAW SUBDUES THE BLAZING HEAD</p>
+<p>WORLD&rsquo;S FLAME WILL NOT STAND TALL</p>
+<p>AS KNIGHT ENGULFS ITS FINAL SHRED</b></div></p>
+
+<img src="assets/images/180511_twitch41.jpg" data-action="zoom"/>
+
+<p>Here we stood, witnessing the twilight of the gods. The thing we gave birth to became more than a puppet in the hands of a skillful artisan. The Puppet overpowered the Great Old Sin, the God of Gods, the fundamental force. We can only imagine how it felt, the endless emptiness inside it being filled with the endless minds and souls of all the warriors it tore away from the Great Old Sin and, at last, the First Flame itself.</p>
+
+<p>In absorption of these endless memories, the Puppet rose from the remains of the Great Old Sin, which were resigned to eternal cold until the end of ends came forth and swallowed the whole world.</p>
+
+<p>We were of course of no use to it now, as it became more than the rest of the world. But, perhaps out of a phantasmal sense of honor it may have developed during our shared journey, it beckoned us through the archway.</p>
+
+<span class="video" data-id="180513_4_0"></span>
+
+<p>We were at the culmination of the whole journey. For this one unique time, the boss would not be engaged by one, two, or three people, but five.</p>
+
+<p>And the Puppet has fallen each time. But each time the First Flame filled it more, and it rose back up ever stronger than it was. In the beginning it differed in no way from the flaming marionette we faced in Lothric castle. But as the fights went on, its damage rose to absurd degrees, culminating with a single neck swipe from its spear easily doing over a thousand damage.</p>
+
+<p>Alongside this stupefying damage, the Puppet has also acquired passive hyper armor and extreme movement speed, which made it even more difficult to land clean hits on our target.</p>
+
+<img src="assets/images/180513_kiln0.jpg" data-action="zoom"/>
+<span class="video" data-id="180513_4_1"></span>
+
+<p>Many times we were summoned, and many of us faced this all-eclipsing apparition. At first we were strong enough to take it out without losing a single phantom. But soon it became impossible, as it took all we could do to save a spirit whom the Puppet has marked for death and laid its scorching eyes upon.</p>
+
+(An entertaining annotation: Nosferat has at one point found the Soul of Cinders the Puppeteer had moved out of the arena during this section of the run)
+
+<img src="assets/images/180513_kiln2.jpg" data-action="zoom"/>
+
+<div class="poem">193
+<b>AS SKY GROWS DARK IN ENDLESS NIGHT
+<p>ONE SPARK IS LEFT, UNTAMED AND BRIGHT</p>
+<p>COME EACH ONE NOW, FOR FINAL FIGHT</p>
+<p>SOON ENDLESS REST WILL TAKE THE KNIGHT.</p>
+
+1 LEFT</b></div>
+
+<img src="assets/images/180513_kiln1.jpg" data-action="zoom"/>
+<span class="video" data-id="180513_4_2"></span>
+
+<p>The voiceless knight engaged the final five. Scorching with primordial flames it fought on, yet, as it did many times before us, it fell. And as our war-loving spirits were vanishing from its world yet again, it brought itself back up, now the sole warm spark amidst the all-engulfing darkness.</p>
+
+<div class="poem">194
+<b>This world, old and decayed,
+<p>it now, alas, no one controls.</p>
+<p>Left standing is one richest shade</p>
+<p>of the Darkest of Souls.</b></div></p>
+
+<p class="killcount">&mdash;169&mdash;</p>
+
+<p>The Puppet&rsquo;s great task was finished, the world was freed from the poisonous existence of the Great Old Sin. But now, has the Puppet not become the renewed Great Old Sin? Engulfing all that was the God of Gods, was it not the same ever-expanding kaleidoscope of souls which all manifest the accursed flame?</p>
+
+<p>The Puppet&rsquo;s nemesis is gone, but the Puppet&rsquo;s journey was not over. Having become the bearer of the First Flame, it was now the cornerstone of the world. There was one thing the voiceless knight had to do now to ensure the accursed flame would not be rediscovered.</p>
+
+<p>As the cold ash grew warm under its beaten down legs, the Puppet marched away from the flowering field of the Kiln, littered with uncountable swords. It marched upwards, passing the crumbling towers of Lothric as they slowly slid ever downwards into the bottomless pits below, as if the horizon has suddenly sunk under your feet.</p>
+
+<p>The bearer of the First Flame has at last seen the consequences of its actions, as sun disappeared completely and the clouds grew as dark as the blackest abysses. Serene silence fell upon all lands. Was the Father satisfied, for his planned worked out brilliantly? Was he content being now the creator of what could be considered the mightiest thing to walk under these skies?</p>
+
+<p>Mute knight of course never pondered about this. It went on through the rubble and the towers and mountains bowed down to its primordial presence. Eventually it came upon the shrine which was a home to many great legends and even more cowardly fools. And here, it has decided to bid farewell to us.</p>
+
+<p>For the final time, the Puppeteer has beckoned us to inscribe our red signs as close to the Dark Shrine within the Untended Graves as we could. While we, some with zeal and others with melancholy, did so, the Puppet ascended through the flameless dark corridors. It went on around the five thrones which would, of course, never be of use again. It climbed the steps upwards, and entered the thin winding tower by the giant tree. At last, it passed the shaky iron gate at the other side of the thin bridge, which led from the winding staircase into the Firelink Tower. </p>
+
+<p>The great tomb of the Firekeepers, was it not destined to become the Puppet&rsquo;s final rest? In its great deed, did it not become just that, the closest a being can be to a Keeper of Fire?</p>
+
+<p>The old elevator was still functional, and on it the Puppet rose up to the highest peak of the shrine. And there, it waited for us.</p>
+
+<span class="video" data-id="180513_5_0"></span>
+
+<p>The voiceless knight said, in its own way, a personal farewell to each and every one still present. Its warm radiance was growing sluggish with the sweet thoughts of the impending slumber, and in this transience between waking and dreaming it pierced and slashed and impaled all those wishing to see it off.</p>
+
+<p>Many have already found it half-asleep, though it was still wakeful enough to be roused by material means.</p>
+
+<p>Each one of us, the blood-drunk war-happy bastards, said our personal farewells. The Puppet awaited one last opponent before it would slip into the sublime pleasure of slumber. Fanboy, who so eagerly followed the whole event, became the last one to see the Firekeeper in its waking shape.</p>
+
+<span class="video" data-id="180513_5_1"></span>
+
+<p>As the Puppet fell, we were for the final time beckoned by the Father. &ldquo;All signs by the fire&rdquo;&mdash;he said&mdash;as so we placed them.</p>
+
+<p>One by one we were beckoned into the dark tower. And one by one we took place on the shaky crumbled elevator. Side by side, brothers and sisters in the endless pursuit of fun through the means of war, we ascended to the bell.</p>
+
+<img src="assets/images/180511_twitch42.jpg" data-action="zoom"/>
+<span class="video" data-id="180513_5_2"></span>
+
+<p>There it sat. Devourer of the Great Old Sin. Slayer of the God of Gods. The Firekeeper until the end of times. The Puppet. A slender figure in broken armor, each breath radiating bright profaned sparks of the First Flame, burning dimly in the sarcophagus of its unyielding ribcage. The accursed spear, which many eons ago had carved its own heart out, was now struck deep into the stones by its figure.</p>
+
+<p>We stood before it, pondering on the great journey we all underwent with this fantastic creature. Some stood tall, some collapsed. As the pagans of the ancient days, we all  offered the some symbolic sacrifices to the motionless figure, drinking divine waters from sacred bottles, freeing greatest souls one could find, and leaving glowing trinkets near the knight.</p>
+
+<p>Some of us turned away and left immediately, others slugged behind, sitting by the figure for great whiles. But eventually, the last war-waging spirit left the lone tower under the endless dark skies.</p>
+
+<p>And there, the Firekeeper would remain, destined to become the tomb of the First Flame, now and forevermore:
+
+<div class="poem">195
+<p>Knight takes a seat under dark bell,</p>
+<p>great deed is done, the embers fade.</p>
+<p>It now shall rest, enchain the hell</p>
+<p>till even time itself will fade.</p>
 
 
-    -wt-HCTROGY
-    hB_AmWEVN9s
-    8Qs4jycjE58
-    Boss theme: Alex Roe - In Death, I Am Reborn
-
-<span class="video" data-id="180513_2_0"></span>
-
-Immediately you see that this boss fight was unique in comparison to all the other ones we've had so far. It's certainly worth bringing up that most of the fights held here were two-on-one instead of the usual one-on-one scenario. But what has given the fight its real flavor was the location the participants were brought into. Gundyr's plain and boring arena was completely ignored in favor of what immediately succeeded it---the ascent into the Untended Firelink Shrine. Its varied terrain gave the Puppet a narrow enough corridor to ascend towards the shrine while simultaneously fighting off two invaders <i>and several Black Knights</i>, which were swiftly brought into our carnage.
-
-All this would have made for a fairly interesting boss-fight already, but there's one more thing that made this one into something special. At the time of gathering footage, the only available clip of this fight was that of Fanboy, where the fight has ended prematurely, courtesy of the Puppeteer's particular adoration of pits and ledges. But later on, Nosferat and Narcolept have shared their own footage from the depths of their hard drives. In them we can see what this last "thing" is: after successfully fending off the invaders and the Black Knights, the Puppet entered into the shrine and forced us along with it. To fight our epic adversary inside what is arguably the most important location of the game, which is also completely inaccessible for online---and all of this with Alex Roe's <i>In Death, I Am Reborn</i> on the background? What a recipe for a memorable encounter.
-
-[narc]https://youtu.be/fQaZRghmRtI
-[nos]https://youtu.be/FRNRWUItnv0
-
-<span class="video" data-id="180513_2_1"></span>
-<span class="video" data-id="180513_2_2"></span>
-
-#184 brought this incredible fight to an end, as the Nameless Flame's apparition was swallowed up by the Puppet's hunger. It's worth noting that there was nothing said of the blackflame puppet during this whole encounter. Perhaps the Puppeteer has thought that everything that was worth saying about it was already said.
-
-The poem paints a clear picture of the mute knight: its armor warm from the blazing Lord of Cinders-like soul within, it forces itself out of the black miasma of Humanity, and walks wearily away from the flameless Shrine. Up the cliffs of the Untended Graves, over poisonous mud of the degraded Gardens and through the still sterile halls of Lothric Castle, until at last it stands before the doors of the Grand Archives.
-
-Here it takes a sit by the bonfire and rests for half an hour, the Puppeteer announcing it with #185 (and likely frantically running to the toilet and grabbing a bite of something in real life).
-
-<p class="killcount">&mdash;155&mdash;</p>
+-THE END-</div>
