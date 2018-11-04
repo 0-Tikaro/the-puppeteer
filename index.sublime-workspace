@@ -1,0 +1,273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"chapter",
+				"chapter-01"
+			],
+			[
+				"table",
+				"table-of-content"
+			],
+			[
+				"tab",
+				"table-of-content"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 258.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/index.sublime-project",
+		"/C/Users/tikar/Google Drive/University/3. Semester/OSY/cvut_osy.todo",
+		"/C/Projects/CVUT HRY/cvut_hry.todo",
+		"/C/Users/tikar/Desktop/quanti.todo",
+		"/C/Users/tikar/Desktop/master.todo",
+		"/C/Users/tikar/Google Drive/University/3. Semester/OSY/todo.todo",
+		"/C/Projects/CVUT HRY/root.todo",
+		"/C/Users/tikar/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/Tikaro.hidden-tmTheme",
+		"/C/Users/tikar/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
+		"/C/Projects/CVUT 3 Algorithmization/src/ACM_181101_A10.java",
+		"/C/Users/tikar/Google Drive/University/CTU-codes-master/OSY/du05/prod-cons.c",
+		"/C/Users/tikar/Downloads/03-priklady/3-thread/fork.c",
+		"/C/Users/tikar/Downloads/03-priklady/3-thread/thread.c",
+		"/C/Users/tikar/Downloads/03-priklady/1-proces/wait.c",
+		"/C/Users/tikar/Downloads/03-priklady/1-proces/fork.c",
+		"/C/Users/tikar/Google Drive/University/CTU-codes-master/OSY/du04/forkpipe.c",
+		"/C/Users/tikar/Google Drive/University/CTU-codes-master/OSY/du04/Makefile",
+		"/C/Users/tikar/Downloads/my_spotify_data/SearchQueries.json",
+		"/C/Users/tikar/Downloads/my_spotify_data/YourLibrary.json",
+		"/C/Users/tikar/Downloads/my_spotify_data/Identity.json",
+		"/C/Users/tikar/Downloads/my_spotify_data/StreamingHistory.json",
+		"/C/Users/tikar/Downloads/my_spotify_data/Follow.json",
+		"/C/Users/tikar/Desktop/The Puppeteer",
+		"/C/Projects/CVUT HRY/root info.todo",
+		"/C/Projects/CVUT HRY/cvut hry information",
+		"/C/Users/tikar/Downloads/2018 in bite-sized chunks - INPUT.tsv",
+		"/C/Users/tikar/Desktop/Vbox and docker setup",
+		"/C/Users/tikar/Downloads/makefile.1",
+		"/C/Users/tikar/Desktop/The Puppeteer's DLC (Hahaha)",
+		"/C/Users/tikar/Desktop/asd",
+		"/C/Users/tikar/Desktop/The long-awaited day has come. The culmination of",
+		"/C/Users/tikar/Google Drive/University/3. Semester/ALG/ALG general notes",
+		"/C/Users/tikar/Desktop/osy03/task",
+		"/C/Users/tikar/Desktop/osy03/cviceni03_test_html.txt",
+		"/C/Users/tikar/Desktop/osy03/STEP 1 tests",
+		"/C/Users/tikar/Desktop/osy03/text_data.html",
+		"/C/Users/tikar/Desktop/osy03/03_test_00.html",
+		"/C/Users/tikar/Downloads/Telegram Desktop/ex.sh",
+		"/C/Users/tikar/Desktop/osy03/03regex.sh",
+		"/C/Users/tikar/AppData/Roaming/DarkSoulsIII/GraphicsConfig.xml",
+		"/C/Users/tikar/Desktop/osy03/index.html",
+		"/C/Users/tikar/Desktop/osy03/nuke.html",
+		"/C/Users/tikar/Desktop/03regex.sh",
+		"/C/Users/tikar/Desktop/Diary",
+		"/C/Users/tikar/Desktop/cvut hry information",
+		"/C/Users/tikar/Desktop/puppy page template.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chronology.html",
+		"/C/Users/tikar/Desktop/acm.txt",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/js/main.js",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/pages/chapter-02.html",
+		"/C/Projects/The Puppeteer Archive/thinking",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/index.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/pages/chapter-01.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-20.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-19.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-18.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-17.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-16.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-15.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-14.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-13.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-12.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-11.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-10.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-09.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-08.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-07.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-06.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-05.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-04.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-03.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-02.html",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/assets/html/chapter-01.html",
+		"/C/Users/tikar/Google Drive/University/3. Semester/OSY/03regex/test00.html",
+		"/C/Users/tikar/Google Drive/University/3. Semester/OSY/02bash/02bash.sh",
+		"/C/Users/tikar/Desktop/02bash.sh",
+		"/C/Users/tikar/Desktop/test.sh",
+		"/C/Users/tikar/Desktop/02bash (copy 1).txt",
+		"/C/Users/tikar/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/Misc Files/Quanti/fims2 doc/fims2/debug_logs.txt",
+		"/C/Users/tikar/Desktop/Fims_new_Build_and_Deploy_Testing_105.log",
+		"/C/Users/tikar/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/tasks-dark_Tikaro.hidden-tmTheme",
+		"/C/Users/tikar/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/Default (Windows).sublime-keymap",
+		"/C/Projects/The Puppeteer Archive/the-puppeteer/.gitignore",
+		"/C/Users/tikar/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
