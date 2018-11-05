@@ -614,6 +614,7 @@ table {
 }
 td {
     padding: 0.5rem;
+    vertical-align: top;
 }
 table .fas {
     font-size: 0.8rem;

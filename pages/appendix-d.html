@@ -54,6 +54,7 @@
             <li><a href="appendix-b.html"><span class="title-inject" data-chapter="appendix-b"></span></a></li>
             <li><a href="appendix-c.html"><span class="title-inject" data-chapter="appendix-c"></span></a></li>
             <li><a href="appendix-d.html"><span class="title-inject" data-chapter="appendix-d"></span></a></li>
+            <li><a href="appendix-e.html"><span class="title-inject" data-chapter="appendix-e"></span></a></li>
         </ul>
     </div>
 
@@ -63,140 +64,140 @@
         </h1>
 
         <table>
+            <thead>
+                <th style="width: 11.5rem;">Timeline String</th>
+                <th>Meaning</th>
+            </thead>
             <tr>
-                <td><b>Substring from the Timeline</b></td>
-                <td><b>Interpretation</b></td>
-            </tr>
-            <tr>
-                <td>[[[</td>
+                <td><code>[[[</code></td>
                 <td>“START”</td>
             </tr>
             <tr>
-                <td>|&lt;1&gt;&lt;2&gt;&lt;3&gt;&lt;4&gt;|</td>
+                <td><code>|&lt;1&gt;&lt;2&gt;&lt;3&gt;&lt;4&gt;|</code></td>
                 <td>“Oden the Armless, Redflame Erik, Lone Darwraith, White Vagrant appeared”</td>
             </tr>
             <tr>
-                <td>-->|&lt;1&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>-->|&lt;1&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“Oden the Armless fought YOU”</td>
             </tr>
             <tr>
-                <td>&|&lt;2&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&|&lt;2&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“Redflame Erik fought YOU”</td>
             </tr>
             <tr>
-                <td>&|&lt;3&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&|&lt;3&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“Lone Darkwraith fought YOU”</td>
             </tr>
             <tr>
-                <td>&|&lt;4&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&|&lt;4&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“White Vagrant fought YOU”</td>
             </tr>
             <tr>
-                <td>-->|&lt;2&gt;&lt;3&gt;-->&lt;5&gt;|</td>
+                <td><code>-->|&lt;2&gt;&lt;3&gt;-->&lt;5&gt;|</code></td>
                 <td>“Redflame Erik and Lone Darkwraith made into Wraithflame Erik”</td>
             </tr>
             <tr>
-                <td>&|&lt;4&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&|&lt;4&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“White Vagrant fought YOU”</td>
             </tr>
             <tr>
-                <td>>|&lt;4&gt;-->x|</td>
+                <td><code>>|&lt;4&gt;-->x|</code></td>
                 <td>“White Vagrant died”</td>
             </tr>
             <tr>
-                <td>&|&lt;6&gt;|</td>
+                <td><code>&|&lt;6&gt;|</code></td>
                 <td>“Heart of Spears appeared”</td>
             </tr>
             <tr>
-                <td>&mdash;-->|&lt;1&gt;&lt;4&gt;-->&lt;7&gt;|</td>
+                <td><code>&mdash;-->|&lt;1&gt;&lt;4&gt;-->&lt;7&gt;|</code></td>
                 <td>“Oden the Armless and White Vagrant made into Slumbering Oden”</td>
             </tr>
             <tr>
-                <td>-->|&lt;5&gt;-->&lt;8&gt;|</td>
+                <td><code>-->|&lt;5&gt;-->&lt;8&gt;|</code></td>
                 <td>“Wraithflame Erik made into Nameless Flame”</td>
             </tr>
             <tr>
-                <td>&mdash;-->|&lt;7&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&mdash;-->|&lt;7&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“Slumbering Oden fought YOU”</td>
             </tr>
             <tr>
-                <td>>|&lt;7&gt;-->???|</td>
+                <td><code>>|&lt;7&gt;-->???|</code></td>
                 <td>“Slumbering Oden made into ???/process incomplete”</td>
             </tr>
             <tr>
-                <td>&|&lt;8&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&|&lt;8&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“Nameless Flame fought YOU”</td>
             </tr>
             <tr>
-                <td>&mdash;-->|&lt;8&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&mdash;-->|&lt;8&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“Nameless Flame fought YOU”</td>
             </tr>
             <tr>
-                <td>&mdash;-->|???&lt;7&gt;???|</td>
+                <td><code>&mdash;-->|???&lt;7&gt;???|</code></td>
                 <td>“Slumbering Oden status unknown/process incomplete”</td>
             </tr>
             <tr>
-                <td>-?->|???&lt;7&gt;???|</td>
+                <td><code>-?->|???&lt;7&gt;???|</code></td>
                 <td>“Slumbering Oden status unknown/process(indeterminate time period)”</td>
             </tr>
             <tr>
-                <td>-?->|???&lt;7&gt;???|</td>
+                <td><code>-?->|???&lt;7&gt;???|</code></td>
                 <td>“Slumbering Oden status unknown/process(indeterminate time period)”</td>
             </tr>
             <tr>
-                <td>&mdash;-->|<>|</td>
+                <td><code>&mdash;-->|<>|</code></td>
                 <td>“<> appeared”</td>
             </tr>
             <tr>
-                <td>&|&lt;8&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&|&lt;8&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“Nameless Flame fought YOU”</td>
             </tr>
             <tr>
-                <td>>|&lt;8&gt;-->x|</td>
+                <td><code>>|&lt;8&gt;-->x|</code></td>
                 <td>“Nameless Flame died”</td>
             </tr>
             <tr>
-                <td>>|[1]|</td>
+                <td><code>>|[1]|</code></td>
                 <td>“The Humanity appeared”</td>
             </tr>
             <tr>
-                <td>&mdash;-->||???-->&lt;7&gt;|</td>
+                <td><code>&mdash;-->||???-->&lt;7&gt;|</code></td>
                 <td>“???/process incomplete made into Slumbering Oden”</td>
             </tr>
             <tr>
-                <td>>|&lt;7&gt;-->&lt;9&gt;|</td>
+                <td><code>>|&lt;7&gt;-->&lt;9&gt;|</code></td>
                 <td>“Slumbering Oden made into Lord of Hail”</td>
             </tr>
             <tr>
-                <td>&mdash;-->|&lt;9&gt;-x-&lt;YOU&gt;|</td>
+                <td><code>&mdash;-->|&lt;9&gt;-x-&lt;YOU&gt;|</code></td>
                 <td>“Lord of Hail fought YOU”</td>
             </tr>
             <tr>
-                <td>&mdash;-->...</td>
+                <td><code>&mdash;-->...</code></td>
                 <td>Current place in the timeline as of April 1, 2018</td>
             </tr>
             <tr>
-                <td>&mdash;-->|[2]|&|[3]|</td>
+                <td><code>&mdash;-->|[2]|&|[3]|</code></td>
                 <td>“Heart’s Vessel appeared and Lord of Hail&rsquo;s Spark appeared”</td>
             </tr>
             <tr>
-                <td>&mdash;&mdash;&mdash;&mdash;>|[1][2][3]&mdash;>&lt;0&gt;|</td>
+                <td><code>&mdash;&mdash;&mdash;&mdash;>|[1][2][3]&mdash;>&lt;0&gt;|</code></td>
                 <td>“the Humanity, Heart’s Vessel, and Lord of Hail&rsquo;s Spark made into the Puppet”</td>
             </tr>
             <tr>
-                <td>&mdash;&mdash;&mdash;&mdash;>|&lt;0&gt;-->...|</td>
+                <td><code>&mdash;&mdash;&mdash;&mdash;>|&lt;0&gt;-->...|</code></td>
                 <td>“The Puppet made into .../incomplete information”</td>
             </tr>
             <tr>
-                <td>&mdash;&mdash;&mdash;&mdash;>|&lt;0&gt;x<>|</td>
+                <td><code>&mdash;&mdash;&mdash;&mdash;>|&lt;0&gt;x<>|</code></td>
                 <td>“The Puppet [unknown action] <>”</td>
             </tr>
             <tr>
-                <td>&mdash;&mdash;&mdash;&mdash;>|&lt;0&gt;|</td>
+                <td><code>&mdash;&mdash;&mdash;&mdash;>|&lt;0&gt;|</code></td>
                 <td>“The Puppet remained”</td>
             </tr>
             <tr>
-                <td>]]]</td>
+                <td><code>]]]</code></td>
                 <td>“END”</td>
             </tr>
         </table>
@@ -206,8 +207,8 @@
                 <span class="arrow">⟵ </span>
                 <span class="title-inject" data-chapter="appendix-c"></span>
             </a>
-            <a href="table-of-content.html" class="pushable" style="float:right">
-                <span class="title-inject" data-chapter="table-of-content"></span>
+            <a href="appendix-e.html" class="pushable" style="float:right">
+                <span class="title-inject" data-chapter="appendix-e"></span>
                 <span class="arrow"> ⟶</span>
             </a>
         </div>
