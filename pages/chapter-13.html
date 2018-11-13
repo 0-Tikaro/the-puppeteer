@@ -74,7 +74,7 @@
 
         <img src="../assets/images/180401_decoding0.png" data-action="zoom"/>
 
-        <p>We have quickly realized that the Puppeteer wanted us to isolate RGB channels of the encodings and stitch them back together, now as black-and-white strips only. This only left one question - what to do with the black-and-transparent mask which both the main encoding and this small one had?</p>
+        <p>We have quickly realized that the Puppeteer wanted us to isolate RGB channels of the encodings and stitch them back together, now as black-and-white strips only. This only left one question&mdash;what to do with the black-and-transparent mask which both the main encoding and this small one had?</p>
         <p>The second part of the hint on this new version of the small encoding gave us the answer:</p>
 
         <img src="../assets/images/180401_decoding1.png" data-action="zoom"/>
@@ -85,7 +85,7 @@
         <img src="../assets/images/180401_decoding2.png" data-action="zoom"/>
 
         <p>And the information within was:<code>IAMTHEEND&lt;0&gt;</code> What did it mean? This we would understand upon decoding the main image.</p>
-        <p>The information we now had about the encoding process was enough to crack the big one. There was a single bump in the road - in the main encryption, not the whole RGB channels had to be stitched together in the &ldquo;Red, Green, Blue, Transparent&rdquo; order, but rather a single 1-pixel wide strip from each of the channels had to be repeat the pattern. This produced an image seen below:</p>
+        <p>The information we now had about the encoding process was enough to crack the big one. There was a single bump in the road&mdash;in the main encryption, not the whole RGB channels had to be stitched together in the &ldquo;Red, Green, Blue, Transparent&rdquo; order, but rather a single 1-pixel wide strip from each of the channels had to be repeat the pattern. This produced an image seen below:</p>
 
         <img src="../assets/images/180401_decoding3.png" data-action="zoom"/>
 
@@ -124,7 +124,7 @@
 
 ]]]</code></pre>
 
-        <p>Now, what exactly were we looking at? We were certain it was the correct decoding - it looked too ordered, and there were &ldquo;&lt;YOU&gt;&rdquo; symbols popping up everywhere.</p>
+        <p>Now, what exactly were we looking at? We were certain it was the correct decoding&mdash;it looked too ordered, and there were &ldquo;&lt;YOU&gt;&rdquo; symbols popping up everywhere.</p>
         <p>The first step towards understanding the decoded information was to parse it. We weren&rsquo;t sure what it was supposed to mean, but we did see that there was a lot of whitespace character noise in it. So, first thing we did was get rid of them. Narcolept had also conveniently split it at every arrow:</p>
 
         <pre><code>[[[
@@ -211,10 +211,10 @@
 
         <p>Now, the Timeline was beginning to take shape. There was, however, several more things we did not understand in its syntax. </p>
         <p>A realization that struck us was that the arrows at the start of each line had variable lengths. We never gave it much thought afterwards, but the general consensus was that it meant different periods of time between the events.</p><p>
-        <p>First puzzling part was <code>|[1]|</code>. The puppet tokens were written with angle brackets, not with square ones. The first idea was that they meant &ldquo;final ascended puppets&rdquo;. <code>&lt;1&gt;</code> was Oden the Armless&rsquo; token, so <code>[1]</code> would refer to Lord of Hail, right? No, this was not the case, as it did not hold up with <code>&lt;2&gt;</code> and <code>&lt;3&gt;</code> - Lone Darkwraith&rsquo;s and Redflame Erik&rsquo;s tokens, respectively. We knew they became a single being in face of the Nameless Flame, so they could not possibly occupy <code>[2]</code> and <code>[3]</code>.</p>
+        <p>First puzzling part was <code>|[1]|</code>. The puppet tokens were written with angle brackets, not with square ones. The first idea was that they meant &ldquo;final ascended puppets&rdquo;. <code>&lt;1&gt;</code> was Oden the Armless&rsquo; token, so <code>[1]</code> would refer to Lord of Hail, right? No, this was not the case, as it did not hold up with <code>&lt;2&gt;</code> and <code>&lt;3&gt;</code>&mdash;Lone Darkwraith&rsquo;s and Redflame Erik&rsquo;s tokens, respectively. We knew they became a single being in face of the Nameless Flame, so they could not possibly occupy <code>[2]</code> and <code>[3]</code>.</p>
         <p>We saw line <code>|&lt;Nameless Flame&gt;-->x|>|[1]|</code>, which was the last time we saw Nameless Flame in the Timeline. What happened to the Nameless Flame after we killed it? We obtained the Humanity. So the next, (and this time correct), interpretation was that <code>[#]</code> Father&rsquo;s precious resources.</p>
         <p>Next, <code>&mdash;-->...</code>. This was quickly decided to be the &ldquo;current place in the timeline&rdquo;, as of April 1. This made sense and lined up with what we have documented.</p>
-        <p>Here we ran into a slight problem: we have just killed Heart of Spears and obtained its Vessel (which was expected to be <code>[2]</code>, yet there was nothing like <code>|&lt;Heart of Spears&gt;--&gt;x|&gt;|[2]|</code> in the Timeline. (Note: upon writing this final version of the Puppeteer story&rsquo;s chronology it appears that the line <code>&mdash;-->|[2]|&|[3]|</code> refers exactly to that - &ldquo;[[2] obtained] and [[3] obtained]&rdquo; with [2] and [3] being precious resources extracted from Heart of Spears and Lord of Hail respectively).</p>
+        <p>Here we ran into a slight problem: we have just killed Heart of Spears and obtained its Vessel (which was expected to be <code>[2]</code>, yet there was nothing like <code>|&lt;Heart of Spears&gt;--&gt;x|&gt;|[2]|</code> in the Timeline. (Note: upon writing this final version of the Puppeteer story&rsquo;s chronology it appears that the line <code>&mdash;-->|[2]|&|[3]|</code> refers exactly to that&mdash;&ldquo;[[2] obtained] and [[3] obtained]&rdquo; with [2] and [3] being precious resources extracted from Heart of Spears and Lord of Hail respectively).</p>
         <p>Having parsed and interpreted everything up until the &ldquo;current place&rdquo;, we have come to the juiciest part. The Timeline did not end there, but kept going, telling us of the future we were yet to see.</p>
         <p><code>&mdash;&mdash;&mdash;&mdash;>|[1][2][3]&mdash;>&lt;0&gt;|</code> meant &ldquo;Puppet &lt;0&gt; made from [The Humanity], [Heart&rsquo;s Vessel], [Lord of Hail&rsquo;s resource]&rdquo;</p>
         <p><code>&mdash;&mdash;&mdash;&mdash;>|&lt;0&gt;-->...|</code> was interpreted as &ldquo;Puppet &lt;0&gt; UNKNOWN ACTION&rdquo;</p>
