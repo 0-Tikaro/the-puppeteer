@@ -344,6 +344,7 @@ ul.leaders span + span {
 .chapter-title{
     text-align: right;
     margin-bottom: 0;
+    margin-top: 2rem;
 }
 .chapter-desc {
     text-align: right;
@@ -351,6 +352,7 @@ ul.leaders span + span {
     line-height: 1.25rem;
     opacity: 0.6;
     margin-top: 0;
+    margin-bottom: 4rem;
 }
 .chapter-end {
     margin-bottom: 6rem;
@@ -427,6 +429,17 @@ pfconre {
 }
 pre, code {
     overflow-x: scroll;
+    margin-top: 0;
+}
+.code-block, .code-inline {
+    border: 1px solid var(--shade-color);
+    border-radius: 4px;
+}
+.code-block {
+    padding: 8px;
+}
+.code-inline {
+    padding: 2px;
 }
 a {
     color: var(--link-color);
