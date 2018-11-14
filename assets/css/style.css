@@ -261,7 +261,12 @@ ul.leaders span + span {
 }
 
 .pushable, .pushable:hover {
-    transition: opacity 0.3s ease;
+    font-style: normal;
+    background: var(--bg-color);
+    transition: color 0.3s ease;
+}
+a.pushable::after{
+    content: none;
 }
 .pushable, a.pushable {
     color: var(--text-color);
@@ -272,10 +277,10 @@ ul.leaders span + span {
     -ms-user-select: none;
     user-select: none;
 
-    opacity: 0.5;
+    color: var(--link-color);
 }
 .pushable:hover, a.pushable:hover {
-    opacity: 1;
+    color: var(--link-active-color);
 }
 
 .sidebar-item {
@@ -347,8 +352,9 @@ ul.leaders span + span {
     margin-top: 2rem;
 }
 .chapter-desc {
-    text-align: right;
+    font-family: var(--base-native-digits-font);
     font-style: italic;
+    text-align: right;
     line-height: 1.25rem;
     opacity: 0.6;
     margin-top: 0;
@@ -441,22 +447,31 @@ pre, code {
 .code-inline {
     padding: 2px;
 }
+.text-right {
+    text-align: right;
+}
+a, a:hover {
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    -ms-transition: background 0.2s;
+    -o-transition: background 0.2s;
+    transition: background 0.2s;
+}
 a {
-    color: var(--link-color);
+    color: var(--text-color);
     text-decoration: none;
-    -webkit-transition: color 0.2s;
-    -moz-transition: color 0.2s;
-    -ms-transition: color 0.2s;
-    -o-transition: color 0.2s;
-    transition: color 0.2s;
+    font-style: italic;
 }
 a:hover {
-    color: var(--link-active-color);
-    -webkit-transition: color 0.2s;
-    -moz-transition: color 0.2s;
-    -ms-transition: color 0.2s;
-    -o-transition: color 0.2s;
-    transition: color 0.2s;
+    background: var(--shade-color);
+}
+a::after {
+    position: relative;
+    content: "﻿°";
+    font-weight: 700;
+    font-size: 80%;
+    top: -0.1em;
+    margin: 0.1rem;
 }
 blockquote {
     line-height: 1.5;
@@ -625,8 +640,9 @@ hr {
 table {
     width: 100%;
 }
-td {
+td, th {
     padding: 0.5rem;
+    text-align: left;
     vertical-align: top;
 }
 table .fas {

@@ -11,8 +11,6 @@ let isTitlePage = document.location.href.includes("index.html");
 let poemsDataFilepath = "assets/json/poems.json";
 let videoDataFilepath = "assets/json/videos.json";
 let chapterTitleDataFilepath = "assets/json/chapter-titles.json";
-
-console.log(isTitlePage);
 if (!isTitlePage){
     poemsDataFilepath = "../" + poemsDataFilepath;
     videoDataFilepath = "../" + videoDataFilepath;
@@ -136,11 +134,15 @@ function createYoutubeEmbeds() {
     };
 }
 
-function injectChapterTitles(){
+function injectChapterInfo(){
     $.get(chapterTitleDataFilepath, function(titles) {
         $( '.title-inject' ).each( function(){
             let id = $(this).data("chapter");
             $(this).text(titles[id].name);
+        });
+        $( '.date-updated-inject' ).each( function(){
+            let id = $(this).data("chapter");
+            $(this).text("Last updated: " + titles[id].update);
         });
     }, "json");
 }
@@ -161,7 +163,7 @@ function main() {
         setupVideoEmbeds();
     }
 
-    injectChapterTitles();
+    injectChapterInfo();
 
 
     nightModeButton.on('click', function () {
