@@ -145,7 +145,7 @@ function injectChapterInfo(){
         });
         $( '.date-updated-inject' ).each( function(){
             let id = $(this).data("chapter");
-            $(this).text("Last updated: " + titles[id].update);
+            $(this).text(titles[id].update);
         });
     }, "json");
 }
