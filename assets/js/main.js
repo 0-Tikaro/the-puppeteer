@@ -6,6 +6,8 @@
 // excl
 // <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="19" r="2"/><path d="M10 3h4v12h-4z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
 
+let VIDEO_EMBEDS_TOOLTIP = "Click to show/hide video footage"
+
 let isTitlePage = document.location.href.includes("index.html");
 
 let poemsDataFilepath = "assets/json/poems.json";
@@ -35,6 +37,7 @@ function setupVideoEmbeds(){
             //button setup
             let button = document.createElement("button");
             button.classList.add("collapsible");
+            button.setAttribute("title", VIDEO_EMBEDS_TOOLTIP);
 
             let date = document.createElement("span");
             date.classList.add("video-date");
