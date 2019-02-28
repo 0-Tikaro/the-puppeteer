@@ -554,17 +554,17 @@ hr {
 .collapsible i {
     padding-right: 8px;
 }
-.collapsible_content {
+.collapsible-content {
     display: none;
     overflow: hidden;
     background: #222;
     color: #fff;
 }
-.collapsible_content + .collapsible {
+.collapsible-content + .collapsible {
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.collapsible_content p {
+.collapsible-content p {
     padding-left: 0.5rem;
     margin-bottom: 0.25rem;
     margin-top: 2rem;
@@ -669,6 +669,10 @@ table .fas {
 }
 .f-l {
     float: left;
+}
+
+.text-bold {
+    font-weight: 600;
 }
 
 ::selection {

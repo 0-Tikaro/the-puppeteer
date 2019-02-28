@@ -1,198 +1,213 @@
-// temp storage
-// material video icon svg
-// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm6 10h-4V5h4v14zm4-2h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/></svg>
-// menu
-// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-// excl
-// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="19" r="2"/><path d="M10 3h4v12h-4z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+/**
+ * JS logic for The Puppeteer website.
+ *
+ * @author: Tikaro
+ */
+const VIDEO_EMBEDS_TOOLTIP = "Click to show/hide video footage"
 
-let VIDEO_EMBEDS_TOOLTIP = "Click to show/hide video footage"
+const NIGHT_MODE_COOKIE = 'use-night-mode'
+const NIGHT_MODE_DISABLED = "Disable night mode"
+const NIGHT_MODE_ENABLED = "Enable night mode"
 
-let isTitlePage = document.location.href.includes("index.html");
+const POEM_COUNT = 195;
 
-let poemsDataFilepath = "assets/json/poems.json";
-let videoDataFilepath = "assets/json/videos.json";
-let chapterTitleDataFilepath = "assets/json/chapter-titles.json";
-if (!isTitlePage){
-    poemsDataFilepath = "../" + poemsDataFilepath;
-    videoDataFilepath = "../" + videoDataFilepath;
-    chapterTitleDataFilepath = "../" + chapterTitleDataFilepath;
+
+let isTitlePage = document.location.href.includes('index.html');
+
+let poemsJsonPath = 'assets/json/poems.json';
+let videoJsonPath = 'assets/json/videos.json';
+let chaptersJsonPath = 'assets/json/chapter-titles.json';
+
+
+function injectChapterInfo(json){
+    let titleInjectTargets = document.querySelectorAll('.title-inject');
+    let dateInjectTargets = document.querySelectorAll('.date-updated-inject');
+
+    titleInjectTargets.forEach(target => {
+        let id = target.getAttribute('data-chapter');
+        target.innerHTML = json[id].name;
+    });
+
+    dateInjectTargets.forEach(target => {
+        let id = target.getAttribute('data-chapter');
+        target.innerHTML = json[id].update;
+    });
 }
 
-function setupPoemLinks(){
-    $.get(poemsDataFilepath, function(data) {
-        for(let i = 1; i <= 195; i++) {
-            $(".ref" + i).html(data[i]);
-            $("#poem" + i).html(data[i]);
+function setupPoemLinks(json){
+    for(let i = 1; i <= POEM_COUNT; i++) {
+        $('.ref' + i).html(json[i]);
+        $('#poem' + i).html(json[i]);
+    }
+}
+
+function setupVideoEmbeds(json){
+    let videos = document.querySelectorAll('.video');
+
+    videos.forEach(element => {
+        let id = element.getAttribute('data-id');
+        let button = createCollapsibleButton(json[id]);
+        let collapsibleContent = createCollapsibleContent(json[id]);
+        element.appendChild(button);
+        element.appendChild(collapsibleContent);
+    });
+
+    setupCollapsiblesEventListeners();
+    setupYoutubeEmbeds();
+}
+
+function createCollapsibleButton(collapsibleData) {
+    let button = document.createElement('button');
+    button.classList.add('collapsible');
+    button.setAttribute('title', VIDEO_EMBEDS_TOOLTIP);
+
+    let date = document.createElement('span');
+    button.appendChild(date);
+    date.classList.add('video-date');
+    date.innerText = collapsibleData.date;
+
+    let title = document.createElement('span');
+    button.appendChild(title);
+    title.innerHTML = collapsibleData.title;
+    if (collapsibleData.style == 'bold'){
+        title.classList.add('text-bold');
+    }
+
+    let icon = document.createElement('i');
+    button.appendChild(icon);
+    icon.classList.add('material-icons');
+    icon.classList.add('icon-expand');
+    icon.classList.add('f-r');
+    icon.innerText = 'expand_more';
+
+    return button;
+}
+
+function createCollapsibleContent(collapsibleData) {
+    let collapsibleContent = document.createElement('div');
+    collapsibleContent.classList.add('collapsible-content');
+
+    collapsibleData.clips.forEach(clipData => {
+        let clip = document.createElement('div');
+        collapsibleContent.appendChild(clip);
+        clip.classList.add('youtube');
+        clip.setAttribute('data-embed', clipData.url);
+
+        let playButton = document.createElement('div');
+        clip.appendChild(playButton);
+        playButton.classList.add('play-button');
+        
+        if (clipData.title){
+            let clipTitle = document.createElement('span');
+            clipTitle.classList.add('youtube-title');
+            clipTitle.innerText = clipData.title;
+            clip.appendChild(clipTitle);
         }
-    }, "json");
+    });
+
+    return collapsibleContent;
 }
 
-function setupVideoEmbeds(){
-    $.get( videoDataFilepath, function (videosJson) {
-        let videos = document.querySelectorAll(".video");
-        for (let i = 0; i < videos.length; i++) {
-            let id = videos[i].dataset.id;
+function setupCollapsiblesEventListeners() {
+    let collapsibles = document.querySelectorAll('.collapsible');
 
-            //button setup
-            let button = document.createElement("button");
-            button.classList.add("collapsible");
-            button.setAttribute("title", VIDEO_EMBEDS_TOOLTIP);
+    collapsibles.forEach(collapsible => {
+        collapsible.addEventListener('click', function() {
+            this.classList.toggle('active');
 
-            let date = document.createElement("span");
-            date.classList.add("video-date");
-            date.innerText = videosJson[id].date;
-
-            let title = document.createElement("span");
-            if (videosJson[id].style === "bold"){
-                title.innerHTML = "<b>"+videosJson[id].title+"</b>";
-            } else {
-                title.innerText = videosJson[id].title;
-            }
-
-
-            let icon = document.createElement("i");
-            icon.classList.add("material-icons");
-            icon.classList.add("icon-expand");
-            icon.classList.add("f-r");
-            icon.innerText = "expand_more";
-
-            button.appendChild(date);
-            button.appendChild(title);
-            button.appendChild(icon);
-
-            videos[i].appendChild(button);
-
-            let collapsible_content = document.createElement("div");
-            collapsible_content.classList.add("collapsible_content");
-
-            for(let j = 0; j < videosJson[id].clips.length; j++){
-
-                let clip = document.createElement("div");
-                let playButton = document.createElement("div");
-
-                clip.classList.add("youtube");
-                clip.dataset.embed = videosJson[id].clips[j].url;
-
-                if (videosJson[id].clips[j].title !== ""){
-                    let clipTitle = document.createElement("span");
-                    clipTitle.classList.add("youtube-title");
-                    clipTitle.innerText = videosJson[id].clips[j].title;
-                    clip.appendChild(clipTitle);
-                }
-                playButton.classList.add("play-button");
-                clip.appendChild(playButton);
-
-                collapsible_content.appendChild(clip);
-            }
-
-            videos[i].appendChild(collapsible_content);
-        };
-        createCollapsibles();
-        createYoutubeEmbeds();
-    }, "json");
-}
-
-// Setup collapsible elements.
-function createCollapsibles() {
-    let coll = document.getElementsByClassName("collapsible");
-
-    for (let i = 0; i < coll.length; i++) {
-
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-
-            let arrow = $(this).find(".icon-expand");
+            let arrow = $(this).find('.icon-expand');
             let content = this.nextElementSibling;
 
-            if (content.style.display === "block") {
-                content.style.display = "none";
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
                 arrow.html('expand_more');
             } else {
-                content.style.display = "block";
+                content.style.display = 'block';
                 arrow.html('expand_less');
 
             }
         });
-    }
+    });
 }
 
-function createYoutubeEmbeds() {
-    let youtube = document.querySelectorAll(".youtube");
-    for (let i = 0; i < youtube.length; i++) {
-        let source = "https://img.youtube.com/vi/" + youtube[i].dataset.embed + "/sddefault.jpg";
+function setupYoutubeEmbeds() {
+    let youtube = document.querySelectorAll('.youtube');
+    youtube.forEach(element => {
+        let embedCode = element.getAttribute('data-embed');
+        let source = 'https://img.youtube.com/vi/' + embedCode + '/sddefault.jpg';
+
         let image = new Image();
         image.src = source;
-        image.addEventListener("load", function() {
-            youtube[i].appendChild(image);
-        }(i));
-        youtube[i].addEventListener("click", function() {
-            let iframe = document.createElement("iframe");
-            iframe.setAttribute("frameborder", "0");
-            iframe.setAttribute("allowfullscreen", "");
-            iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.embed + "?rel=0&showinfo=0&autoplay=1");
+        image.addEventListener('load', function() {
+            element.appendChild(image);
+        });
+
+        element.addEventListener('click', function() {
+            let iframe = document.createElement('iframe');
+            let embedCode = this.getAttribute('data-embed');
+            iframe.setAttribute('frameborder', "0");
+            iframe.setAttribute('allowfullscreen', "");
+            iframe.setAttribute('src', "https://www.youtube.com/embed/" + embedCode + "?rel=0&showinfo=0&autoplay=1");
             this.innerHTML = "";
             this.appendChild(iframe);
         });
-    };
+    });
 }
 
-function injectChapterInfo(){
-    $.get(chapterTitleDataFilepath, function(titles) {
-        $( '.title-inject' ).each( function(){
-            let id = $(this).data("chapter");
-            $(this).text(titles[id].name);
-        });
-        $( '.date-updated-inject' ).each( function(){
-            let id = $(this).data("chapter");
-            $(this).text(titles[id].update);
-        });
-    }, "json");
+function enableSidebarControls() {
+    let $sidebarButton = $('#btn-show-sidebar');
+    let $sidebar = $('#sidebar');
+
+    $sidebarButton.on('click', function () {
+        $sidebar.toggleClass('expand-sidebar');
+        $sidebarButton.toggleClass('expand-sidebar');
+        
+        if ($sidebarButton.hasClass('expand-sidebar')){
+            $sidebarButton.html('<i class="material-icons">close</i>')
+        } else {
+            $sidebarButton.html('<i class="material-icons">menu</i>')
+        }
+    });
+}
+
+function enableNightMode() {
+    let $nightModeButton = $('#night');
+
+    if (document.cookie.includes(NIGHT_MODE_COOKIE + '=1')) {
+        document.body.setAttribute('class', 'night-mode');
+        $nightModeButton.html(NIGHT_MODE_DISABLED);
+    } else {
+        $nightModeButton.html(NIGHT_MODE_ENABLED);
+    }
+
+    $nightModeButton.on('click', function () {
+        document.body.classList.toggle('night-mode');
+        if ($nightModeButton.html() === NIGHT_MODE_ENABLED) {
+            $nightModeButton.html(NIGHT_MODE_DISABLED);
+            document.cookie = NIGHT_MODE_COOKIE + '=1;path=/';
+        } else {
+            $nightModeButton.html(NIGHT_MODE_ENABLED);
+            document.cookie = NIGHT_MODE_COOKIE + '=0;path=/';
+        }
+    });
 }
 
 function main() {
-    let useNightModeCookie = document.cookie;
-    let nightModeButton = $('#night');
-    let btnShowSidebar = $('#btn-show-sidebar');
-
-    if (useNightModeCookie.includes("use-night-mode=1")) {
-        document.body.setAttribute('class', 'night-mode');
-        nightModeButton.html('Day mode');
-    }
-
     if (!isTitlePage) {
+        poemsJsonPath = '../' + poemsJsonPath;
+        videoJsonPath = '../' + videoJsonPath;
+        chaptersJsonPath = '../' + chaptersJsonPath;
+
         Hyphenator.run();
-        setupPoemLinks();
-        setupVideoEmbeds();
+
+        $.get(poemsJsonPath, setupPoemLinks, 'json');
+        $.get( videoJsonPath, setupVideoEmbeds, 'json');
     }
 
-    injectChapterInfo();
+    $.get(chaptersJsonPath, injectChapterInfo, 'json');
 
-
-    nightModeButton.on('click', function () {
-        document.body.classList.toggle('night-mode');
-        if (nightModeButton.html() === 'Night mode') {
-            nightModeButton.html('Day mode');
-            document.cookie = "use-night-mode=1";
-        } else {
-            nightModeButton.html('Night mode');
-            document.cookie = "use-night-mode=0";
-        }
-    });
-
-    let expandSidebarClass = 'expand-sidebar';
-
-    btnShowSidebar.on('click', function () {
-        $('#sidebar').toggleClass(expandSidebarClass);
-        btnShowSidebar.toggleClass(expandSidebarClass);
-        if (btnShowSidebar.hasClass(expandSidebarClass)){
-            btnShowSidebar.html('<i class="material-icons">close</i>')
-        } else {
-            btnShowSidebar.html('<i class="material-icons">menu</i>')
-        }
-    });
-
-    $('.collapsible').attr('title', 'Click to expand a video');
+    enableSidebarControls();
+    enableNightMode();
 }
 
 main();
