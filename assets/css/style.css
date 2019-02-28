@@ -16,23 +16,18 @@ body {
     --text-color: #373737;
     --bg-color: #ffffff;
     --shade-color: #e0e0e0;
-    --link-color: #267CB9;
-    --link-active-color: #30b1e4;
+    --highlight-color: #c7c7c7;
     --puppeteer-color: #1c8978;
     --ul-bullet: url(../images/tech/ul_bullet_day.png);
-    --highlight-color: #c7c7c7;
 }
 body.night-mode{
     --text-color: #b5b5b5;
     --bg-color: #1e1e1e;
-    --shade-color: #4e4e4e;
-    --link-color: #7faad3;
-    --link-active-color: #a7ddff;
+    --shade-color: #2f2f2f;
+    --highlight-color: #909090;
     --puppeteer-color: #83bdb4;
     --ul-bullet: url(../images/tech/ul_bullet_night.png);
-    --highlight-color: #9e9e9e;
 }
-
 
 * {
     -webkit-font-smoothing: antialiased;
@@ -137,8 +132,8 @@ p {
 p.annotation {
     opacity: 0.8;
     line-height: 1.6rem;
-    border-top: 1px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color);
+    border-top: 1px solid var(--shade-color);
+    border-bottom: 1px solid var(--shade-color);
     padding: 1rem 0;
 }
 p.annotation + p.annotation {
@@ -477,34 +472,30 @@ hr {
 .collapsible,
 .collapsible:hover,
 .collapsible:active {
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
 }
 .collapsible {
     width: 100%;
-    background: transparent;
-    color: var(--text-color);
     padding: 12px;
+    background: transparent;
+
+    font-family: var(--base-font);
+    font-size: 0.9rem;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1.5;
+    
     cursor: pointer;
     border: none;
-    text-align: left;
     outline: none;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    font-family: var(--base-font);
-
-    opacity: 0.8;
 }
 .collapsible:hover,
-.collapsible.active{
-    opacity: 1;
-}
 .collapsible.active {
-    background: var(--text-color);
-    color: var(--bg-color);
+    background: var(--shade-color);
 }
 .collapsible i {
     padding-right: 8px;
