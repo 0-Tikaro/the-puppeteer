@@ -18,6 +18,9 @@ let poemsJsonPath = 'assets/json/poems.json';
 let videoJsonPath = 'assets/json/videos.json';
 let chaptersJsonPath = 'assets/json/chapter-titles.json';
 
+function goto(url){
+    window.location = url;
+}
 
 function injectChapterInfo(json){
     let titleInjectTargets = document.querySelectorAll('.title-inject');

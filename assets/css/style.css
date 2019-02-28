@@ -287,6 +287,27 @@ a.pushable::after{
     padding-top: 0.75rem;
 }
 
+
+#table-of-contents {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+}
+#table-of-contents li {
+    font-style: italic;
+    cursor: pointer;
+    background: var(--bg-color);
+}
+#table-of-contents li:hover{
+    background: var(--shade-color);
+}
+
+#table-of-contents span + span {
+    float: right;
+    padding-left: 0.33em;
+}
+
 #sidebar ul {
     list-style: none;
     line-height: 1.4rem;
