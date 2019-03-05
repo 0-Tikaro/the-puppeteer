@@ -308,6 +308,24 @@ p.annotation + p.annotation {
     border-bottom: 1px solid var(--shade-color);
 }
 
+
+/* The title page styles*/
+#title-page {
+    text-align: center;
+    font-family: var(--heading-font);
+}
+#title-name {
+    font-size: 4rem;
+}
+#title-desc {
+    font-size: 1.4rem;
+    margin-bottom: 32vh;
+}
+#title-author {
+    font-size: 1.2rem;
+    font-family: var(--base-font);
+}
+
 #title {
     font-size: 1.1rem;
     text-align: center;
