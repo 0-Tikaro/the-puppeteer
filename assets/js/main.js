@@ -11,6 +11,9 @@ const NIGHT_MODE_ENABLED = "Enable night mode"
 
 const POEM_COUNT = 195;
 
+const CHEVRON_RIGHT = '&#x23F5;';
+const CHEVRON_DOWN = '&#x23F7;';
+
 
 let isTitlePage = document.location.href.includes('index.html');
 
@@ -64,6 +67,11 @@ function createCollapsibleButton(collapsibleData) {
     button.classList.add('collapsible');
     button.setAttribute('title', VIDEO_EMBEDS_TOOLTIP);
 
+    let icon = document.createElement('span');
+    button.appendChild(icon)
+    icon.classList.add('icon-expand');
+    icon.innerHTML = CHEVRON_RIGHT;
+
     let date = document.createElement('span');
     button.appendChild(date);
     date.classList.add('video-date');
@@ -75,13 +83,6 @@ function createCollapsibleButton(collapsibleData) {
     if (collapsibleData.style == 'bold'){
         title.classList.add('text-bold');
     }
-
-    let icon = document.createElement('i');
-    button.appendChild(icon);
-    icon.classList.add('material-icons');
-    icon.classList.add('icon-expand');
-    icon.classList.add('f-r');
-    icon.innerText = 'expand_more';
 
     return button;
 }
@@ -123,10 +124,10 @@ function setupCollapsiblesEventListeners() {
 
             if (content.style.display === 'block') {
                 content.style.display = 'none';
-                arrow.html('expand_more');
+                arrow.html(CHEVRON_RIGHT);
             } else {
                 content.style.display = 'block';
-                arrow.html('expand_less');
+                arrow.html(CHEVRON_DOWN);
 
             }
         });
@@ -166,9 +167,9 @@ function enableSidebarControls() {
         $sidebarButton.toggleClass('expand-sidebar');
         
         if ($sidebarButton.hasClass('expand-sidebar')){
-            $sidebarButton.html('<i class="material-icons">close</i>')
+            $sidebarButton.html('close')
         } else {
-            $sidebarButton.html('<i class="material-icons">menu</i>')
+            $sidebarButton.html('menu')
         }
     });
 }

@@ -144,6 +144,7 @@ p.annotation + p.annotation {
 #btn-show-sidebar {
     z-index: 100;
     cursor: pointer;
+    font-style: italic;
 }
 
 @media all and (min-width:1024px) {
@@ -240,7 +241,7 @@ p.annotation + p.annotation {
         z-index: 30;
     }
     #sidebar {
-        overflow-y: scroll;
+        overflow-y: auto;
         background: var(--bg-color);
         position: fixed;
         top:20;
@@ -294,13 +295,14 @@ p.annotation + p.annotation {
 }
 
 #sidebar ul {
-    list-style: none;
     line-height: 1.4rem;
     padding-left: 0;
     z-index: 20;
+    height: 80vh;
+    overflow-y: auto;
 }
 #sidebar .ui-link {
-    padding: 0.1rem 1rem;
+    padding: 0 1rem;
 }
 #night {
     padding: 0.5rem 1rem !important;
@@ -309,7 +311,6 @@ p.annotation + p.annotation {
 }
 
 
-/* The title page styles*/
 #title-page {
     text-align: center;
     font-family: var(--heading-font);
@@ -350,21 +351,6 @@ p.annotation + p.annotation {
 #title i:hover {
     opacity: 1;
 }
-
-/*#fade-top, #fade-bottom {
-    pointer-events: none;
-    width: 100%;
-    height: 80px;
-    z-index: 10;
-    position: fixed;
-}
-#fade-top {
-    background: linear-gradient(var(--bg-color), #00000000);
-}
-#fade-bottom {
-    bottom: 0;
-    background: linear-gradient(#00000000, var(--bg-color));
-}*/
 
 .chapter-title{
     text-align: right;
@@ -663,16 +649,9 @@ table .fas {
 
 .video-date {
     margin-right: 1rem;
-    opacity: 0.5;
 }
 .icon-expand {
-    opacity: 0.5;
-}
-.material-icons {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    margin-right: 0.75rem;
 }
 .f-r {
     float: right;
