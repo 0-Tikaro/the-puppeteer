@@ -1,14 +1,5 @@
-@font-face {
-    font-family: "Merriweather Digits";
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
-    unicode-range: U+30-39;
-}
-
 :root {
-    --base-font: "Merriweather Digits", "Bitter", Georgia, Arial, sans-serif;
-    --base-native-digits-font: "Bitter", Georgia, Arial, sans-serif;
+    --base-font: "Merriweather", Georgia, Arial, sans-serif;
     --heading-font: "IM Fell DW Pica", "Bitter", Georgia, Arial, sans-serif;
     --code-font: Consolas, Monaco, monospace;
 }
@@ -145,6 +136,7 @@ p.annotation + p.annotation {
     z-index: 100;
     cursor: pointer;
     font-style: italic;
+    font-size: 0.9rem;
 }
 
 @media all and (min-width:1024px) {
@@ -182,7 +174,7 @@ p.annotation + p.annotation {
     }
     #sidebar {
         font-size: 16px;
-        top: 3rem;
+        top: 40px;
 
         opacity: 0;
         pointer-events: none;
@@ -205,6 +197,7 @@ p.annotation + p.annotation {
         margin-left: 15rem;
         margin-right: 11rem;
         padding-top: 0.25rem;
+        width: 60ch;
     }
 }
 @media all and (max-width:1024px) {
@@ -228,6 +221,7 @@ p.annotation + p.annotation {
     #content {
         margin: 4rem;
         padding-top: 0.25rem;
+        max-width: 60ch;
     }
 }
 @media all and (max-width: 512px) {
@@ -358,7 +352,7 @@ p.annotation + p.annotation {
     margin-top: 2rem;
 }
 .chapter-desc {
-    font-family: var(--base-native-digits-font);
+    font-family: var(--base-font);
     font-style: italic;
     text-align: right;
     line-height: 1.25rem;
@@ -410,7 +404,7 @@ ul {
 }
 
 .poem {
-    font-family: var(--base-native-digits-font);
+    font-family: var(--base-font);
 
     text-align: center;
     margin-bottom: 2rem;
